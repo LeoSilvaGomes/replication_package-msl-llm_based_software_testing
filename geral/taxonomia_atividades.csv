@@ -1,0 +1,14 @@
+estagio,nome_estagio,atividade,rotulo_diagrama,rotulo_grafico
+T1,Requirements Management,A1,requirement extraction,Requirements\nextraction
+T1,Requirements Management,A2,web element localization,Web element\nlocalization
+T2,Artifact Generation,A3,code generation,Test code generation
+T2,Artifact Generation,A4,instruction generation,Test instruction\ngeneration
+T2,Artifact Generation,A5,input generation,Test input\ngeneration
+T2,Artifact Generation,A6,oracle generation,Test oracle\ngeneration
+T3,Verification and Prioritization,A7,runtime test verification,Runtime test\nverification
+T3,Verification and Prioritization,A8,test prioritization,Test prioritization
+T4,Report and Regression,A9,test case repair,Test case repair
+T4,Report and Regression,A10,test improvement,Test improvement\nor refactoring
+T4,Report and Regression,A11,test validation,Test validation
+T4,Report and Regression,A12,test quality assessment,Test quality\nassessment
+T4,Report and Regression,A13,log analysis,Log analysis

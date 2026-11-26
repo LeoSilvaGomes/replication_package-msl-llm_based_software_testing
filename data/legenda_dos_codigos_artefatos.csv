@@ -1,0 +1,78 @@
+dimension,column,description,code,label
+A4_format,Instruction format,Instruction: format,IF1,Test scenarios (natural language)
+A4_format,Instruction format,Instruction: format,IF2,Tabular / structured test case
+A4_format,Instruction format,Instruction: format,IF3,Gherkin / BDD
+A4_format,Instruction format,Instruction: format,IF4,Textual recommendations
+A4_format,Instruction format,Instruction: format,IF5,Test plan
+A4_format,Instruction format,Instruction: format,IF6,State diagram / model
+A4_format,Instruction format,Instruction: format,IF7,Other
+A4_consumer,Instruction consumer,Instruction: consumer,IC1,For manual execution
+A4_consumer,Instruction consumer,Instruction: consumer,IC2,For LLM
+A4_consumer,Instruction consumer,Instruction: consumer,IC3,Deterministic tool
+A5_value,Input value,Input: type of generated value,IV1,"Parameter, argument, or test data (code)"
+A5_value,Input value,Input: type of generated value,IV2,"Seed, program, or harness (fuzzing, search)"
+A5_value,Input value,Input: type of generated value,IV3,Interaction action or text to fill (GUI/mobile)
+A5_value,Input value,Input: type of generated value,IV4,Property value or request (API/protocol)
+A5_value,Input value,Input: type of generated value,IV5,SQL / database
+A5_value,Input value,Input: type of generated value,IV6,"Other (shell command, SMT formula, simulator scenario...)"
+A5_consumer,Input consumer,Input: consumer,ID1,Deterministic tool
+A5_consumer,Input consumer,Input: consumer,ID2,For LLM
+A5_consumer,Input consumer,Input: consumer,ID3,Human
+A5_context,Input context,Input: context given to the LLM,IX1,"Artifact under test (code, signature, docstring)"
+A5_context,Input context,Input: context given to the LLM,IX2,Structured representation of UI
+A5_context,Input context,Input: context given to the LLM,IX3,Previous output / execution feedback
+A5_context,Input context,Input: context given to the LLM,IX4,Requirements / documentation (NL)
+A5_context,Input context,Input: context given to the LLM,IX5,Formal API / protocol specification
+A5_context,Input context,Input: context given to the LLM,IX6,Bug report / issue
+A5_context,Input context,Input: context given to the LLM,IX7,Other
+A6_form,Oracle form,Oracle: form,OF1,Assertions in test body
+A6_form,Oracle form,Oracle: form,OF2,Expected result / criterion in natural language
+A6_form,Oracle form,Oracle: form,OF3,Decides on existing output
+A6_form,Oracle form,Oracle: form,OF4,Metamorphic relation
+A6_consumer,Oracle consumer,Oracle: consumer,OC1,Deterministic: compiler / test runner
+A6_consumer,Oracle consumer,Oracle: consumer,OC2,Deterministic: mutation engine
+A6_consumer,Oracle consumer,Oracle: consumer,OC3,Reference comparison (no execution)
+A6_consumer,Oracle consumer,Oracle: consumer,OC4,Classification / filtering pipeline
+A6_consumer,Oracle consumer,Oracle: consumer,OC5,Undefined
+A6_consumer,Oracle consumer,Oracle: consumer,OC6,Another LLM
+A6_context,Oracle context,Oracle: input of the LLM,OX1,Source code / code context
+A6_context,Oracle context,Oracle: input of the LLM,OX2,Specification / description in natural language
+A6_context,Oracle context,Oracle: input of the LLM,OX3,"Other (state models, execution feedback, traces...)"
+A6_language,Oracle language,Oracle: language / domain,OL1,Java
+A6_language,Oracle language,Oracle: language / domain,OL2,Python
+A6_language,Oracle language,Oracle: language / domain,OL3,GUI/web
+A6_language,Oracle language,Oracle: language / domain,OL4,C/C++
+A6_language,Oracle language,Oracle: language / domain,OL5,JS/TS
+A6_language,Oracle language,Oracle: language / domain,OL6,Rust
+A6_language,Oracle language,Oracle: language / domain,OL7,Solidity
+A6_language,Oracle language,Oracle: language / domain,OL8,Other
+A3_purpose,Code purpose,Code: purpose,CP1,Unit testing
+A3_purpose,Code purpose,Code: purpose,CP2,E2E testing
+A3_purpose,Code purpose,Code: purpose,CP3,Bug reproduction and patch validation
+A3_purpose,Code purpose,Code: purpose,CP4,Security/vulnerability
+A3_purpose,Code purpose,Code: purpose,CP5,Acceptance testing
+A3_purpose,Code purpose,Code: purpose,CP6,Mutation
+A3_purpose,Code purpose,Code: purpose,CP7,API testing
+A3_purpose,Code purpose,Code: purpose,CP8,Training data
+A3_purpose,Code purpose,Code: purpose,CP9,"Other (fuzz drivers, compilers, amplification...)"
+A3_loop,Code loop,Code: review/repair loop,CL1,Loop closed by the LLM
+A3_loop,Code loop,Code: review/repair loop,CL2,Direct (no review or repair)
+A3_loop,Code loop,Code: review/repair loop,CL3,Other mechanism
+A3_loop,Code loop,Code: review/repair loop,CL4,Loop closed by a human
+A3_loop,Code loop,Code: review/repair loop,CL5,Chained loops (LLM + human)
+A3_loop,Code loop,Code: review/repair loop,CL6,Human only
+A3_route,Code route,Code: how the input reaches the LLM,CR1,Preprocessed by deterministic tool
+A3_route,Code route,Code: how the input reaches the LLM,CR2,Untreated source code
+A3_route,Code route,Code: how the input reaches the LLM,CR3,Output of a previous LLM call
+A3_route,Code route,Code: how the input reaches the LLM,CR4,"Other (NL requirements, specs, bug reports)"
+A3_language,Code language,Code: language of the generated tests,LG1,Java
+A3_language,Code language,Code: language of the generated tests,LG2,Python
+A3_language,Code language,Code: language of the generated tests,LG3,C/C++
+A3_language,Code language,Code: language of the generated tests,LG4,JavaScript/TypeScript
+A3_language,Code language,Code: language of the generated tests,LG5,Go
+A3_language,Code language,Code: language of the generated tests,LG6,C#
+A3_language,Code language,Code: language of the generated tests,LG7,Solidity
+A3_language,Code language,Code: language of the generated tests,LG8,Rust
+A3_language,Code language,Code: language of the generated tests,LG9,Kotlin
+A3_language,Code language,Code: language of the generated tests,LG10,Other language
+A3_language,Code language,Code: language of the generated tests,LG0,Not stated

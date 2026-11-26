@@ -1,0 +1,47 @@
+dimension,code,label,stage
+stage,T1,Requirements Management,
+stage,T2,Artifact Generation,
+stage,T3,Verification and Prioritization,
+stage,T4,Report and Regression,
+activity,A1,Requirement extraction,T1
+activity,A2,Element localization,T1
+activity,A3,Test code,T2
+activity,A4,Test instruction,T2
+activity,A5,Test input,T2
+activity,A6,Test oracle,T2
+activity,A7,Semantic judgment,T3
+activity,A8,Prioritization,T3
+activity,A9,Test repair,T4
+activity,A10,Test improvement,T4
+activity,A11,Validation,T4
+activity,A12,Suite quality,T4
+activity,A13,Log analysis,T4
+prompt_engineering,PE1,Few-shot / in-context learning,
+prompt_engineering,PE2,Zero-shot,
+prompt_engineering,PE3,Chain-of-Thought,
+prompt_engineering,PE4,Role / persona prompting,
+prompt_engineering,PE5,Iterative / feedback / self-refine,
+prompt_engineering,PE6,Template-based / structured,
+prompt_engineering,PE7,RAG,
+prompt_engineering,PE8,Step-by-step / decomposition,
+prompt_engineering,PE9,ReAct,
+prompt_engineering,PE10,Tree-of-Thought,
+prompt_engineering,PE11,Undefined,
+fine_tuning,FT1,Supervised fine-tuning (SFT / full),
+fine_tuning,FT2,QLoRA,
+fine_tuning,FT3,LoRA,
+fine_tuning,FT4,Reinforcement-learning fine-tuning,
+fine_tuning,FT5,Unspecified fine-tuning,
+vendor,M1,OpenAI,
+vendor,M2,Meta,
+vendor,M3,Google,
+vendor,M4,Mistral AI,
+vendor,M5,Microsoft,
+vendor,M6,Anthropic,
+vendor,M7,BigCode / HuggingFace,
+vendor,M8,Salesforce,
+vendor,M9,DeepSeek,
+vendor,M10,Alibaba,
+vendor,M11,Other origins,
+architecture,AR1,Single-agent,
+architecture,AR2,Multi-agent,

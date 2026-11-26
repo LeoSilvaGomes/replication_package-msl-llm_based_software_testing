@@ -1,0 +1,4337 @@
+sid,year,dimension,code,label,stage_written
+S1,2023,prompt_engineering,PE1,Few-shot / in-context learning,
+S1,2023,prompt_engineering,PE4,Role / persona prompting,
+S1,2023,prompt_engineering,PE5,Iterative / feedback / self-refine,
+S1,2023,prompt_engineering,PE6,Template-based / structured,
+S1,2023,stage,T1,Requirements Management,
+S1,2023,stage,T2,Artifact Generation,
+S1,2023,activity,A1,Requirement extraction,T1
+S1,2023,activity,A3,Test code,T2
+S1,2023,activity,A5,Test input,T2
+S1,2023,vendor,M1,OpenAI,
+S1,2023,architecture,AR1,Single-agent,
+S2,2023,prompt_engineering,PE2,Zero-shot,
+S2,2023,prompt_engineering,PE6,Template-based / structured,
+S2,2023,stage,T2,Artifact Generation,
+S2,2023,activity,A3,Test code,T2
+S2,2023,vendor,M1,OpenAI,
+S2,2023,architecture,AR1,Single-agent,
+S3,2023,prompt_engineering,PE2,Zero-shot,
+S3,2023,stage,T2,Artifact Generation,
+S3,2023,activity,A6,Test oracle,T2
+S3,2023,vendor,M1,OpenAI,
+S3,2023,architecture,AR1,Single-agent,
+S4,2023,prompt_engineering,PE2,Zero-shot,
+S4,2023,prompt_engineering,PE5,Iterative / feedback / self-refine,
+S4,2023,stage,T2,Artifact Generation,
+S4,2023,activity,A6,Test oracle,T2
+S4,2023,vendor,M1,OpenAI,
+S4,2023,architecture,AR1,Single-agent,
+S5,2023,prompt_engineering,PE2,Zero-shot,
+S5,2023,fine_tuning,FT1,Supervised fine-tuning (SFT / full),
+S5,2023,stage,T2,Artifact Generation,
+S5,2023,activity,A3,Test code,T2
+S5,2023,vendor,M1,OpenAI,
+S5,2023,vendor,M7,BigCode / HuggingFace,
+S5,2023,vendor,M8,Salesforce,
+S5,2023,architecture,AR1,Single-agent,
+S6,2023,prompt_engineering,PE2,Zero-shot,
+S6,2023,prompt_engineering,PE6,Template-based / structured,
+S6,2023,stage,T2,Artifact Generation,
+S6,2023,activity,A5,Test input,T2
+S6,2023,activity,A6,Test oracle,T2
+S6,2023,vendor,M1,OpenAI,
+S6,2023,vendor,M3,Google,
+S6,2023,vendor,M6,Anthropic,
+S6,2023,architecture,AR1,Single-agent,
+S7,2023,prompt_engineering,PE2,Zero-shot,
+S7,2023,stage,T2,Artifact Generation,
+S7,2023,activity,A3,Test code,T2
+S7,2023,vendor,M1,OpenAI,
+S8,2023,prompt_engineering,PE1,Few-shot / in-context learning,
+S8,2023,prompt_engineering,PE2,Zero-shot,
+S8,2023,prompt_engineering,PE6,Template-based / structured,
+S8,2023,stage,T2,Artifact Generation,
+S8,2023,activity,A3,Test code,T2
+S8,2023,vendor,M1,OpenAI,
+S8,2023,vendor,M2,Meta,
+S8,2023,vendor,M7,BigCode / HuggingFace,
+S8,2023,vendor,M8,Salesforce,
+S8,2023,vendor,M11,Other origins,
+S8,2023,architecture,AR1,Single-agent,
+S9,2023,prompt_engineering,PE2,Zero-shot,
+S9,2023,prompt_engineering,PE8,Step-by-step / decomposition,
+S9,2023,stage,T2,Artifact Generation,
+S9,2023,activity,A3,Test code,T2
+S9,2023,vendor,M1,OpenAI,
+S10,2023,prompt_engineering,PE4,Role / persona prompting,
+S10,2023,prompt_engineering,PE5,Iterative / feedback / self-refine,
+S10,2023,stage,T2,Artifact Generation,
+S10,2023,activity,A5,Test input,T2
+S10,2023,activity,A4,Test instruction,T2
+S10,2023,vendor,M1,OpenAI,
+S11,2023,prompt_engineering,PE1,Few-shot / in-context learning,
+S11,2023,prompt_engineering,PE2,Zero-shot,
+S11,2023,prompt_engineering,PE6,Template-based / structured,
+S11,2023,stage,T2,Artifact Generation,
+S11,2023,activity,A3,Test code,T2
+S11,2023,vendor,M1,OpenAI,
+S11,2023,vendor,M2,Meta,
+S11,2023,vendor,M3,Google,
+S11,2023,vendor,M6,Anthropic,
+S11,2023,vendor,M9,DeepSeek,
+S11,2023,architecture,AR1,Single-agent,
+S12,2023,prompt_engineering,PE2,Zero-shot,
+S12,2023,prompt_engineering,PE6,Template-based / structured,
+S12,2023,prompt_engineering,PE8,Step-by-step / decomposition,
+S12,2023,stage,T4,Report and Regression,
+S12,2023,activity,A10,Test improvement,T4
+S12,2023,vendor,M1,OpenAI,
+S13,2023,prompt_engineering,PE1,Few-shot / in-context learning,
+S13,2023,prompt_engineering,PE2,Zero-shot,
+S13,2023,prompt_engineering,PE6,Template-based / structured,
+S13,2023,stage,T1,Requirements Management,
+S13,2023,activity,A2,Element localization,T1
+S13,2023,vendor,M1,OpenAI,
+S14,2023,prompt_engineering,PE1,Few-shot / in-context learning,
+S14,2023,prompt_engineering,PE6,Template-based / structured,
+S14,2023,stage,T2,Artifact Generation,
+S14,2023,stage,T3,Verification and Prioritization,
+S14,2023,stage,T4,Report and Regression,
+S14,2023,activity,A3,Test code,T2
+S14,2023,activity,A8,Prioritization,T3
+S14,2023,activity,A9,Test repair,T4
+S14,2023,vendor,M1,OpenAI,
+S14,2023,architecture,AR1,Single-agent,
+S15,2023,prompt_engineering,PE2,Zero-shot,
+S15,2023,prompt_engineering,PE6,Template-based / structured,
+S15,2023,prompt_engineering,PE8,Step-by-step / decomposition,
+S15,2023,stage,T2,Artifact Generation,
+S15,2023,activity,A3,Test code,T2
+S15,2023,activity,A5,Test input,T2
+S15,2023,vendor,M1,OpenAI,
+S15,2023,vendor,M2,Meta,
+S15,2023,architecture,AR2,Multi-agent,
+S16,2023,prompt_engineering,PE1,Few-shot / in-context learning,
+S16,2023,prompt_engineering,PE6,Template-based / structured,
+S16,2023,stage,T1,Requirements Management,
+S16,2023,activity,A1,Requirement extraction,T1
+S16,2023,vendor,M11,Other origins,
+S16,2023,architecture,AR1,Single-agent,
+S17,2023,prompt_engineering,PE1,Few-shot / in-context learning,
+S17,2023,prompt_engineering,PE4,Role / persona prompting,
+S17,2023,prompt_engineering,PE5,Iterative / feedback / self-refine,
+S17,2023,prompt_engineering,PE6,Template-based / structured,
+S17,2023,prompt_engineering,PE8,Step-by-step / decomposition,
+S17,2023,stage,T1,Requirements Management,
+S17,2023,stage,T2,Artifact Generation,
+S17,2023,activity,A2,Element localization,T1
+S17,2023,activity,A3,Test code,T2
+S17,2023,activity,A5,Test input,T2
+S17,2023,vendor,M1,OpenAI,
+S18,2023,fine_tuning,FT1,Supervised fine-tuning (SFT / full),
+S18,2023,stage,T2,Artifact Generation,
+S18,2023,activity,A3,Test code,T2
+S18,2023,vendor,M8,Salesforce,
+S18,2023,architecture,AR1,Single-agent,
+S19,2023,prompt_engineering,PE1,Few-shot / in-context learning,
+S19,2023,prompt_engineering,PE2,Zero-shot,
+S19,2023,prompt_engineering,PE6,Template-based / structured,
+S19,2023,prompt_engineering,PE7,RAG,
+S19,2023,fine_tuning,FT1,Supervised fine-tuning (SFT / full),
+S19,2023,fine_tuning,FT3,LoRA,
+S19,2023,stage,T2,Artifact Generation,
+S19,2023,activity,A3,Test code,T2
+S19,2023,vendor,M1,OpenAI,
+S19,2023,vendor,M2,Meta,
+S19,2023,vendor,M9,DeepSeek,
+S19,2023,vendor,M11,Other origins,
+S19,2023,architecture,AR1,Single-agent,
+S20,2023,prompt_engineering,PE2,Zero-shot,
+S20,2023,prompt_engineering,PE8,Step-by-step / decomposition,
+S20,2023,stage,T2,Artifact Generation,
+S20,2023,activity,A3,Test code,T2
+S20,2023,activity,A5,Test input,T2
+S20,2023,activity,A6,Test oracle,T2
+S20,2023,vendor,M1,OpenAI,
+S20,2023,architecture,AR1,Single-agent,
+S21,2023,prompt_engineering,PE11,Undefined,
+S21,2023,stage,T1,Requirements Management,
+S21,2023,stage,T2,Artifact Generation,
+S21,2023,activity,A1,Requirement extraction,T1
+S21,2023,activity,A3,Test code,T2
+S21,2023,activity,A4,Test instruction,T2
+S21,2023,activity,A5,Test input,T2
+S21,2023,activity,A6,Test oracle,T2
+S21,2023,vendor,M1,OpenAI,
+S21,2023,architecture,AR1,Single-agent,
+S22,2023,prompt_engineering,PE1,Few-shot / in-context learning,
+S22,2023,prompt_engineering,PE2,Zero-shot,
+S22,2023,prompt_engineering,PE6,Template-based / structured,
+S22,2023,prompt_engineering,PE8,Step-by-step / decomposition,
+S22,2023,stage,T1,Requirements Management,
+S22,2023,stage,T2,Artifact Generation,
+S22,2023,activity,A1,Requirement extraction,T1
+S22,2023,activity,A6,Test oracle,T2
+S22,2023,vendor,M1,OpenAI,
+S22,2023,vendor,M2,Meta,
+S22,2023,architecture,AR1,Single-agent,
+S23,2023,prompt_engineering,PE1,Few-shot / in-context learning,
+S23,2023,prompt_engineering,PE6,Template-based / structured,
+S23,2023,prompt_engineering,PE7,RAG,
+S23,2023,stage,T2,Artifact Generation,
+S23,2023,activity,A3,Test code,T2
+S23,2023,activity,A6,Test oracle,T2
+S23,2023,vendor,M1,OpenAI,
+S23,2023,architecture,AR1,Single-agent,
+S24,2023,prompt_engineering,PE1,Few-shot / in-context learning,
+S24,2023,prompt_engineering,PE5,Iterative / feedback / self-refine,
+S24,2023,prompt_engineering,PE6,Template-based / structured,
+S24,2023,stage,T2,Artifact Generation,
+S24,2023,activity,A5,Test input,T2
+S24,2023,vendor,M1,OpenAI,
+S24,2023,architecture,AR1,Single-agent,
+S25,2023,fine_tuning,FT1,Supervised fine-tuning (SFT / full),
+S25,2023,stage,T2,Artifact Generation,
+S25,2023,activity,A5,Test input,T2
+S25,2023,vendor,M1,OpenAI,
+S25,2023,architecture,AR1,Single-agent,
+S26,2023,prompt_engineering,PE1,Few-shot / in-context learning,
+S26,2023,prompt_engineering,PE6,Template-based / structured,
+S26,2023,stage,T1,Requirements Management,
+S26,2023,activity,A1,Requirement extraction,T1
+S26,2023,vendor,M11,Other origins,
+S26,2023,architecture,AR1,Single-agent,
+S27,2024,prompt_engineering,PE4,Role / persona prompting,
+S27,2024,prompt_engineering,PE6,Template-based / structured,
+S27,2024,prompt_engineering,PE8,Step-by-step / decomposition,
+S27,2024,stage,T1,Requirements Management,
+S27,2024,stage,T2,Artifact Generation,
+S27,2024,activity,A1,Requirement extraction,T1
+S27,2024,activity,A4,Test instruction,T2
+S27,2024,activity,A5,Test input,T2
+S27,2024,activity,A6,Test oracle,T2
+S27,2024,vendor,M1,OpenAI,
+S27,2024,architecture,AR1,Single-agent,
+S28,2024,prompt_engineering,PE2,Zero-shot,
+S28,2024,stage,T2,Artifact Generation,
+S28,2024,activity,A4,Test instruction,T2
+S28,2024,vendor,M1,OpenAI,
+S28,2024,vendor,M3,Google,
+S29,2024,prompt_engineering,PE1,Few-shot / in-context learning,
+S29,2024,prompt_engineering,PE6,Template-based / structured,
+S29,2024,prompt_engineering,PE8,Step-by-step / decomposition,
+S29,2024,stage,T3,Verification and Prioritization,
+S29,2024,activity,A7,Semantic judgment,T3
+S29,2024,vendor,M1,OpenAI,
+S29,2024,vendor,M3,Google,
+S29,2024,vendor,M11,Other origins,
+S29,2024,architecture,AR1,Single-agent,
+S30,2024,prompt_engineering,PE1,Few-shot / in-context learning,
+S30,2024,prompt_engineering,PE2,Zero-shot,
+S30,2024,prompt_engineering,PE6,Template-based / structured,
+S30,2024,stage,T2,Artifact Generation,
+S30,2024,stage,T3,Verification and Prioritization,
+S30,2024,activity,A3,Test code,T2
+S30,2024,activity,A12,Suite quality,T3
+S30,2024,vendor,M1,OpenAI,
+S30,2024,architecture,AR1,Single-agent,
+S31,2024,prompt_engineering,PE1,Few-shot / in-context learning,
+S31,2024,prompt_engineering,PE4,Role / persona prompting,
+S31,2024,prompt_engineering,PE5,Iterative / feedback / self-refine,
+S31,2024,prompt_engineering,PE6,Template-based / structured,
+S31,2024,stage,T1,Requirements Management,
+S31,2024,stage,T2,Artifact Generation,
+S31,2024,activity,A1,Requirement extraction,T1
+S31,2024,activity,A4,Test instruction,T2
+S31,2024,activity,A6,Test oracle,T2
+S31,2024,vendor,M1,OpenAI,
+S31,2024,architecture,AR1,Single-agent,
+S32,2024,prompt_engineering,PE4,Role / persona prompting,
+S32,2024,prompt_engineering,PE6,Template-based / structured,
+S32,2024,prompt_engineering,PE8,Step-by-step / decomposition,
+S32,2024,stage,T2,Artifact Generation,
+S32,2024,activity,A4,Test instruction,T2
+S32,2024,vendor,M1,OpenAI,
+S32,2024,architecture,AR1,Single-agent,
+S33,2024,prompt_engineering,PE1,Few-shot / in-context learning,
+S33,2024,prompt_engineering,PE4,Role / persona prompting,
+S33,2024,prompt_engineering,PE6,Template-based / structured,
+S33,2024,stage,T2,Artifact Generation,
+S33,2024,activity,A4,Test instruction,T2
+S33,2024,vendor,M1,OpenAI,
+S33,2024,vendor,M3,Google,
+S33,2024,vendor,M6,Anthropic,
+S34,2024,prompt_engineering,PE1,Few-shot / in-context learning,
+S34,2024,prompt_engineering,PE2,Zero-shot,
+S34,2024,prompt_engineering,PE3,Chain-of-Thought,
+S34,2024,prompt_engineering,PE4,Role / persona prompting,
+S34,2024,prompt_engineering,PE5,Iterative / feedback / self-refine,
+S34,2024,prompt_engineering,PE6,Template-based / structured,
+S34,2024,stage,T2,Artifact Generation,
+S34,2024,stage,T3,Verification and Prioritization,
+S34,2024,activity,A3,Test code,T2
+S34,2024,activity,A5,Test input,T2
+S34,2024,activity,A8,Prioritization,T3
+S34,2024,vendor,M1,OpenAI,
+S34,2024,vendor,M2,Meta,
+S34,2024,vendor,M7,BigCode / HuggingFace,
+S34,2024,architecture,AR1,Single-agent,
+S35,2024,prompt_engineering,PE2,Zero-shot,
+S35,2024,prompt_engineering,PE5,Iterative / feedback / self-refine,
+S35,2024,prompt_engineering,PE6,Template-based / structured,
+S35,2024,stage,T2,Artifact Generation,
+S35,2024,activity,A3,Test code,T2
+S35,2024,vendor,M1,OpenAI,
+S36,2024,prompt_engineering,PE4,Role / persona prompting,
+S36,2024,prompt_engineering,PE5,Iterative / feedback / self-refine,
+S36,2024,stage,T2,Artifact Generation,
+S36,2024,stage,T3,Verification and Prioritization,
+S36,2024,stage,T4,Report and Regression,
+S36,2024,activity,A4,Test instruction,T2
+S36,2024,activity,A3,Test code,T2
+S36,2024,activity,A12,Suite quality,T3
+S36,2024,activity,A7,Semantic judgment,T3
+S36,2024,activity,A9,Test repair,T4
+S36,2024,vendor,M1,OpenAI,
+S36,2024,vendor,M2,Meta,
+S36,2024,vendor,M4,Mistral AI,
+S37,2024,prompt_engineering,PE5,Iterative / feedback / self-refine,
+S37,2024,prompt_engineering,PE6,Template-based / structured,
+S37,2024,stage,T2,Artifact Generation,
+S37,2024,stage,T4,Report and Regression,
+S37,2024,activity,A3,Test code,T2
+S37,2024,activity,A9,Test repair,T4
+S37,2024,vendor,M1,OpenAI,
+S37,2024,vendor,M7,BigCode / HuggingFace,
+S38,2024,prompt_engineering,PE6,Template-based / structured,
+S38,2024,prompt_engineering,PE2,Zero-shot,
+S38,2024,stage,T2,Artifact Generation,
+S38,2024,activity,A3,Test code,T2
+S38,2024,activity,A4,Test instruction,T2
+S38,2024,vendor,M1,OpenAI,
+S38,2024,architecture,AR1,Single-agent,
+S39,2024,prompt_engineering,PE3,Chain-of-Thought,
+S39,2024,prompt_engineering,PE6,Template-based / structured,
+S39,2024,prompt_engineering,PE8,Step-by-step / decomposition,
+S39,2024,stage,T1,Requirements Management,
+S39,2024,stage,T2,Artifact Generation,
+S39,2024,activity,A1,Requirement extraction,T1
+S39,2024,activity,A3,Test code,T2
+S39,2024,activity,A5,Test input,T2
+S39,2024,activity,A6,Test oracle,T2
+S39,2024,vendor,M1,OpenAI,
+S39,2024,architecture,AR1,Single-agent,
+S41,2024,prompt_engineering,PE1,Few-shot / in-context learning,
+S41,2024,prompt_engineering,PE3,Chain-of-Thought,
+S41,2024,prompt_engineering,PE6,Template-based / structured,
+S41,2024,stage,T3,Verification and Prioritization,
+S41,2024,activity,A7,Semantic judgment,T3
+S41,2024,vendor,M1,OpenAI,
+S41,2024,architecture,AR1,Single-agent,
+S42,2024,prompt_engineering,PE2,Zero-shot,
+S42,2024,prompt_engineering,PE6,Template-based / structured,
+S42,2024,stage,T2,Artifact Generation,
+S42,2024,activity,A3,Test code,T2
+S42,2024,activity,A6,Test oracle,T2
+S42,2024,vendor,M1,OpenAI,
+S43,2024,prompt_engineering,PE2,Zero-shot,
+S43,2024,prompt_engineering,PE5,Iterative / feedback / self-refine,
+S43,2024,prompt_engineering,PE6,Template-based / structured,
+S43,2024,stage,T2,Artifact Generation,
+S43,2024,stage,T4,Report and Regression,
+S43,2024,activity,A3,Test code,T2
+S43,2024,activity,A9,Test repair,T4
+S43,2024,architecture,AR1,Single-agent,
+S44,2024,prompt_engineering,PE1,Few-shot / in-context learning,
+S44,2024,prompt_engineering,PE3,Chain-of-Thought,
+S44,2024,prompt_engineering,PE4,Role / persona prompting,
+S44,2024,prompt_engineering,PE6,Template-based / structured,
+S44,2024,prompt_engineering,PE8,Step-by-step / decomposition,
+S44,2024,fine_tuning,FT3,LoRA,
+S44,2024,fine_tuning,FT5,Unspecified fine-tuning,
+S44,2024,stage,T2,Artifact Generation,
+S44,2024,stage,T4,Report and Regression,
+S44,2024,activity,A3,Test code,T2
+S44,2024,activity,A10,Test improvement,T4
+S44,2024,vendor,M1,OpenAI,
+S44,2024,vendor,M11,Other origins,
+S44,2024,architecture,AR1,Single-agent,
+S45,2024,prompt_engineering,PE1,Few-shot / in-context learning,
+S45,2024,prompt_engineering,PE3,Chain-of-Thought,
+S45,2024,stage,T1,Requirements Management,
+S45,2024,stage,T2,Artifact Generation,
+S45,2024,activity,A1,Requirement extraction,T1
+S45,2024,activity,A3,Test code,T2
+S45,2024,activity,A5,Test input,T2
+S45,2024,vendor,M1,OpenAI,
+S45,2024,vendor,M3,Google,
+S45,2024,vendor,M2,Meta,
+S45,2024,vendor,M4,Mistral AI,
+S45,2024,architecture,AR1,Single-agent,
+S46,2024,prompt_engineering,PE2,Zero-shot,
+S46,2024,prompt_engineering,PE6,Template-based / structured,
+S46,2024,stage,T2,Artifact Generation,
+S46,2024,activity,A3,Test code,T2
+S46,2024,vendor,M2,Meta,
+S47,2024,prompt_engineering,PE2,Zero-shot,
+S47,2024,fine_tuning,FT5,Unspecified fine-tuning,
+S47,2024,stage,T2,Artifact Generation,
+S47,2024,stage,T1,Requirements Management,
+S47,2024,activity,A3,Test code,T2
+S47,2024,activity,A1,Requirement extraction,T1
+S47,2024,vendor,M1,OpenAI,
+S47,2024,vendor,M5,Microsoft,
+S48,2024,prompt_engineering,PE3,Chain-of-Thought,
+S48,2024,prompt_engineering,PE5,Iterative / feedback / self-refine,
+S48,2024,prompt_engineering,PE6,Template-based / structured,
+S48,2024,stage,T1,Requirements Management,
+S48,2024,stage,T2,Artifact Generation,
+S48,2024,stage,T3,Verification and Prioritization,
+S48,2024,activity,A2,Element localization,T1
+S48,2024,activity,A3,Test code,T2
+S48,2024,activity,A7,Semantic judgment,T3
+S48,2024,vendor,M1,OpenAI,
+S48,2024,architecture,AR2,Multi-agent,
+S49,2024,prompt_engineering,PE3,Chain-of-Thought,
+S49,2024,prompt_engineering,PE4,Role / persona prompting,
+S49,2024,prompt_engineering,PE5,Iterative / feedback / self-refine,
+S49,2024,prompt_engineering,PE6,Template-based / structured,
+S49,2024,stage,T4,Report and Regression,
+S49,2024,activity,A9,Test repair,T4
+S49,2024,vendor,M1,OpenAI,
+S49,2024,vendor,M7,BigCode / HuggingFace,
+S49,2024,vendor,M8,Salesforce,
+S50,2024,prompt_engineering,PE2,Zero-shot,
+S50,2024,prompt_engineering,PE6,Template-based / structured,
+S50,2024,stage,T2,Artifact Generation,
+S50,2024,activity,A3,Test code,T2
+S50,2024,activity,A6,Test oracle,T2
+S50,2024,vendor,M1,OpenAI,
+S51,2024,prompt_engineering,PE5,Iterative / feedback / self-refine,
+S51,2024,prompt_engineering,PE6,Template-based / structured,
+S51,2024,stage,T2,Artifact Generation,
+S51,2024,stage,T4,Report and Regression,
+S51,2024,activity,A3,Test code,T2
+S51,2024,activity,A9,Test repair,T4
+S51,2024,vendor,M1,OpenAI,
+S51,2024,vendor,M2,Meta,
+S52,2024,prompt_engineering,PE3,Chain-of-Thought,
+S52,2024,prompt_engineering,PE4,Role / persona prompting,
+S52,2024,prompt_engineering,PE5,Iterative / feedback / self-refine,
+S52,2024,prompt_engineering,PE7,RAG,
+S52,2024,stage,T2,Artifact Generation,
+S52,2024,stage,T4,Report and Regression,
+S52,2024,activity,A3,Test code,T2
+S52,2024,activity,A5,Test input,T2
+S52,2024,activity,A9,Test repair,T4
+S52,2024,activity,A13,Log analysis,T4
+S52,2024,vendor,M9,DeepSeek,
+S52,2024,architecture,AR2,Multi-agent,
+S53,2024,prompt_engineering,PE1,Few-shot / in-context learning,
+S53,2024,prompt_engineering,PE3,Chain-of-Thought,
+S53,2024,prompt_engineering,PE5,Iterative / feedback / self-refine,
+S53,2024,prompt_engineering,PE6,Template-based / structured,
+S53,2024,stage,T2,Artifact Generation,
+S53,2024,activity,A5,Test input,T2
+S53,2024,activity,A6,Test oracle,T2
+S53,2024,vendor,M1,OpenAI,
+S53,2024,vendor,M10,Alibaba,
+S53,2024,vendor,M11,Other origins,
+S53,2024,architecture,AR1,Single-agent,
+S54,2024,prompt_engineering,PE1,Few-shot / in-context learning,
+S54,2024,prompt_engineering,PE2,Zero-shot,
+S54,2024,prompt_engineering,PE7,RAG,
+S54,2024,stage,T2,Artifact Generation,
+S54,2024,activity,A5,Test input,T2
+S54,2024,vendor,M1,OpenAI,
+S54,2024,architecture,AR1,Single-agent,
+S55,2024,prompt_engineering,PE1,Few-shot / in-context learning,
+S55,2024,prompt_engineering,PE2,Zero-shot,
+S55,2024,prompt_engineering,PE6,Template-based / structured,
+S55,2024,stage,T2,Artifact Generation,
+S55,2024,activity,A4,Test instruction,T2
+S55,2024,vendor,M1,OpenAI,
+S55,2024,vendor,M2,Meta,
+S55,2024,vendor,M3,Google,
+S55,2024,architecture,AR1,Single-agent,
+S56,2024,prompt_engineering,PE2,Zero-shot,
+S56,2024,prompt_engineering,PE6,Template-based / structured,
+S56,2024,fine_tuning,FT1,Supervised fine-tuning (SFT / full),
+S56,2024,stage,T2,Artifact Generation,
+S56,2024,activity,A3,Test code,T2
+S56,2024,activity,A6,Test oracle,T2
+S56,2024,vendor,M1,OpenAI,
+S56,2024,vendor,M8,Salesforce,
+S56,2024,architecture,AR1,Single-agent,
+S57,2024,fine_tuning,FT5,Unspecified fine-tuning,
+S57,2024,stage,T1,Requirements Management,
+S57,2024,stage,T2,Artifact Generation,
+S57,2024,activity,A1,Requirement extraction,T1
+S57,2024,activity,A5,Test input,T2
+S57,2024,vendor,M11,Other origins,
+S57,2024,architecture,AR1,Single-agent,
+S58,2024,prompt_engineering,PE2,Zero-shot,
+S58,2024,prompt_engineering,PE6,Template-based / structured,
+S58,2024,stage,T2,Artifact Generation,
+S58,2024,activity,A5,Test input,T2
+S58,2024,architecture,AR1,Single-agent,
+S59,2024,prompt_engineering,PE1,Few-shot / in-context learning,
+S59,2024,prompt_engineering,PE2,Zero-shot,
+S59,2024,prompt_engineering,PE5,Iterative / feedback / self-refine,
+S59,2024,stage,T2,Artifact Generation,
+S59,2024,activity,A3,Test code,T2
+S59,2024,vendor,M1,OpenAI,
+S59,2024,vendor,M2,Meta,
+S60,2024,prompt_engineering,PE5,Iterative / feedback / self-refine,
+S60,2024,prompt_engineering,PE6,Template-based / structured,
+S60,2024,prompt_engineering,PE7,RAG,
+S60,2024,stage,T2,Artifact Generation,
+S60,2024,stage,T4,Report and Regression,
+S60,2024,activity,A5,Test input,T2
+S60,2024,activity,A13,Log analysis,T4
+S60,2024,vendor,M5,Microsoft,
+S60,2024,vendor,M11,Other origins,
+S60,2024,architecture,AR1,Single-agent,
+S61,2024,fine_tuning,FT5,Unspecified fine-tuning,
+S61,2024,stage,T2,Artifact Generation,
+S61,2024,activity,A5,Test input,T2
+S61,2024,vendor,M1,OpenAI,
+S61,2024,vendor,M11,Other origins,
+S61,2024,architecture,AR1,Single-agent,
+S62,2024,prompt_engineering,PE11,Undefined,
+S62,2024,stage,T2,Artifact Generation,
+S62,2024,activity,A3,Test code,T2
+S62,2024,vendor,M1,OpenAI,
+S63,2024,prompt_engineering,PE5,Iterative / feedback / self-refine,
+S63,2024,stage,T1,Requirements Management,
+S63,2024,stage,T2,Artifact Generation,
+S63,2024,stage,T3,Verification and Prioritization,
+S63,2024,activity,A2,Element localization,T1
+S63,2024,activity,A3,Test code,T2
+S63,2024,activity,A7,Semantic judgment,T3
+S63,2024,vendor,M1,OpenAI,
+S63,2024,architecture,AR2,Multi-agent,
+S64,2024,prompt_engineering,PE1,Few-shot / in-context learning,
+S64,2024,prompt_engineering,PE3,Chain-of-Thought,
+S64,2024,prompt_engineering,PE6,Template-based / structured,
+S64,2024,prompt_engineering,PE7,RAG,
+S64,2024,stage,T4,Report and Regression,
+S64,2024,activity,A9,Test repair,T4
+S64,2024,vendor,M1,OpenAI,
+S64,2024,architecture,AR1,Single-agent,
+S65,2024,prompt_engineering,PE5,Iterative / feedback / self-refine,
+S65,2024,prompt_engineering,PE6,Template-based / structured,
+S65,2024,stage,T4,Report and Regression,
+S65,2024,activity,A9,Test repair,T4
+S65,2024,vendor,M1,OpenAI,
+S65,2024,architecture,AR1,Single-agent,
+S66,2024,prompt_engineering,PE1,Few-shot / in-context learning,
+S66,2024,prompt_engineering,PE2,Zero-shot,
+S66,2024,stage,T4,Report and Regression,
+S66,2024,activity,A9,Test repair,T4
+S66,2024,vendor,M1,OpenAI,
+S66,2024,vendor,M5,Microsoft,
+S67,2024,prompt_engineering,PE1,Few-shot / in-context learning,
+S67,2024,prompt_engineering,PE5,Iterative / feedback / self-refine,
+S67,2024,prompt_engineering,PE6,Template-based / structured,
+S67,2024,stage,T2,Artifact Generation,
+S67,2024,activity,A5,Test input,T2
+S67,2024,vendor,M1,OpenAI,
+S67,2024,vendor,M7,BigCode / HuggingFace,
+S67,2024,architecture,AR1,Single-agent,
+S68,2024,prompt_engineering,PE2,Zero-shot,
+S68,2024,stage,T2,Artifact Generation,
+S68,2024,activity,A5,Test input,T2
+S68,2024,vendor,M1,OpenAI,
+S68,2024,architecture,AR1,Single-agent,
+S69,2024,prompt_engineering,PE4,Role / persona prompting,
+S69,2024,prompt_engineering,PE6,Template-based / structured,
+S69,2024,prompt_engineering,PE8,Step-by-step / decomposition,
+S69,2024,stage,T2,Artifact Generation,
+S69,2024,activity,A4,Test instruction,T2
+S69,2024,vendor,M1,OpenAI,
+S69,2024,vendor,M2,Meta,
+S69,2024,vendor,M3,Google,
+S69,2024,vendor,M6,Anthropic,
+S69,2024,architecture,AR1,Single-agent,
+S70,2024,prompt_engineering,PE2,Zero-shot,
+S70,2024,prompt_engineering,PE6,Template-based / structured,
+S70,2024,prompt_engineering,PE8,Step-by-step / decomposition,
+S70,2024,vendor,M1,OpenAI,
+S70,2024,architecture,AR1,Single-agent,
+S71,2024,prompt_engineering,PE2,Zero-shot,
+S71,2024,prompt_engineering,PE6,Template-based / structured,
+S71,2024,stage,T2,Artifact Generation,
+S71,2024,activity,A3,Test code,T2
+S71,2024,vendor,M3,Google,
+S71,2024,architecture,AR1,Single-agent,
+S72,2024,prompt_engineering,PE4,Role / persona prompting,
+S72,2024,prompt_engineering,PE5,Iterative / feedback / self-refine,
+S72,2024,prompt_engineering,PE7,RAG,
+S72,2024,prompt_engineering,PE8,Step-by-step / decomposition,
+S72,2024,stage,T2,Artifact Generation,
+S72,2024,stage,T3,Verification and Prioritization,
+S72,2024,stage,T4,Report and Regression,
+S72,2024,activity,A4,Test instruction,T2
+S72,2024,activity,A6,Test oracle,T2
+S72,2024,activity,A5,Test input,T2
+S72,2024,activity,A7,Semantic judgment,T3
+S72,2024,activity,A13,Log analysis,T4
+S72,2024,vendor,M1,OpenAI,
+S73,2024,prompt_engineering,PE6,Template-based / structured,
+S73,2024,prompt_engineering,PE8,Step-by-step / decomposition,
+S73,2024,stage,T1,Requirements Management,
+S73,2024,stage,T2,Artifact Generation,
+S73,2024,activity,A1,Requirement extraction,T1
+S73,2024,activity,A5,Test input,T2
+S73,2024,vendor,M1,OpenAI,
+S74,2024,prompt_engineering,PE2,Zero-shot,
+S74,2024,prompt_engineering,PE6,Template-based / structured,
+S74,2024,stage,T3,Verification and Prioritization,
+S74,2024,activity,A8,Prioritization,T3
+S74,2024,vendor,M1,OpenAI,
+S74,2024,architecture,AR1,Single-agent,
+S75,2024,prompt_engineering,PE1,Few-shot / in-context learning,
+S75,2024,prompt_engineering,PE2,Zero-shot,
+S75,2024,fine_tuning,FT5,Unspecified fine-tuning,
+S75,2024,vendor,M1,OpenAI,
+S75,2024,vendor,M2,Meta,
+S75,2024,vendor,M5,Microsoft,
+S75,2024,vendor,M7,BigCode / HuggingFace,
+S75,2024,vendor,M8,Salesforce,
+S76,2024,prompt_engineering,PE1,Few-shot / in-context learning,
+S76,2024,prompt_engineering,PE6,Template-based / structured,
+S76,2024,stage,T1,Requirements Management,
+S76,2024,stage,T2,Artifact Generation,
+S76,2024,activity,A1,Requirement extraction,T1
+S76,2024,activity,A4,Test instruction,T2
+S76,2024,activity,A6,Test oracle,T2
+S76,2024,vendor,M1,OpenAI,
+S76,2024,architecture,AR1,Single-agent,
+S77,2024,prompt_engineering,PE2,Zero-shot,
+S77,2024,stage,T2,Artifact Generation,
+S77,2024,activity,A3,Test code,T2
+S77,2024,vendor,M1,OpenAI,
+S77,2024,vendor,M3,Google,
+S77,2024,vendor,M6,Anthropic,
+S78,2024,prompt_engineering,PE1,Few-shot / in-context learning,
+S78,2024,prompt_engineering,PE2,Zero-shot,
+S78,2024,prompt_engineering,PE8,Step-by-step / decomposition,
+S78,2024,fine_tuning,FT1,Supervised fine-tuning (SFT / full),
+S78,2024,fine_tuning,FT2,QLoRA,
+S78,2024,stage,T2,Artifact Generation,
+S78,2024,activity,A4,Test instruction,T2
+S78,2024,vendor,M2,Meta,
+S79,2024,prompt_engineering,PE2,Zero-shot,
+S79,2024,prompt_engineering,PE6,Template-based / structured,
+S79,2024,fine_tuning,FT3,LoRA,
+S79,2024,stage,T2,Artifact Generation,
+S79,2024,activity,A3,Test code,T2
+S79,2024,vendor,M1,OpenAI,
+S79,2024,vendor,M2,Meta,
+S80,2024,prompt_engineering,PE1,Few-shot / in-context learning,
+S80,2024,prompt_engineering,PE2,Zero-shot,
+S80,2024,prompt_engineering,PE3,Chain-of-Thought,
+S80,2024,prompt_engineering,PE10,Tree-of-Thought,
+S80,2024,stage,T2,Artifact Generation,
+S80,2024,activity,A3,Test code,T2
+S80,2024,vendor,M1,OpenAI,
+S80,2024,vendor,M4,Mistral AI,
+S80,2024,architecture,AR1,Single-agent,
+S81,2024,prompt_engineering,PE11,Undefined,
+S81,2024,vendor,M2,Meta,
+S81,2024,vendor,M5,Microsoft,
+S81,2024,vendor,M7,BigCode / HuggingFace,
+S82,2024,prompt_engineering,PE1,Few-shot / in-context learning,
+S82,2024,prompt_engineering,PE3,Chain-of-Thought,
+S82,2024,prompt_engineering,PE6,Template-based / structured,
+S82,2024,stage,T2,Artifact Generation,
+S82,2024,activity,A3,Test code,T2
+S82,2024,activity,A5,Test input,T2
+S82,2024,vendor,M1,OpenAI,
+S82,2024,vendor,M2,Meta,
+S82,2024,vendor,M9,DeepSeek,
+S82,2024,vendor,M10,Alibaba,
+S82,2024,architecture,AR1,Single-agent,
+S83,2024,prompt_engineering,PE1,Few-shot / in-context learning,
+S83,2024,prompt_engineering,PE3,Chain-of-Thought,
+S83,2024,prompt_engineering,PE4,Role / persona prompting,
+S83,2024,prompt_engineering,PE6,Template-based / structured,
+S83,2024,stage,T2,Artifact Generation,
+S83,2024,activity,A3,Test code,T2
+S83,2024,vendor,M1,OpenAI,
+S83,2024,vendor,M2,Meta,
+S83,2024,vendor,M9,DeepSeek,
+S83,2024,architecture,AR2,Multi-agent,
+S84,2024,prompt_engineering,PE3,Chain-of-Thought,
+S84,2024,prompt_engineering,PE5,Iterative / feedback / self-refine,
+S84,2024,prompt_engineering,PE6,Template-based / structured,
+S84,2024,stage,T2,Artifact Generation,
+S84,2024,stage,T4,Report and Regression,
+S84,2024,activity,A5,Test input,T2
+S84,2024,activity,A9,Test repair,T4
+S84,2024,vendor,M1,OpenAI,
+S84,2024,architecture,AR1,Single-agent,
+S85,2024,prompt_engineering,PE3,Chain-of-Thought,
+S85,2024,prompt_engineering,PE4,Role / persona prompting,
+S85,2024,prompt_engineering,PE5,Iterative / feedback / self-refine,
+S85,2024,prompt_engineering,PE6,Template-based / structured,
+S85,2024,stage,T4,Report and Regression,
+S85,2024,activity,A9,Test repair,T4
+S85,2024,vendor,M1,OpenAI,
+S85,2024,vendor,M11,Other origins,
+S85,2024,architecture,AR1,Single-agent,
+S86,2024,prompt_engineering,PE2,Zero-shot,
+S86,2024,prompt_engineering,PE6,Template-based / structured,
+S86,2024,stage,T2,Artifact Generation,
+S86,2024,activity,A3,Test code,T2
+S86,2024,activity,A6,Test oracle,T2
+S86,2024,vendor,M1,OpenAI,
+S86,2024,architecture,AR1,Single-agent,
+S87,2024,prompt_engineering,PE2,Zero-shot,
+S87,2024,prompt_engineering,PE3,Chain-of-Thought,
+S87,2024,prompt_engineering,PE7,RAG,
+S87,2024,stage,T2,Artifact Generation,
+S87,2024,activity,A3,Test code,T2
+S87,2024,vendor,M1,OpenAI,
+S87,2024,vendor,M2,Meta,
+S87,2024,vendor,M9,DeepSeek,
+S88,2024,prompt_engineering,PE2,Zero-shot,
+S88,2024,stage,T2,Artifact Generation,
+S88,2024,activity,A3,Test code,T2
+S88,2024,activity,A5,Test input,T2
+S88,2024,vendor,M2,Meta,
+S88,2024,architecture,AR1,Single-agent,
+S89,2024,prompt_engineering,PE2,Zero-shot,
+S89,2024,prompt_engineering,PE3,Chain-of-Thought,
+S89,2024,prompt_engineering,PE6,Template-based / structured,
+S89,2024,stage,T2,Artifact Generation,
+S89,2024,activity,A6,Test oracle,T2
+S89,2024,vendor,M1,OpenAI,
+S90,2024,prompt_engineering,PE2,Zero-shot,
+S90,2024,stage,T2,Artifact Generation,
+S90,2024,activity,A4,Test instruction,T2
+S90,2024,vendor,M1,OpenAI,
+S90,2024,architecture,AR1,Single-agent,
+S91,2024,prompt_engineering,PE2,Zero-shot,
+S91,2024,stage,T3,Verification and Prioritization,
+S91,2024,activity,A7,Semantic judgment,T3
+S91,2024,vendor,M1,OpenAI,
+S91,2024,architecture,AR1,Single-agent,
+S92,2024,prompt_engineering,PE1,Few-shot / in-context learning,
+S92,2024,prompt_engineering,PE3,Chain-of-Thought,
+S92,2024,prompt_engineering,PE5,Iterative / feedback / self-refine,
+S92,2024,prompt_engineering,PE6,Template-based / structured,
+S92,2024,stage,T2,Artifact Generation,
+S92,2024,activity,A3,Test code,T2
+S92,2024,activity,A5,Test input,T2
+S92,2024,vendor,M1,OpenAI,
+S92,2024,architecture,AR1,Single-agent,
+S93,2024,prompt_engineering,PE2,Zero-shot,
+S93,2024,stage,T2,Artifact Generation,
+S93,2024,activity,A3,Test code,T2
+S93,2024,vendor,M1,OpenAI,
+S93,2024,vendor,M2,Meta,
+S93,2024,vendor,M5,Microsoft,
+S94,2024,prompt_engineering,PE3,Chain-of-Thought,
+S94,2024,prompt_engineering,PE4,Role / persona prompting,
+S94,2024,stage,T1,Requirements Management,
+S94,2024,stage,T2,Artifact Generation,
+S94,2024,stage,T3,Verification and Prioritization,
+S94,2024,activity,A2,Element localization,T1
+S94,2024,activity,A6,Test oracle,T2
+S94,2024,activity,A7,Semantic judgment,T3
+S94,2024,vendor,M1,OpenAI,
+S94,2024,architecture,AR2,Multi-agent,
+S95,2024,prompt_engineering,PE5,Iterative / feedback / self-refine,
+S95,2024,prompt_engineering,PE6,Template-based / structured,
+S95,2024,stage,T1,Requirements Management,
+S95,2024,stage,T2,Artifact Generation,
+S95,2024,activity,A2,Element localization,T1
+S95,2024,activity,A5,Test input,T2
+S95,2024,activity,A6,Test oracle,T2
+S95,2024,vendor,M1,OpenAI,
+S95,2024,vendor,M2,Meta,
+S95,2024,architecture,AR1,Single-agent,
+S96,2024,prompt_engineering,PE1,Few-shot / in-context learning,
+S96,2024,prompt_engineering,PE3,Chain-of-Thought,
+S96,2024,prompt_engineering,PE6,Template-based / structured,
+S96,2024,stage,T2,Artifact Generation,
+S96,2024,activity,A3,Test code,T2
+S96,2024,activity,A4,Test instruction,T2
+S96,2024,vendor,M1,OpenAI,
+S96,2024,architecture,AR1,Single-agent,
+S97,2024,prompt_engineering,PE2,Zero-shot,
+S97,2024,prompt_engineering,PE3,Chain-of-Thought,
+S97,2024,fine_tuning,FT3,LoRA,
+S97,2024,stage,T2,Artifact Generation,
+S97,2024,activity,A4,Test instruction,T2
+S97,2024,activity,A5,Test input,T2
+S97,2024,vendor,M10,Alibaba,
+S98,2024,prompt_engineering,PE2,Zero-shot,
+S98,2024,stage,T2,Artifact Generation,
+S98,2024,activity,A3,Test code,T2
+S98,2024,vendor,M1,OpenAI,
+S98,2024,vendor,M2,Meta,
+S98,2024,architecture,AR1,Single-agent,
+S99,2024,prompt_engineering,PE2,Zero-shot,
+S99,2024,prompt_engineering,PE5,Iterative / feedback / self-refine,
+S99,2024,prompt_engineering,PE9,ReAct,
+S99,2024,stage,T2,Artifact Generation,
+S99,2024,stage,T3,Verification and Prioritization,
+S99,2024,activity,A3,Test code,T2
+S99,2024,activity,A7,Semantic judgment,T3
+S99,2024,vendor,M1,OpenAI,
+S99,2024,vendor,M4,Mistral AI,
+S99,2024,vendor,M6,Anthropic,
+S100,2024,prompt_engineering,PE2,Zero-shot,
+S100,2024,prompt_engineering,PE6,Template-based / structured,
+S100,2024,stage,T2,Artifact Generation,
+S100,2024,activity,A3,Test code,T2
+S100,2024,activity,A5,Test input,T2
+S100,2024,vendor,M1,OpenAI,
+S100,2024,vendor,M2,Meta,
+S100,2024,vendor,M3,Google,
+S100,2024,architecture,AR1,Single-agent,
+S101,2024,prompt_engineering,PE2,Zero-shot,
+S101,2024,vendor,M7,BigCode / HuggingFace,
+S102,2024,prompt_engineering,PE8,Step-by-step / decomposition,
+S102,2024,stage,T2,Artifact Generation,
+S102,2024,activity,A4,Test instruction,T2
+S102,2024,activity,A5,Test input,T2
+S103,2024,prompt_engineering,PE2,Zero-shot,
+S103,2024,prompt_engineering,PE6,Template-based / structured,
+S103,2024,fine_tuning,FT2,QLoRA,
+S103,2024,stage,T2,Artifact Generation,
+S103,2024,activity,A3,Test code,T2
+S103,2024,vendor,M2,Meta,
+S103,2024,vendor,M4,Mistral AI,
+S103,2024,architecture,AR1,Single-agent,
+S104,2024,prompt_engineering,PE5,Iterative / feedback / self-refine,
+S104,2024,prompt_engineering,PE6,Template-based / structured,
+S104,2024,stage,T2,Artifact Generation,
+S104,2024,stage,T4,Report and Regression,
+S104,2024,activity,A3,Test code,T2
+S104,2024,activity,A9,Test repair,T4
+S104,2024,activity,A10,Test improvement,T4
+S104,2024,vendor,M1,OpenAI,
+S105,2024,prompt_engineering,PE1,Few-shot / in-context learning,
+S105,2024,prompt_engineering,PE2,Zero-shot,
+S105,2024,prompt_engineering,PE3,Chain-of-Thought,
+S105,2024,stage,T2,Artifact Generation,
+S105,2024,activity,A3,Test code,T2
+S105,2024,activity,A5,Test input,T2
+S105,2024,activity,A6,Test oracle,T2
+S105,2024,vendor,M1,OpenAI,
+S105,2024,vendor,M2,Meta,
+S105,2024,vendor,M7,BigCode / HuggingFace,
+S105,2024,vendor,M8,Salesforce,
+S105,2024,vendor,M9,DeepSeek,
+S105,2024,vendor,M10,Alibaba,
+S105,2024,architecture,AR1,Single-agent,
+S106,2024,prompt_engineering,PE2,Zero-shot,
+S106,2024,stage,T2,Artifact Generation,
+S106,2024,stage,T3,Verification and Prioritization,
+S106,2024,activity,A5,Test input,T2
+S106,2024,activity,A6,Test oracle,T2
+S106,2024,activity,A7,Semantic judgment,T3
+S106,2024,vendor,M1,OpenAI,
+S106,2024,vendor,M2,Meta,
+S106,2024,vendor,M10,Alibaba,
+S106,2024,architecture,AR1,Single-agent,
+S107,2024,prompt_engineering,PE1,Few-shot / in-context learning,
+S107,2024,prompt_engineering,PE8,Step-by-step / decomposition,
+S107,2024,stage,T1,Requirements Management,
+S107,2024,stage,T2,Artifact Generation,
+S107,2024,activity,A1,Requirement extraction,T1
+S107,2024,activity,A6,Test oracle,T2
+S107,2024,vendor,M1,OpenAI,
+S108,2024,prompt_engineering,PE4,Role / persona prompting,
+S108,2024,prompt_engineering,PE8,Step-by-step / decomposition,
+S108,2024,stage,T1,Requirements Management,
+S108,2024,stage,T2,Artifact Generation,
+S108,2024,activity,A1,Requirement extraction,T1
+S108,2024,activity,A2,Element localization,T1
+S108,2024,activity,A3,Test code,T2
+S108,2024,vendor,M1,OpenAI,
+S108,2024,vendor,M2,Meta,
+S108,2024,architecture,AR2,Multi-agent,
+S109,2024,prompt_engineering,PE2,Zero-shot,
+S109,2024,stage,T2,Artifact Generation,
+S109,2024,activity,A5,Test input,T2
+S109,2024,vendor,M1,OpenAI,
+S109,2024,vendor,M2,Meta,
+S109,2024,vendor,M7,BigCode / HuggingFace,
+S110,2024,prompt_engineering,PE4,Role / persona prompting,
+S110,2024,prompt_engineering,PE5,Iterative / feedback / self-refine,
+S110,2024,prompt_engineering,PE8,Step-by-step / decomposition,
+S110,2024,stage,T2,Artifact Generation,
+S110,2024,stage,T4,Report and Regression,
+S110,2024,activity,A4,Test instruction,T2
+S110,2024,activity,A3,Test code,T2
+S110,2024,activity,A9,Test repair,T4
+S110,2024,vendor,M1,OpenAI,
+S111,2024,prompt_engineering,PE2,Zero-shot,
+S111,2024,prompt_engineering,PE5,Iterative / feedback / self-refine,
+S111,2024,stage,T2,Artifact Generation,
+S111,2024,activity,A3,Test code,T2
+S111,2024,activity,A6,Test oracle,T2
+S111,2024,vendor,M1,OpenAI,
+S112,2024,prompt_engineering,PE2,Zero-shot,
+S112,2024,prompt_engineering,PE6,Template-based / structured,
+S112,2024,prompt_engineering,PE7,RAG,
+S112,2024,fine_tuning,FT3,LoRA,
+S112,2024,stage,T2,Artifact Generation,
+S112,2024,activity,A3,Test code,T2
+S112,2024,vendor,M2,Meta,
+S112,2024,architecture,AR1,Single-agent,
+S113,2024,prompt_engineering,PE2,Zero-shot,
+S113,2024,fine_tuning,FT1,Supervised fine-tuning (SFT / full),
+S113,2024,stage,T2,Artifact Generation,
+S113,2024,activity,A3,Test code,T2
+S113,2024,vendor,M2,Meta,
+S113,2024,vendor,M7,BigCode / HuggingFace,
+S113,2024,vendor,M8,Salesforce,
+S113,2024,architecture,AR1,Single-agent,
+S114,2024,prompt_engineering,PE2,Zero-shot,
+S114,2024,prompt_engineering,PE6,Template-based / structured,
+S114,2024,stage,T2,Artifact Generation,
+S114,2024,activity,A3,Test code,T2
+S114,2024,vendor,M1,OpenAI,
+S115,2024,prompt_engineering,PE2,Zero-shot,
+S115,2024,prompt_engineering,PE6,Template-based / structured,
+S115,2024,stage,T2,Artifact Generation,
+S115,2024,activity,A3,Test code,T2
+S115,2024,vendor,M1,OpenAI,
+S115,2024,vendor,M7,BigCode / HuggingFace,
+S116,2024,prompt_engineering,PE1,Few-shot / in-context learning,
+S116,2024,prompt_engineering,PE5,Iterative / feedback / self-refine,
+S116,2024,prompt_engineering,PE6,Template-based / structured,
+S116,2024,stage,T1,Requirements Management,
+S116,2024,stage,T2,Artifact Generation,
+S116,2024,activity,A1,Requirement extraction,T1
+S116,2024,activity,A3,Test code,T2
+S116,2024,activity,A5,Test input,T2
+S116,2024,vendor,M1,OpenAI,
+S116,2024,vendor,M7,BigCode / HuggingFace,
+S116,2024,architecture,AR2,Multi-agent,
+S117,2025,prompt_engineering,PE1,Few-shot / in-context learning,
+S117,2025,prompt_engineering,PE6,Template-based / structured,
+S117,2025,stage,T2,Artifact Generation,
+S117,2025,activity,A3,Test code,T2
+S117,2025,activity,A5,Test input,T2
+S117,2025,activity,A6,Test oracle,T2
+S117,2025,vendor,M1,OpenAI,
+S117,2025,vendor,M2,Meta,
+S117,2025,vendor,M9,DeepSeek,
+S117,2025,architecture,AR1,Single-agent,
+S118,2025,prompt_engineering,PE5,Iterative / feedback / self-refine,
+S118,2025,prompt_engineering,PE6,Template-based / structured,
+S118,2025,stage,T2,Artifact Generation,
+S118,2025,stage,T4,Report and Regression,
+S118,2025,activity,A3,Test code,T2
+S118,2025,activity,A9,Test repair,T4
+S118,2025,vendor,M1,OpenAI,
+S118,2025,vendor,M3,Google,
+S118,2025,vendor,M9,DeepSeek,
+S118,2025,architecture,AR1,Single-agent,
+S119,2025,prompt_engineering,PE1,Few-shot / in-context learning,
+S119,2025,prompt_engineering,PE2,Zero-shot,
+S119,2025,prompt_engineering,PE6,Template-based / structured,
+S119,2025,stage,T2,Artifact Generation,
+S119,2025,activity,A3,Test code,T2
+S119,2025,vendor,M2,Meta,
+S119,2025,architecture,AR1,Single-agent,
+S120,2025,prompt_engineering,PE2,Zero-shot,
+S120,2025,prompt_engineering,PE6,Template-based / structured,
+S120,2025,stage,T1,Requirements Management,
+S120,2025,stage,T2,Artifact Generation,
+S120,2025,activity,A2,Element localization,T1
+S120,2025,activity,A5,Test input,T2
+S120,2025,vendor,M2,Meta,
+S120,2025,architecture,AR1,Single-agent,
+S121,2025,prompt_engineering,PE5,Iterative / feedback / self-refine,
+S121,2025,fine_tuning,FT3,LoRA,
+S121,2025,stage,T2,Artifact Generation,
+S121,2025,activity,A3,Test code,T2
+S121,2025,activity,A6,Test oracle,T2
+S121,2025,vendor,M9,DeepSeek,
+S121,2025,vendor,M1,OpenAI,
+S121,2025,architecture,AR1,Single-agent,
+S122,2025,prompt_engineering,PE2,Zero-shot,
+S122,2025,stage,T1,Requirements Management,
+S122,2025,stage,T2,Artifact Generation,
+S122,2025,activity,A1,Requirement extraction,T1
+S122,2025,activity,A3,Test code,T2
+S122,2025,vendor,M1,OpenAI,
+S123,2025,prompt_engineering,PE1,Few-shot / in-context learning,
+S123,2025,prompt_engineering,PE2,Zero-shot,
+S123,2025,prompt_engineering,PE6,Template-based / structured,
+S123,2025,stage,T2,Artifact Generation,
+S123,2025,activity,A3,Test code,T2
+S123,2025,vendor,M1,OpenAI,
+S124,2025,prompt_engineering,PE3,Chain-of-Thought,
+S124,2025,prompt_engineering,PE4,Role / persona prompting,
+S124,2025,prompt_engineering,PE5,Iterative / feedback / self-refine,
+S124,2025,prompt_engineering,PE8,Step-by-step / decomposition,
+S124,2025,prompt_engineering,PE9,ReAct,
+S124,2025,stage,T2,Artifact Generation,
+S124,2025,stage,T4,Report and Regression,
+S124,2025,activity,A3,Test code,T2
+S124,2025,activity,A9,Test repair,T4
+S124,2025,architecture,AR2,Multi-agent,
+S125,2025,fine_tuning,FT5,Unspecified fine-tuning,
+S125,2025,stage,T2,Artifact Generation,
+S125,2025,activity,A3,Test code,T2
+S125,2025,vendor,M2,Meta,
+S125,2025,vendor,M1,OpenAI,
+S125,2025,architecture,AR1,Single-agent,
+S126,2025,prompt_engineering,PE6,Template-based / structured,
+S126,2025,prompt_engineering,PE8,Step-by-step / decomposition,
+S126,2025,stage,T2,Artifact Generation,
+S126,2025,activity,A4,Test instruction,T2
+S126,2025,activity,A3,Test code,T2
+S126,2025,vendor,M1,OpenAI,
+S126,2025,vendor,M2,Meta,
+S127,2025,prompt_engineering,PE11,Undefined,
+S127,2025,stage,T4,Report and Regression,
+S127,2025,activity,A13,Log analysis,T4
+S127,2025,vendor,M1,OpenAI,
+S128,2025,prompt_engineering,PE1,Few-shot / in-context learning,
+S128,2025,prompt_engineering,PE2,Zero-shot,
+S128,2025,prompt_engineering,PE3,Chain-of-Thought,
+S128,2025,prompt_engineering,PE8,Step-by-step / decomposition,
+S128,2025,stage,T2,Artifact Generation,
+S128,2025,activity,A3,Test code,T2
+S128,2025,vendor,M1,OpenAI,
+S128,2025,architecture,AR1,Single-agent,
+S129,2025,prompt_engineering,PE3,Chain-of-Thought,
+S129,2025,prompt_engineering,PE4,Role / persona prompting,
+S129,2025,prompt_engineering,PE5,Iterative / feedback / self-refine,
+S129,2025,prompt_engineering,PE6,Template-based / structured,
+S129,2025,prompt_engineering,PE8,Step-by-step / decomposition,
+S129,2025,stage,T2,Artifact Generation,
+S129,2025,activity,A3,Test code,T2
+S129,2025,activity,A5,Test input,T2
+S129,2025,vendor,M1,OpenAI,
+S129,2025,architecture,AR2,Multi-agent,
+S130,2025,prompt_engineering,PE5,Iterative / feedback / self-refine,
+S130,2025,prompt_engineering,PE6,Template-based / structured,
+S130,2025,stage,T2,Artifact Generation,
+S130,2025,stage,T4,Report and Regression,
+S130,2025,activity,A3,Test code,T2
+S130,2025,activity,A13,Log analysis,T4
+S130,2025,vendor,M11,Other origins,
+S130,2025,vendor,M9,DeepSeek,
+S130,2025,architecture,AR1,Single-agent,
+S131,2025,prompt_engineering,PE4,Role / persona prompting,
+S131,2025,prompt_engineering,PE6,Template-based / structured,
+S131,2025,prompt_engineering,PE7,RAG,
+S131,2025,stage,T2,Artifact Generation,
+S131,2025,stage,T4,Report and Regression,
+S131,2025,activity,A3,Test code,T2
+S131,2025,activity,A4,Test instruction,T2
+S131,2025,activity,A12,Suite quality,T4
+S131,2025,vendor,M1,OpenAI,
+S131,2025,vendor,M3,Google,
+S131,2025,vendor,M4,Mistral AI,
+S131,2025,architecture,AR2,Multi-agent,
+S132,2025,prompt_engineering,PE2,Zero-shot,
+S132,2025,prompt_engineering,PE6,Template-based / structured,
+S132,2025,stage,T1,Requirements Management,
+S132,2025,activity,A1,Requirement extraction,T1
+S132,2025,activity,A2,Element localization,T1
+S132,2025,vendor,M2,Meta,
+S132,2025,architecture,AR1,Single-agent,
+S133,2025,prompt_engineering,PE2,Zero-shot,
+S133,2025,prompt_engineering,PE4,Role / persona prompting,
+S133,2025,prompt_engineering,PE5,Iterative / feedback / self-refine,
+S133,2025,prompt_engineering,PE6,Template-based / structured,
+S133,2025,stage,T2,Artifact Generation,
+S133,2025,stage,T3,Verification and Prioritization,
+S133,2025,activity,A4,Test instruction,T2
+S133,2025,activity,A5,Test input,T2
+S133,2025,activity,A7,Semantic judgment,T3
+S133,2025,vendor,M1,OpenAI,
+S133,2025,vendor,M3,Google,
+S133,2025,vendor,M4,Mistral AI,
+S134,2025,prompt_engineering,PE2,Zero-shot,
+S134,2025,prompt_engineering,PE5,Iterative / feedback / self-refine,
+S134,2025,stage,T2,Artifact Generation,
+S134,2025,activity,A3,Test code,T2
+S134,2025,vendor,M1,OpenAI,
+S134,2025,vendor,M3,Google,
+S134,2025,vendor,M6,Anthropic,
+S134,2025,architecture,AR2,Multi-agent,
+S135,2025,prompt_engineering,PE3,Chain-of-Thought,
+S135,2025,prompt_engineering,PE4,Role / persona prompting,
+S135,2025,prompt_engineering,PE5,Iterative / feedback / self-refine,
+S135,2025,prompt_engineering,PE8,Step-by-step / decomposition,
+S135,2025,stage,T2,Artifact Generation,
+S135,2025,stage,T4,Report and Regression,
+S135,2025,activity,A3,Test code,T2
+S135,2025,activity,A9,Test repair,T4
+S136,2025,prompt_engineering,PE4,Role / persona prompting,
+S136,2025,prompt_engineering,PE6,Template-based / structured,
+S136,2025,stage,T2,Artifact Generation,
+S136,2025,stage,T4,Report and Regression,
+S136,2025,activity,A3,Test code,T2
+S136,2025,activity,A12,Suite quality,T4
+S136,2025,vendor,M1,OpenAI,
+S136,2025,vendor,M2,Meta,
+S136,2025,architecture,AR1,Single-agent,
+S137,2025,prompt_engineering,PE5,Iterative / feedback / self-refine,
+S137,2025,prompt_engineering,PE6,Template-based / structured,
+S137,2025,stage,T2,Artifact Generation,
+S137,2025,stage,T4,Report and Regression,
+S137,2025,activity,A3,Test code,T2
+S137,2025,activity,A13,Log analysis,T4
+S137,2025,vendor,M10,Alibaba,
+S137,2025,vendor,M9,DeepSeek,
+S137,2025,architecture,AR1,Single-agent,
+S138,2025,prompt_engineering,PE2,Zero-shot,
+S138,2025,prompt_engineering,PE6,Template-based / structured,
+S138,2025,prompt_engineering,PE7,RAG,
+S138,2025,stage,T2,Artifact Generation,
+S138,2025,activity,A3,Test code,T2
+S138,2025,activity,A6,Test oracle,T2
+S138,2025,vendor,M1,OpenAI,
+S138,2025,architecture,AR1,Single-agent,
+S139,2025,prompt_engineering,PE1,Few-shot / in-context learning,
+S139,2025,prompt_engineering,PE2,Zero-shot,
+S139,2025,prompt_engineering,PE3,Chain-of-Thought,
+S139,2025,stage,T4,Report and Regression,
+S139,2025,activity,A10,Test improvement,T4
+S139,2025,vendor,M1,OpenAI,
+S139,2025,vendor,M2,Meta,
+S139,2025,vendor,M4,Mistral AI,
+S139,2025,vendor,M7,BigCode / HuggingFace,
+S139,2025,vendor,M10,Alibaba,
+S139,2025,architecture,AR1,Single-agent,
+S140,2025,prompt_engineering,PE2,Zero-shot,
+S140,2025,prompt_engineering,PE4,Role / persona prompting,
+S140,2025,prompt_engineering,PE6,Template-based / structured,
+S140,2025,stage,T2,Artifact Generation,
+S140,2025,activity,A4,Test instruction,T2
+S140,2025,vendor,M1,OpenAI,
+S140,2025,vendor,M4,Mistral AI,
+S140,2025,vendor,M9,DeepSeek,
+S140,2025,vendor,M10,Alibaba,
+S140,2025,architecture,AR1,Single-agent,
+S141,2025,prompt_engineering,PE5,Iterative / feedback / self-refine,
+S141,2025,prompt_engineering,PE6,Template-based / structured,
+S141,2025,prompt_engineering,PE7,RAG,
+S141,2025,prompt_engineering,PE8,Step-by-step / decomposition,
+S141,2025,stage,T2,Artifact Generation,
+S141,2025,stage,T4,Report and Regression,
+S141,2025,activity,A3,Test code,T2
+S141,2025,activity,A9,Test repair,T4
+S141,2025,vendor,M1,OpenAI,
+S141,2025,vendor,M2,Meta,
+S141,2025,vendor,M11,Other origins,
+S142,2025,prompt_engineering,PE2,Zero-shot,
+S142,2025,prompt_engineering,PE7,RAG,
+S142,2025,stage,T2,Artifact Generation,
+S142,2025,activity,A6,Test oracle,T2
+S142,2025,vendor,M1,OpenAI,
+S142,2025,vendor,M2,Meta,
+S143,2025,prompt_engineering,PE7,RAG,
+S143,2025,prompt_engineering,PE11,Undefined,
+S143,2025,stage,T2,Artifact Generation,
+S143,2025,stage,T3,Verification and Prioritization,
+S143,2025,activity,A5,Test input,T2
+S143,2025,activity,A8,Prioritization,T3
+S143,2025,vendor,M1,OpenAI,
+S143,2025,architecture,AR1,Single-agent,
+S144,2025,prompt_engineering,PE1,Few-shot / in-context learning,
+S144,2025,prompt_engineering,PE2,Zero-shot,
+S144,2025,prompt_engineering,PE4,Role / persona prompting,
+S144,2025,stage,T4,Report and Regression,
+S144,2025,activity,A13,Log analysis,T4
+S144,2025,vendor,M1,OpenAI,
+S144,2025,vendor,M5,Microsoft,
+S144,2025,architecture,AR1,Single-agent,
+S145,2025,prompt_engineering,PE2,Zero-shot,
+S145,2025,prompt_engineering,PE7,RAG,
+S145,2025,stage,T2,Artifact Generation,
+S145,2025,activity,A3,Test code,T2
+S145,2025,vendor,M1,OpenAI,
+S145,2025,vendor,M2,Meta,
+S145,2025,vendor,M9,DeepSeek,
+S145,2025,architecture,AR1,Single-agent,
+S146,2025,prompt_engineering,PE5,Iterative / feedback / self-refine,
+S146,2025,prompt_engineering,PE6,Template-based / structured,
+S146,2025,prompt_engineering,PE8,Step-by-step / decomposition,
+S146,2025,stage,T1,Requirements Management,
+S146,2025,activity,A1,Requirement extraction,T1
+S146,2025,vendor,M6,Anthropic,
+S146,2025,vendor,M1,OpenAI,
+S146,2025,vendor,M3,Google,
+S146,2025,architecture,AR1,Single-agent,
+S147,2025,prompt_engineering,PE2,Zero-shot,
+S147,2025,prompt_engineering,PE5,Iterative / feedback / self-refine,
+S147,2025,stage,T2,Artifact Generation,
+S147,2025,activity,A3,Test code,T2
+S147,2025,activity,A5,Test input,T2
+S147,2025,activity,A6,Test oracle,T2
+S147,2025,vendor,M1,OpenAI,
+S147,2025,architecture,AR1,Single-agent,
+S148,2025,prompt_engineering,PE1,Few-shot / in-context learning,
+S148,2025,prompt_engineering,PE2,Zero-shot,
+S148,2025,prompt_engineering,PE3,Chain-of-Thought,
+S148,2025,prompt_engineering,PE4,Role / persona prompting,
+S148,2025,prompt_engineering,PE6,Template-based / structured,
+S148,2025,stage,T2,Artifact Generation,
+S148,2025,activity,A3,Test code,T2
+S148,2025,vendor,M2,Meta,
+S148,2025,vendor,M4,Mistral AI,
+S148,2025,vendor,M6,Anthropic,
+S148,2025,architecture,AR1,Single-agent,
+S149,2025,prompt_engineering,PE1,Few-shot / in-context learning,
+S149,2025,prompt_engineering,PE4,Role / persona prompting,
+S149,2025,prompt_engineering,PE5,Iterative / feedback / self-refine,
+S149,2025,prompt_engineering,PE6,Template-based / structured,
+S149,2025,stage,T2,Artifact Generation,
+S149,2025,stage,T3,Verification and Prioritization,
+S149,2025,activity,A5,Test input,T2
+S149,2025,activity,A7,Semantic judgment,T3
+S149,2025,vendor,M1,OpenAI,
+S150,2025,prompt_engineering,PE1,Few-shot / in-context learning,
+S150,2025,prompt_engineering,PE6,Template-based / structured,
+S150,2025,fine_tuning,FT2,QLoRA,
+S150,2025,stage,T2,Artifact Generation,
+S150,2025,activity,A4,Test instruction,T2
+S150,2025,vendor,M1,OpenAI,
+S150,2025,vendor,M2,Meta,
+S150,2025,vendor,M3,Google,
+S150,2025,vendor,M4,Mistral AI,
+S151,2025,prompt_engineering,PE2,Zero-shot,
+S151,2025,prompt_engineering,PE5,Iterative / feedback / self-refine,
+S151,2025,prompt_engineering,PE6,Template-based / structured,
+S151,2025,stage,T1,Requirements Management,
+S151,2025,stage,T2,Artifact Generation,
+S151,2025,activity,A1,Requirement extraction,T1
+S151,2025,activity,A3,Test code,T2
+S151,2025,vendor,M1,OpenAI,
+S151,2025,architecture,AR1,Single-agent,
+S152,2025,prompt_engineering,PE2,Zero-shot,
+S152,2025,prompt_engineering,PE6,Template-based / structured,
+S152,2025,stage,T2,Artifact Generation,
+S152,2025,activity,A5,Test input,T2
+S152,2025,vendor,M1,OpenAI,
+S152,2025,architecture,AR1,Single-agent,
+S153,2025,prompt_engineering,PE1,Few-shot / in-context learning,
+S153,2025,prompt_engineering,PE3,Chain-of-Thought,
+S153,2025,prompt_engineering,PE5,Iterative / feedback / self-refine,
+S153,2025,prompt_engineering,PE6,Template-based / structured,
+S153,2025,prompt_engineering,PE8,Step-by-step / decomposition,
+S153,2025,stage,T2,Artifact Generation,
+S153,2025,activity,A5,Test input,T2
+S153,2025,activity,A3,Test code,T2
+S153,2025,vendor,M1,OpenAI,
+S153,2025,vendor,M2,Meta,
+S154,2025,prompt_engineering,PE2,Zero-shot,
+S154,2025,prompt_engineering,PE3,Chain-of-Thought,
+S154,2025,prompt_engineering,PE4,Role / persona prompting,
+S154,2025,prompt_engineering,PE6,Template-based / structured,
+S154,2025,stage,T2,Artifact Generation,
+S154,2025,activity,A6,Test oracle,T2
+S154,2025,vendor,M1,OpenAI,
+S155,2025,prompt_engineering,PE1,Few-shot / in-context learning,
+S155,2025,prompt_engineering,PE2,Zero-shot,
+S155,2025,prompt_engineering,PE6,Template-based / structured,
+S155,2025,stage,T2,Artifact Generation,
+S155,2025,activity,A3,Test code,T2
+S155,2025,vendor,M2,Meta,
+S155,2025,vendor,M4,Mistral AI,
+S155,2025,architecture,AR1,Single-agent,
+S156,2025,prompt_engineering,PE2,Zero-shot,
+S156,2025,prompt_engineering,PE6,Template-based / structured,
+S156,2025,stage,T2,Artifact Generation,
+S156,2025,activity,A3,Test code,T2
+S156,2025,activity,A5,Test input,T2
+S156,2025,vendor,M1,OpenAI,
+S156,2025,vendor,M6,Anthropic,
+S156,2025,vendor,M11,Other origins,
+S156,2025,architecture,AR1,Single-agent,
+S157,2025,prompt_engineering,PE2,Zero-shot,
+S157,2025,stage,T2,Artifact Generation,
+S157,2025,activity,A3,Test code,T2
+S157,2025,vendor,M6,Anthropic,
+S157,2025,architecture,AR1,Single-agent,
+S158,2025,prompt_engineering,PE2,Zero-shot,
+S158,2025,prompt_engineering,PE3,Chain-of-Thought,
+S158,2025,prompt_engineering,PE6,Template-based / structured,
+S158,2025,stage,T4,Report and Regression,
+S158,2025,activity,A13,Log analysis,T4
+S158,2025,vendor,M1,OpenAI,
+S158,2025,vendor,M3,Google,
+S158,2025,vendor,M4,Mistral AI,
+S158,2025,vendor,M9,DeepSeek,
+S158,2025,vendor,M10,Alibaba,
+S158,2025,vendor,M11,Other origins,
+S158,2025,architecture,AR1,Single-agent,
+S159,2025,prompt_engineering,PE2,Zero-shot,
+S159,2025,prompt_engineering,PE7,RAG,
+S159,2025,stage,T1,Requirements Management,
+S159,2025,stage,T2,Artifact Generation,
+S159,2025,stage,T3,Verification and Prioritization,
+S159,2025,stage,T4,Report and Regression,
+S159,2025,activity,A2,Element localization,T1
+S159,2025,activity,A5,Test input,T2
+S159,2025,activity,A8,Prioritization,T3
+S159,2025,activity,A13,Log analysis,T4
+S159,2025,vendor,M1,OpenAI,
+S159,2025,architecture,AR1,Single-agent,
+S160,2025,prompt_engineering,PE1,Few-shot / in-context learning,
+S160,2025,prompt_engineering,PE6,Template-based / structured,
+S160,2025,prompt_engineering,PE7,RAG,
+S160,2025,stage,T2,Artifact Generation,
+S160,2025,activity,A4,Test instruction,T2
+S160,2025,vendor,M2,Meta,
+S160,2025,vendor,M3,Google,
+S160,2025,vendor,M4,Mistral AI,
+S161,2025,prompt_engineering,PE1,Few-shot / in-context learning,
+S161,2025,prompt_engineering,PE6,Template-based / structured,
+S161,2025,stage,T2,Artifact Generation,
+S161,2025,activity,A6,Test oracle,T2
+S161,2025,vendor,M1,OpenAI,
+S162,2025,prompt_engineering,PE6,Template-based / structured,
+S162,2025,prompt_engineering,PE7,RAG,
+S162,2025,prompt_engineering,PE8,Step-by-step / decomposition,
+S162,2025,stage,T1,Requirements Management,
+S162,2025,stage,T2,Artifact Generation,
+S162,2025,activity,A2,Element localization,T1
+S162,2025,activity,A5,Test input,T2
+S162,2025,vendor,M1,OpenAI,
+S162,2025,architecture,AR1,Single-agent,
+S163,2025,prompt_engineering,PE1,Few-shot / in-context learning,
+S163,2025,prompt_engineering,PE3,Chain-of-Thought,
+S163,2025,prompt_engineering,PE6,Template-based / structured,
+S163,2025,prompt_engineering,PE7,RAG,
+S163,2025,stage,T2,Artifact Generation,
+S163,2025,activity,A5,Test input,T2
+S163,2025,vendor,M11,Other origins,
+S163,2025,architecture,AR1,Single-agent,
+S164,2025,prompt_engineering,PE1,Few-shot / in-context learning,
+S164,2025,prompt_engineering,PE5,Iterative / feedback / self-refine,
+S164,2025,prompt_engineering,PE6,Template-based / structured,
+S164,2025,prompt_engineering,PE7,RAG,
+S164,2025,stage,T2,Artifact Generation,
+S164,2025,stage,T4,Report and Regression,
+S164,2025,activity,A6,Test oracle,T2
+S164,2025,activity,A9,Test repair,T4
+S164,2025,vendor,M1,OpenAI,
+S164,2025,vendor,M4,Mistral AI,
+S165,2025,prompt_engineering,PE5,Iterative / feedback / self-refine,
+S165,2025,prompt_engineering,PE6,Template-based / structured,
+S165,2025,stage,T4,Report and Regression,
+S165,2025,activity,A9,Test repair,T4
+S165,2025,activity,A10,Test improvement,T4
+S165,2025,vendor,M1,OpenAI,
+S165,2025,architecture,AR1,Single-agent,
+S166,2025,prompt_engineering,PE1,Few-shot / in-context learning,
+S166,2025,prompt_engineering,PE7,RAG,
+S166,2025,stage,T4,Report and Regression,
+S166,2025,stage,T2,Artifact Generation,
+S166,2025,activity,A10,Test improvement,T4
+S166,2025,activity,A3,Test code,T2
+S166,2025,vendor,M2,Meta,
+S166,2025,vendor,M9,DeepSeek,
+S166,2025,architecture,AR1,Single-agent,
+S167,2025,prompt_engineering,PE3,Chain-of-Thought,
+S167,2025,prompt_engineering,PE8,Step-by-step / decomposition,
+S167,2025,stage,T2,Artifact Generation,
+S167,2025,activity,A3,Test code,T2
+S167,2025,activity,A5,Test input,T2
+S167,2025,vendor,M1,OpenAI,
+S167,2025,vendor,M2,Meta,
+S167,2025,vendor,M9,DeepSeek,
+S167,2025,vendor,M10,Alibaba,
+S167,2025,architecture,AR1,Single-agent,
+S168,2025,prompt_engineering,PE11,Undefined,
+S168,2025,stage,T2,Artifact Generation,
+S168,2025,activity,A3,Test code,T2
+S168,2025,vendor,M1,OpenAI,
+S168,2025,vendor,M2,Meta,
+S168,2025,vendor,M3,Google,
+S168,2025,vendor,M4,Mistral AI,
+S168,2025,vendor,M9,DeepSeek,
+S168,2025,architecture,AR1,Single-agent,
+S169,2025,prompt_engineering,PE1,Few-shot / in-context learning,
+S169,2025,prompt_engineering,PE5,Iterative / feedback / self-refine,
+S169,2025,prompt_engineering,PE7,RAG,
+S169,2025,stage,T4,Report and Regression,
+S169,2025,activity,A9,Test repair,T4
+S169,2025,vendor,M1,OpenAI,
+S169,2025,vendor,M9,DeepSeek,
+S169,2025,vendor,M10,Alibaba,
+S169,2025,architecture,AR1,Single-agent,
+S170,2025,prompt_engineering,PE1,Few-shot / in-context learning,
+S170,2025,prompt_engineering,PE3,Chain-of-Thought,
+S170,2025,prompt_engineering,PE5,Iterative / feedback / self-refine,
+S170,2025,prompt_engineering,PE6,Template-based / structured,
+S170,2025,stage,T2,Artifact Generation,
+S170,2025,stage,T3,Verification and Prioritization,
+S170,2025,activity,A3,Test code,T2
+S170,2025,activity,A7,Semantic judgment,T3
+S170,2025,vendor,M1,OpenAI,
+S170,2025,vendor,M9,DeepSeek,
+S170,2025,architecture,AR1,Single-agent,
+S171,2025,prompt_engineering,PE3,Chain-of-Thought,
+S171,2025,prompt_engineering,PE6,Template-based / structured,
+S171,2025,stage,T2,Artifact Generation,
+S171,2025,activity,A5,Test input,T2
+S171,2025,vendor,M1,OpenAI,
+S171,2025,vendor,M9,DeepSeek,
+S171,2025,architecture,AR1,Single-agent,
+S172,2025,prompt_engineering,PE4,Role / persona prompting,
+S172,2025,prompt_engineering,PE5,Iterative / feedback / self-refine,
+S172,2025,prompt_engineering,PE6,Template-based / structured,
+S172,2025,stage,T2,Artifact Generation,
+S172,2025,stage,T4,Report and Regression,
+S172,2025,activity,A3,Test code,T2
+S172,2025,activity,A9,Test repair,T4
+S172,2025,vendor,M1,OpenAI,
+S172,2025,vendor,M2,Meta,
+S173,2025,prompt_engineering,PE1,Few-shot / in-context learning,
+S173,2025,prompt_engineering,PE3,Chain-of-Thought,
+S173,2025,prompt_engineering,PE5,Iterative / feedback / self-refine,
+S173,2025,prompt_engineering,PE6,Template-based / structured,
+S173,2025,prompt_engineering,PE7,RAG,
+S173,2025,stage,T1,Requirements Management,
+S173,2025,stage,T2,Artifact Generation,
+S173,2025,activity,A1,Requirement extraction,T1
+S173,2025,activity,A5,Test input,T2
+S173,2025,vendor,M1,OpenAI,
+S173,2025,architecture,AR1,Single-agent,
+S174,2025,prompt_engineering,PE2,Zero-shot,
+S174,2025,prompt_engineering,PE6,Template-based / structured,
+S174,2025,stage,T4,Report and Regression,
+S174,2025,activity,A12,Suite quality,T4
+S174,2025,vendor,M2,Meta,
+S174,2025,architecture,AR1,Single-agent,
+S175,2025,prompt_engineering,PE2,Zero-shot,
+S175,2025,stage,T2,Artifact Generation,
+S175,2025,activity,A3,Test code,T2
+S175,2025,vendor,M1,OpenAI,
+S175,2025,vendor,M11,Other origins,
+S175,2025,architecture,AR1,Single-agent,
+S176,2025,prompt_engineering,PE2,Zero-shot,
+S176,2025,prompt_engineering,PE6,Template-based / structured,
+S176,2025,stage,T2,Artifact Generation,
+S176,2025,activity,A6,Test oracle,T2
+S176,2025,vendor,M10,Alibaba,
+S176,2025,vendor,M5,Microsoft,
+S176,2025,vendor,M2,Meta,
+S176,2025,architecture,AR1,Single-agent,
+S177,2025,prompt_engineering,PE2,Zero-shot,
+S177,2025,prompt_engineering,PE6,Template-based / structured,
+S177,2025,prompt_engineering,PE8,Step-by-step / decomposition,
+S177,2025,stage,T4,Report and Regression,
+S177,2025,activity,A13,Log analysis,T4
+S177,2025,vendor,M10,Alibaba,
+S177,2025,vendor,M9,DeepSeek,
+S177,2025,vendor,M1,OpenAI,
+S177,2025,architecture,AR1,Single-agent,
+S178,2025,prompt_engineering,PE2,Zero-shot,
+S178,2025,stage,T2,Artifact Generation,
+S178,2025,activity,A5,Test input,T2
+S178,2025,vendor,M2,Meta,
+S178,2025,architecture,AR1,Single-agent,
+S179,2025,prompt_engineering,PE2,Zero-shot,
+S179,2025,prompt_engineering,PE6,Template-based / structured,
+S179,2025,fine_tuning,FT1,Supervised fine-tuning (SFT / full),
+S179,2025,stage,T1,Requirements Management,
+S179,2025,activity,A2,Element localization,T1
+S179,2025,vendor,M2,Meta,
+S179,2025,vendor,M3,Google,
+S179,2025,vendor,M5,Microsoft,
+S179,2025,architecture,AR1,Single-agent,
+S180,2025,prompt_engineering,PE11,Undefined,
+S180,2025,fine_tuning,FT5,Unspecified fine-tuning,
+S180,2025,stage,T2,Artifact Generation,
+S180,2025,stage,T4,Report and Regression,
+S180,2025,activity,A3,Test code,T2
+S180,2025,activity,A5,Test input,T2
+S180,2025,activity,A9,Test repair,T4
+S180,2025,vendor,M1,OpenAI,
+S180,2025,vendor,M6,Anthropic,
+S180,2025,architecture,AR1,Single-agent,
+S181,2025,prompt_engineering,PE4,Role / persona prompting,
+S181,2025,prompt_engineering,PE6,Template-based / structured,
+S181,2025,prompt_engineering,PE8,Step-by-step / decomposition,
+S181,2025,stage,T1,Requirements Management,
+S181,2025,stage,T2,Artifact Generation,
+S181,2025,activity,A1,Requirement extraction,T1
+S181,2025,activity,A3,Test code,T2
+S181,2025,vendor,M1,OpenAI,
+S181,2025,vendor,M3,Google,
+S181,2025,architecture,AR2,Multi-agent,
+S182,2025,prompt_engineering,PE11,Undefined,
+S182,2025,fine_tuning,FT5,Unspecified fine-tuning,
+S182,2025,stage,T4,Report and Regression,
+S182,2025,activity,A9,Test repair,T4
+S182,2025,activity,A13,Log analysis,T4
+S182,2025,vendor,M1,OpenAI,
+S182,2025,vendor,M11,Other origins,
+S182,2025,architecture,AR1,Single-agent,
+S183,2025,prompt_engineering,PE4,Role / persona prompting,
+S183,2025,stage,T2,Artifact Generation,
+S183,2025,activity,A4,Test instruction,T2
+S183,2025,activity,A6,Test oracle,T2
+S183,2025,vendor,M1,OpenAI,
+S183,2025,architecture,AR1,Single-agent,
+S184,2025,prompt_engineering,PE4,Role / persona prompting,
+S184,2025,prompt_engineering,PE6,Template-based / structured,
+S184,2025,fine_tuning,FT1,Supervised fine-tuning (SFT / full),
+S184,2025,stage,T2,Artifact Generation,
+S184,2025,activity,A3,Test code,T2
+S184,2025,activity,A6,Test oracle,T2
+S184,2025,vendor,M1,OpenAI,
+S184,2025,vendor,M2,Meta,
+S184,2025,vendor,M3,Google,
+S184,2025,vendor,M7,BigCode / HuggingFace,
+S184,2025,vendor,M8,Salesforce,
+S185,2025,prompt_engineering,PE7,RAG,
+S185,2025,stage,T2,Artifact Generation,
+S185,2025,activity,A3,Test code,T2
+S185,2025,vendor,M9,DeepSeek,
+S185,2025,vendor,M2,Meta,
+S185,2025,vendor,M11,Other origins,
+S185,2025,architecture,AR1,Single-agent,
+S186,2025,prompt_engineering,PE1,Few-shot / in-context learning,
+S186,2025,prompt_engineering,PE6,Template-based / structured,
+S186,2025,prompt_engineering,PE5,Iterative / feedback / self-refine,
+S186,2025,stage,T1,Requirements Management,
+S186,2025,stage,T2,Artifact Generation,
+S186,2025,stage,T4,Report and Regression,
+S186,2025,activity,A1,Requirement extraction,T1
+S186,2025,activity,A3,Test code,T2
+S186,2025,activity,A4,Test instruction,T2
+S186,2025,activity,A11,Validation,T4
+S186,2025,vendor,M1,OpenAI,
+S186,2025,architecture,AR1,Single-agent,
+S187,2025,prompt_engineering,PE1,Few-shot / in-context learning,
+S187,2025,prompt_engineering,PE2,Zero-shot,
+S187,2025,prompt_engineering,PE6,Template-based / structured,
+S187,2025,stage,T2,Artifact Generation,
+S187,2025,activity,A3,Test code,T2
+S187,2025,activity,A5,Test input,T2
+S187,2025,vendor,M1,OpenAI,
+S187,2025,vendor,M2,Meta,
+S187,2025,vendor,M5,Microsoft,
+S187,2025,vendor,M11,Other origins,
+S187,2025,architecture,AR1,Single-agent,
+S188,2025,prompt_engineering,PE2,Zero-shot,
+S188,2025,prompt_engineering,PE6,Template-based / structured,
+S188,2025,stage,T3,Verification and Prioritization,
+S188,2025,activity,A7,Semantic judgment,T3
+S188,2025,vendor,M1,OpenAI,
+S188,2025,vendor,M6,Anthropic,
+S188,2025,architecture,AR1,Single-agent,
+S189,2025,prompt_engineering,PE4,Role / persona prompting,
+S189,2025,prompt_engineering,PE5,Iterative / feedback / self-refine,
+S189,2025,prompt_engineering,PE6,Template-based / structured,
+S189,2025,stage,T2,Artifact Generation,
+S189,2025,activity,A5,Test input,T2
+S189,2025,vendor,M1,OpenAI,
+S189,2025,vendor,M2,Meta,
+S190,2025,prompt_engineering,PE4,Role / persona prompting,
+S190,2025,prompt_engineering,PE6,Template-based / structured,
+S190,2025,prompt_engineering,PE10,Tree-of-Thought,
+S190,2025,stage,T2,Artifact Generation,
+S190,2025,activity,A5,Test input,T2
+S190,2025,activity,A3,Test code,T2
+S190,2025,vendor,M1,OpenAI,
+S191,2025,prompt_engineering,PE2,Zero-shot,
+S191,2025,prompt_engineering,PE4,Role / persona prompting,
+S191,2025,prompt_engineering,PE6,Template-based / structured,
+S191,2025,stage,T2,Artifact Generation,
+S191,2025,stage,T4,Report and Regression,
+S191,2025,stage,T3,Verification and Prioritization,
+S191,2025,activity,A4,Test instruction,T2
+S191,2025,activity,A13,Log analysis,T4
+S191,2025,activity,A7,Semantic judgment,T3
+S191,2025,vendor,M1,OpenAI,
+S191,2025,vendor,M11,Other origins,
+S192,2025,prompt_engineering,PE1,Few-shot / in-context learning,
+S192,2025,prompt_engineering,PE4,Role / persona prompting,
+S192,2025,prompt_engineering,PE6,Template-based / structured,
+S192,2025,stage,T2,Artifact Generation,
+S192,2025,activity,A3,Test code,T2
+S192,2025,activity,A5,Test input,T2
+S192,2025,activity,A6,Test oracle,T2
+S192,2025,vendor,M1,OpenAI,
+S192,2025,architecture,AR1,Single-agent,
+S193,2025,prompt_engineering,PE2,Zero-shot,
+S193,2025,stage,T2,Artifact Generation,
+S193,2025,activity,A3,Test code,T2
+S193,2025,vendor,M1,OpenAI,
+S193,2025,vendor,M2,Meta,
+S193,2025,vendor,M6,Anthropic,
+S193,2025,vendor,M11,Other origins,
+S194,2025,prompt_engineering,PE4,Role / persona prompting,
+S194,2025,prompt_engineering,PE5,Iterative / feedback / self-refine,
+S194,2025,prompt_engineering,PE8,Step-by-step / decomposition,
+S194,2025,stage,T2,Artifact Generation,
+S194,2025,stage,T3,Verification and Prioritization,
+S194,2025,activity,A5,Test input,T2
+S194,2025,activity,A7,Semantic judgment,T3
+S194,2025,vendor,M2,Meta,
+S194,2025,vendor,M3,Google,
+S194,2025,vendor,M4,Mistral AI,
+S195,2025,prompt_engineering,PE1,Few-shot / in-context learning,
+S195,2025,prompt_engineering,PE6,Template-based / structured,
+S195,2025,prompt_engineering,PE7,RAG,
+S195,2025,fine_tuning,FT5,Unspecified fine-tuning,
+S195,2025,stage,T2,Artifact Generation,
+S195,2025,stage,T3,Verification and Prioritization,
+S195,2025,activity,A3,Test code,T2
+S195,2025,activity,A7,Semantic judgment,T3
+S195,2025,vendor,M1,OpenAI,
+S195,2025,vendor,M2,Meta,
+S195,2025,vendor,M9,DeepSeek,
+S195,2025,architecture,AR1,Single-agent,
+S196,2025,prompt_engineering,PE6,Template-based / structured,
+S196,2025,fine_tuning,FT3,LoRA,
+S196,2025,stage,T2,Artifact Generation,
+S196,2025,activity,A3,Test code,T2
+S196,2025,vendor,M1,OpenAI,
+S196,2025,vendor,M2,Meta,
+S197,2025,prompt_engineering,PE5,Iterative / feedback / self-refine,
+S197,2025,prompt_engineering,PE6,Template-based / structured,
+S197,2025,fine_tuning,FT5,Unspecified fine-tuning,
+S197,2025,stage,T2,Artifact Generation,
+S197,2025,stage,T4,Report and Regression,
+S197,2025,activity,A3,Test code,T2
+S197,2025,activity,A9,Test repair,T4
+S197,2025,vendor,M1,OpenAI,
+S197,2025,vendor,M9,DeepSeek,
+S197,2025,architecture,AR1,Single-agent,
+S198,2025,prompt_engineering,PE2,Zero-shot,
+S198,2025,prompt_engineering,PE6,Template-based / structured,
+S198,2025,prompt_engineering,PE7,RAG,
+S198,2025,stage,T1,Requirements Management,
+S198,2025,stage,T2,Artifact Generation,
+S198,2025,activity,A1,Requirement extraction,T1
+S198,2025,activity,A3,Test code,T2
+S198,2025,vendor,M9,DeepSeek,
+S198,2025,architecture,AR1,Single-agent,
+S199,2025,prompt_engineering,PE7,RAG,
+S199,2025,fine_tuning,FT1,Supervised fine-tuning (SFT / full),
+S199,2025,stage,T2,Artifact Generation,
+S199,2025,activity,A6,Test oracle,T2
+S199,2025,vendor,M5,Microsoft,
+S199,2025,vendor,M8,Salesforce,
+S199,2025,vendor,M2,Meta,
+S199,2025,architecture,AR1,Single-agent,
+S200,2025,prompt_engineering,PE6,Template-based / structured,
+S200,2025,prompt_engineering,PE7,RAG,
+S200,2025,prompt_engineering,PE9,ReAct,
+S200,2025,stage,T2,Artifact Generation,
+S200,2025,stage,T4,Report and Regression,
+S200,2025,activity,A3,Test code,T2
+S200,2025,activity,A9,Test repair,T4
+S200,2025,activity,A10,Test improvement,T4
+S200,2025,activity,A11,Validation,T4
+S200,2025,activity,A12,Suite quality,T4
+S200,2025,vendor,M10,Alibaba,
+S200,2025,vendor,M11,Other origins,
+S200,2025,architecture,AR2,Multi-agent,
+S201,2025,prompt_engineering,PE1,Few-shot / in-context learning,
+S201,2025,prompt_engineering,PE3,Chain-of-Thought,
+S201,2025,prompt_engineering,PE6,Template-based / structured,
+S201,2025,prompt_engineering,PE7,RAG,
+S201,2025,prompt_engineering,PE10,Tree-of-Thought,
+S201,2025,stage,T4,Report and Regression,
+S201,2025,activity,A11,Validation,T4
+S201,2025,vendor,M1,OpenAI,
+S201,2025,vendor,M2,Meta,
+S201,2025,vendor,M3,Google,
+S201,2025,vendor,M4,Mistral AI,
+S201,2025,vendor,M5,Microsoft,
+S201,2025,vendor,M6,Anthropic,
+S201,2025,vendor,M7,BigCode / HuggingFace,
+S201,2025,vendor,M9,DeepSeek,
+S201,2025,vendor,M10,Alibaba,
+S201,2025,vendor,M11,Other origins,
+S201,2025,architecture,AR1,Single-agent,
+S202,2025,prompt_engineering,PE1,Few-shot / in-context learning,
+S202,2025,prompt_engineering,PE3,Chain-of-Thought,
+S202,2025,prompt_engineering,PE4,Role / persona prompting,
+S202,2025,prompt_engineering,PE6,Template-based / structured,
+S202,2025,prompt_engineering,PE8,Step-by-step / decomposition,
+S202,2025,stage,T1,Requirements Management,
+S202,2025,activity,A1,Requirement extraction,T1
+S202,2025,vendor,M1,OpenAI,
+S202,2025,vendor,M2,Meta,
+S202,2025,vendor,M6,Anthropic,
+S203,2025,prompt_engineering,PE3,Chain-of-Thought,
+S203,2025,prompt_engineering,PE5,Iterative / feedback / self-refine,
+S203,2025,prompt_engineering,PE8,Step-by-step / decomposition,
+S203,2025,stage,T1,Requirements Management,
+S203,2025,stage,T4,Report and Regression,
+S203,2025,activity,A1,Requirement extraction,T1
+S203,2025,activity,A11,Validation,T4
+S203,2025,vendor,M1,OpenAI,
+S203,2025,vendor,M6,Anthropic,
+S204,2025,prompt_engineering,PE2,Zero-shot,
+S204,2025,prompt_engineering,PE6,Template-based / structured,
+S204,2025,prompt_engineering,PE8,Step-by-step / decomposition,
+S204,2025,stage,T2,Artifact Generation,
+S204,2025,activity,A5,Test input,T2
+S204,2025,vendor,M1,OpenAI,
+S205,2025,prompt_engineering,PE2,Zero-shot,
+S205,2025,prompt_engineering,PE6,Template-based / structured,
+S205,2025,prompt_engineering,PE8,Step-by-step / decomposition,
+S205,2025,stage,T2,Artifact Generation,
+S205,2025,activity,A3,Test code,T2
+S205,2025,activity,A5,Test input,T2
+S205,2025,vendor,M2,Meta,
+S205,2025,architecture,AR1,Single-agent,
+S206,2025,prompt_engineering,PE6,Template-based / structured,
+S206,2025,fine_tuning,FT1,Supervised fine-tuning (SFT / full),
+S206,2025,stage,T2,Artifact Generation,
+S206,2025,activity,A3,Test code,T2
+S206,2025,activity,A4,Test instruction,T2
+S206,2025,activity,A5,Test input,T2
+S206,2025,vendor,M1,OpenAI,
+S206,2025,vendor,M2,Meta,
+S206,2025,vendor,M10,Alibaba,
+S206,2025,architecture,AR1,Single-agent,
+S207,2025,prompt_engineering,PE1,Few-shot / in-context learning,
+S207,2025,stage,T2,Artifact Generation,
+S207,2025,activity,A3,Test code,T2
+S207,2025,activity,A6,Test oracle,T2
+S207,2025,vendor,M1,OpenAI,
+S207,2025,vendor,M2,Meta,
+S207,2025,vendor,M3,Google,
+S207,2025,vendor,M6,Anthropic,
+S207,2025,vendor,M9,DeepSeek,
+S207,2025,vendor,M11,Other origins,
+S207,2025,architecture,AR1,Single-agent,
+S208,2025,prompt_engineering,PE11,Undefined,
+S208,2025,vendor,M1,OpenAI,
+S208,2025,vendor,M3,Google,
+S208,2025,vendor,M6,Anthropic,
+S209,2025,prompt_engineering,PE6,Template-based / structured,
+S209,2025,prompt_engineering,PE7,RAG,
+S209,2025,stage,T1,Requirements Management,
+S209,2025,stage,T2,Artifact Generation,
+S209,2025,activity,A2,Element localization,T1
+S209,2025,activity,A4,Test instruction,T2
+S209,2025,activity,A6,Test oracle,T2
+S209,2025,architecture,AR1,Single-agent,
+S210,2025,prompt_engineering,PE1,Few-shot / in-context learning,
+S210,2025,prompt_engineering,PE6,Template-based / structured,
+S210,2025,stage,T1,Requirements Management,
+S210,2025,stage,T2,Artifact Generation,
+S210,2025,activity,A2,Element localization,T1
+S210,2025,activity,A3,Test code,T2
+S210,2025,activity,A5,Test input,T2
+S210,2025,vendor,M1,OpenAI,
+S210,2025,vendor,M3,Google,
+S210,2025,vendor,M6,Anthropic,
+S210,2025,architecture,AR1,Single-agent,
+S211,2025,prompt_engineering,PE2,Zero-shot,
+S211,2025,prompt_engineering,PE6,Template-based / structured,
+S211,2025,prompt_engineering,PE8,Step-by-step / decomposition,
+S211,2025,stage,T2,Artifact Generation,
+S211,2025,activity,A3,Test code,T2
+S211,2025,activity,A4,Test instruction,T2
+S211,2025,vendor,M4,Mistral AI,
+S211,2025,architecture,AR1,Single-agent,
+S212,2025,prompt_engineering,PE2,Zero-shot,
+S212,2025,stage,T1,Requirements Management,
+S212,2025,stage,T2,Artifact Generation,
+S212,2025,activity,A2,Element localization,T1
+S212,2025,activity,A5,Test input,T2
+S212,2025,vendor,M2,Meta,
+S212,2025,architecture,AR1,Single-agent,
+S213,2025,prompt_engineering,PE2,Zero-shot,
+S213,2025,prompt_engineering,PE6,Template-based / structured,
+S213,2025,fine_tuning,FT3,LoRA,
+S213,2025,stage,T2,Artifact Generation,
+S213,2025,activity,A3,Test code,T2
+S213,2025,activity,A5,Test input,T2
+S213,2025,vendor,M1,OpenAI,
+S213,2025,vendor,M2,Meta,
+S213,2025,vendor,M7,BigCode / HuggingFace,
+S213,2025,vendor,M10,Alibaba,
+S213,2025,architecture,AR1,Single-agent,
+S214,2025,prompt_engineering,PE2,Zero-shot,
+S214,2025,fine_tuning,FT1,Supervised fine-tuning (SFT / full),
+S214,2025,stage,T2,Artifact Generation,
+S214,2025,activity,A5,Test input,T2
+S214,2025,vendor,M2,Meta,
+S214,2025,vendor,M7,BigCode / HuggingFace,
+S214,2025,vendor,M9,DeepSeek,
+S214,2025,vendor,M10,Alibaba,
+S214,2025,architecture,AR1,Single-agent,
+S215,2025,prompt_engineering,PE1,Few-shot / in-context learning,
+S215,2025,prompt_engineering,PE2,Zero-shot,
+S215,2025,prompt_engineering,PE3,Chain-of-Thought,
+S215,2025,prompt_engineering,PE6,Template-based / structured,
+S215,2025,prompt_engineering,PE8,Step-by-step / decomposition,
+S215,2025,stage,T1,Requirements Management,
+S215,2025,stage,T2,Artifact Generation,
+S215,2025,activity,A2,Element localization,T1
+S215,2025,activity,A6,Test oracle,T2
+S215,2025,vendor,M1,OpenAI,
+S215,2025,vendor,M2,Meta,
+S215,2025,architecture,AR1,Single-agent,
+S216,2025,prompt_engineering,PE2,Zero-shot,
+S216,2025,prompt_engineering,PE8,Step-by-step / decomposition,
+S216,2025,stage,T1,Requirements Management,
+S216,2025,stage,T2,Artifact Generation,
+S216,2025,activity,A1,Requirement extraction,T1
+S216,2025,activity,A4,Test instruction,T2
+S216,2025,vendor,M1,OpenAI,
+S216,2025,architecture,AR1,Single-agent,
+S217,2025,prompt_engineering,PE2,Zero-shot,
+S217,2025,prompt_engineering,PE6,Template-based / structured,
+S217,2025,stage,T2,Artifact Generation,
+S217,2025,activity,A5,Test input,T2
+S217,2025,vendor,M1,OpenAI,
+S217,2025,architecture,AR1,Single-agent,
+S218,2025,prompt_engineering,PE8,Step-by-step / decomposition,
+S218,2025,stage,T2,Artifact Generation,
+S218,2025,activity,A3,Test code,T2
+S218,2025,vendor,M1,OpenAI,
+S218,2025,architecture,AR1,Single-agent,
+S219,2025,prompt_engineering,PE11,Undefined,
+S219,2025,fine_tuning,FT2,QLoRA,
+S219,2025,stage,T2,Artifact Generation,
+S219,2025,activity,A3,Test code,T2
+S219,2025,vendor,M2,Meta,
+S220,2025,prompt_engineering,PE2,Zero-shot,
+S220,2025,prompt_engineering,PE5,Iterative / feedback / self-refine,
+S220,2025,prompt_engineering,PE6,Template-based / structured,
+S220,2025,stage,T2,Artifact Generation,
+S220,2025,activity,A5,Test input,T2
+S220,2025,vendor,M3,Google,
+S220,2025,architecture,AR1,Single-agent,
+S221,2025,prompt_engineering,PE1,Few-shot / in-context learning,
+S221,2025,prompt_engineering,PE3,Chain-of-Thought,
+S221,2025,prompt_engineering,PE6,Template-based / structured,
+S221,2025,prompt_engineering,PE8,Step-by-step / decomposition,
+S221,2025,stage,T2,Artifact Generation,
+S221,2025,stage,T4,Report and Regression,
+S221,2025,activity,A4,Test instruction,T2
+S221,2025,activity,A3,Test code,T2
+S221,2025,activity,A9,Test repair,T4
+S221,2025,vendor,M1,OpenAI,
+S222,2025,prompt_engineering,PE11,Undefined,
+S222,2025,stage,T2,Artifact Generation,
+S222,2025,stage,T4,Report and Regression,
+S222,2025,activity,A3,Test code,T2
+S222,2025,activity,A9,Test repair,T4
+S222,2025,vendor,M1,OpenAI,
+S222,2025,architecture,AR1,Single-agent,
+S223,2025,prompt_engineering,PE4,Role / persona prompting,
+S223,2025,prompt_engineering,PE5,Iterative / feedback / self-refine,
+S223,2025,fine_tuning,FT5,Unspecified fine-tuning,
+S223,2025,stage,T2,Artifact Generation,
+S223,2025,stage,T3,Verification and Prioritization,
+S223,2025,activity,A3,Test code,T2
+S223,2025,activity,A7,Semantic judgment,T3
+S223,2025,vendor,M1,OpenAI,
+S223,2025,vendor,M2,Meta,
+S223,2025,vendor,M3,Google,
+S223,2025,architecture,AR2,Multi-agent,
+S224,2025,prompt_engineering,PE1,Few-shot / in-context learning,
+S224,2025,prompt_engineering,PE5,Iterative / feedback / self-refine,
+S224,2025,prompt_engineering,PE6,Template-based / structured,
+S224,2025,stage,T2,Artifact Generation,
+S224,2025,activity,A5,Test input,T2
+S224,2025,vendor,M1,OpenAI,
+S224,2025,architecture,AR1,Single-agent,
+S225,2025,prompt_engineering,PE5,Iterative / feedback / self-refine,
+S225,2025,prompt_engineering,PE6,Template-based / structured,
+S225,2025,stage,T2,Artifact Generation,
+S225,2025,activity,A5,Test input,T2
+S225,2025,vendor,M1,OpenAI,
+S226,2025,prompt_engineering,PE4,Role / persona prompting,
+S226,2025,prompt_engineering,PE6,Template-based / structured,
+S226,2025,fine_tuning,FT1,Supervised fine-tuning (SFT / full),
+S226,2025,stage,T1,Requirements Management,
+S226,2025,stage,T2,Artifact Generation,
+S226,2025,activity,A1,Requirement extraction,T1
+S226,2025,activity,A3,Test code,T2
+S226,2025,vendor,M1,OpenAI,
+S226,2025,architecture,AR1,Single-agent,
+S227,2025,prompt_engineering,PE6,Template-based / structured,
+S227,2025,prompt_engineering,PE8,Step-by-step / decomposition,
+S227,2025,stage,T4,Report and Regression,
+S227,2025,activity,A10,Test improvement,T4
+S227,2025,vendor,M1,OpenAI,
+S227,2025,vendor,M2,Meta,
+S227,2025,vendor,M3,Google,
+S227,2025,vendor,M4,Mistral AI,
+S227,2025,vendor,M6,Anthropic,
+S228,2025,prompt_engineering,PE5,Iterative / feedback / self-refine,
+S228,2025,prompt_engineering,PE7,RAG,
+S228,2025,stage,T2,Artifact Generation,
+S228,2025,stage,T4,Report and Regression,
+S228,2025,activity,A3,Test code,T2
+S228,2025,activity,A5,Test input,T2
+S228,2025,activity,A13,Log analysis,T4
+S228,2025,architecture,AR1,Single-agent,
+S229,2025,prompt_engineering,PE6,Template-based / structured,
+S229,2025,fine_tuning,FT3,LoRA,
+S229,2025,stage,T2,Artifact Generation,
+S229,2025,activity,A3,Test code,T2
+S229,2025,activity,A5,Test input,T2
+S229,2025,activity,A6,Test oracle,T2
+S229,2025,vendor,M4,Mistral AI,
+S229,2025,architecture,AR1,Single-agent,
+S230,2025,prompt_engineering,PE3,Chain-of-Thought,
+S230,2025,prompt_engineering,PE4,Role / persona prompting,
+S230,2025,prompt_engineering,PE6,Template-based / structured,
+S230,2025,prompt_engineering,PE7,RAG,
+S230,2025,prompt_engineering,PE9,ReAct,
+S230,2025,stage,T2,Artifact Generation,
+S230,2025,activity,A5,Test input,T2
+S230,2025,vendor,M1,OpenAI,
+S231,2025,prompt_engineering,PE1,Few-shot / in-context learning,
+S231,2025,prompt_engineering,PE5,Iterative / feedback / self-refine,
+S231,2025,prompt_engineering,PE6,Template-based / structured,
+S231,2025,prompt_engineering,PE7,RAG,
+S231,2025,prompt_engineering,PE9,ReAct,
+S231,2025,stage,T1,Requirements Management,
+S231,2025,stage,T2,Artifact Generation,
+S231,2025,stage,T3,Verification and Prioritization,
+S231,2025,stage,T4,Report and Regression,
+S231,2025,activity,A1,Requirement extraction,T1
+S231,2025,activity,A3,Test code,T2
+S231,2025,activity,A5,Test input,T2
+S231,2025,activity,A8,Prioritization,T3
+S231,2025,activity,A13,Log analysis,T4
+S231,2025,vendor,M10,Alibaba,
+S231,2025,vendor,M3,Google,
+S231,2025,vendor,M2,Meta,
+S231,2025,vendor,M1,OpenAI,
+S231,2025,vendor,M11,Other origins,
+S231,2025,architecture,AR2,Multi-agent,
+S232,2025,prompt_engineering,PE1,Few-shot / in-context learning,
+S232,2025,prompt_engineering,PE3,Chain-of-Thought,
+S232,2025,prompt_engineering,PE6,Template-based / structured,
+S232,2025,prompt_engineering,PE8,Step-by-step / decomposition,
+S232,2025,stage,T2,Artifact Generation,
+S232,2025,stage,T4,Report and Regression,
+S232,2025,activity,A3,Test code,T2
+S232,2025,activity,A9,Test repair,T4
+S232,2025,vendor,M1,OpenAI,
+S232,2025,architecture,AR1,Single-agent,
+S233,2025,prompt_engineering,PE4,Role / persona prompting,
+S233,2025,prompt_engineering,PE5,Iterative / feedback / self-refine,
+S233,2025,prompt_engineering,PE6,Template-based / structured,
+S233,2025,prompt_engineering,PE8,Step-by-step / decomposition,
+S233,2025,stage,T2,Artifact Generation,
+S233,2025,stage,T4,Report and Regression,
+S233,2025,activity,A4,Test instruction,T2
+S233,2025,activity,A3,Test code,T2
+S233,2025,activity,A9,Test repair,T4
+S233,2025,vendor,M1,OpenAI,
+S234,2025,prompt_engineering,PE2,Zero-shot,
+S234,2025,stage,T2,Artifact Generation,
+S234,2025,activity,A3,Test code,T2
+S234,2025,vendor,M1,OpenAI,
+S234,2025,vendor,M3,Google,
+S235,2025,prompt_engineering,PE1,Few-shot / in-context learning,
+S235,2025,prompt_engineering,PE4,Role / persona prompting,
+S235,2025,stage,T2,Artifact Generation,
+S235,2025,activity,A5,Test input,T2
+S235,2025,vendor,M1,OpenAI,
+S235,2025,vendor,M10,Alibaba,
+S235,2025,architecture,AR1,Single-agent,
+S236,2025,prompt_engineering,PE5,Iterative / feedback / self-refine,
+S236,2025,prompt_engineering,PE6,Template-based / structured,
+S236,2025,stage,T2,Artifact Generation,
+S236,2025,activity,A3,Test code,T2
+S236,2025,activity,A5,Test input,T2
+S236,2025,vendor,M1,OpenAI,
+S236,2025,architecture,AR2,Multi-agent,
+S237,2025,prompt_engineering,PE2,Zero-shot,
+S237,2025,prompt_engineering,PE8,Step-by-step / decomposition,
+S237,2025,stage,T1,Requirements Management,
+S237,2025,stage,T3,Verification and Prioritization,
+S237,2025,activity,A2,Element localization,T1
+S237,2025,activity,A7,Semantic judgment,T3
+S237,2025,vendor,M6,Anthropic,
+S237,2025,architecture,AR1,Single-agent,
+S238,2025,prompt_engineering,PE5,Iterative / feedback / self-refine,
+S238,2025,prompt_engineering,PE6,Template-based / structured,
+S238,2025,prompt_engineering,PE7,RAG,
+S238,2025,stage,T2,Artifact Generation,
+S238,2025,activity,A3,Test code,T2
+S238,2025,architecture,AR1,Single-agent,
+S239,2025,prompt_engineering,PE1,Few-shot / in-context learning,
+S239,2025,prompt_engineering,PE2,Zero-shot,
+S239,2025,stage,T2,Artifact Generation,
+S239,2025,activity,A3,Test code,T2
+S239,2025,activity,A6,Test oracle,T2
+S239,2025,activity,A5,Test input,T2
+S239,2025,vendor,M1,OpenAI,
+S239,2025,vendor,M2,Meta,
+S239,2025,vendor,M6,Anthropic,
+S239,2025,vendor,M10,Alibaba,
+S239,2025,vendor,M11,Other origins,
+S240,2025,prompt_engineering,PE4,Role / persona prompting,
+S240,2025,prompt_engineering,PE5,Iterative / feedback / self-refine,
+S240,2025,prompt_engineering,PE6,Template-based / structured,
+S240,2025,stage,T2,Artifact Generation,
+S240,2025,activity,A3,Test code,T2
+S240,2025,activity,A6,Test oracle,T2
+S240,2025,vendor,M1,OpenAI,
+S240,2025,architecture,AR1,Single-agent,
+S241,2025,prompt_engineering,PE5,Iterative / feedback / self-refine,
+S241,2025,prompt_engineering,PE6,Template-based / structured,
+S241,2025,prompt_engineering,PE8,Step-by-step / decomposition,
+S241,2025,stage,T2,Artifact Generation,
+S241,2025,stage,T4,Report and Regression,
+S241,2025,activity,A5,Test input,T2
+S241,2025,activity,A10,Test improvement,T4
+S241,2025,vendor,M1,OpenAI,
+S241,2025,vendor,M2,Meta,
+S241,2025,vendor,M7,BigCode / HuggingFace,
+S242,2025,prompt_engineering,PE2,Zero-shot,
+S242,2025,prompt_engineering,PE5,Iterative / feedback / self-refine,
+S242,2025,prompt_engineering,PE6,Template-based / structured,
+S242,2025,stage,T4,Report and Regression,
+S242,2025,activity,A10,Test improvement,T4
+S242,2025,vendor,M1,OpenAI,
+S243,2025,prompt_engineering,PE2,Zero-shot,
+S243,2025,prompt_engineering,PE3,Chain-of-Thought,
+S243,2025,prompt_engineering,PE4,Role / persona prompting,
+S243,2025,stage,T2,Artifact Generation,
+S243,2025,activity,A4,Test instruction,T2
+S243,2025,vendor,M1,OpenAI,
+S243,2025,vendor,M3,Google,
+S243,2025,vendor,M4,Mistral AI,
+S244,2025,prompt_engineering,PE5,Iterative / feedback / self-refine,
+S244,2025,prompt_engineering,PE6,Template-based / structured,
+S244,2025,stage,T2,Artifact Generation,
+S244,2025,stage,T4,Report and Regression,
+S244,2025,activity,A3,Test code,T2
+S244,2025,activity,A9,Test repair,T4
+S244,2025,vendor,M1,OpenAI,
+S244,2025,architecture,AR1,Single-agent,
+S245,2025,prompt_engineering,PE1,Few-shot / in-context learning,
+S245,2025,prompt_engineering,PE3,Chain-of-Thought,
+S245,2025,prompt_engineering,PE6,Template-based / structured,
+S245,2025,prompt_engineering,PE8,Step-by-step / decomposition,
+S245,2025,stage,T2,Artifact Generation,
+S245,2025,activity,A5,Test input,T2
+S245,2025,vendor,M1,OpenAI,
+S246,2025,prompt_engineering,PE1,Few-shot / in-context learning,
+S246,2025,prompt_engineering,PE4,Role / persona prompting,
+S246,2025,prompt_engineering,PE6,Template-based / structured,
+S246,2025,stage,T2,Artifact Generation,
+S246,2025,activity,A3,Test code,T2
+S246,2025,vendor,M1,OpenAI,
+S247,2025,prompt_engineering,PE1,Few-shot / in-context learning,
+S247,2025,prompt_engineering,PE3,Chain-of-Thought,
+S247,2025,prompt_engineering,PE5,Iterative / feedback / self-refine,
+S247,2025,prompt_engineering,PE6,Template-based / structured,
+S247,2025,stage,T2,Artifact Generation,
+S247,2025,stage,T4,Report and Regression,
+S247,2025,activity,A5,Test input,T2
+S247,2025,activity,A13,Log analysis,T4
+S247,2025,vendor,M1,OpenAI,
+S247,2025,vendor,M9,DeepSeek,
+S247,2025,vendor,M10,Alibaba,
+S247,2025,architecture,AR1,Single-agent,
+S248,2025,prompt_engineering,PE4,Role / persona prompting,
+S248,2025,prompt_engineering,PE6,Template-based / structured,
+S248,2025,stage,T2,Artifact Generation,
+S248,2025,activity,A3,Test code,T2
+S248,2025,activity,A5,Test input,T2
+S248,2025,vendor,M10,Alibaba,
+S248,2025,architecture,AR1,Single-agent,
+S249,2025,prompt_engineering,PE3,Chain-of-Thought,
+S249,2025,prompt_engineering,PE4,Role / persona prompting,
+S249,2025,prompt_engineering,PE5,Iterative / feedback / self-refine,
+S249,2025,prompt_engineering,PE8,Step-by-step / decomposition,
+S249,2025,stage,T2,Artifact Generation,
+S249,2025,stage,T4,Report and Regression,
+S249,2025,activity,A3,Test code,T2
+S249,2025,activity,A9,Test repair,T4
+S249,2025,vendor,M2,Meta,
+S249,2025,architecture,AR2,Multi-agent,
+S250,2025,prompt_engineering,PE1,Few-shot / in-context learning,
+S250,2025,prompt_engineering,PE5,Iterative / feedback / self-refine,
+S250,2025,prompt_engineering,PE7,RAG,
+S250,2025,stage,T2,Artifact Generation,
+S250,2025,stage,T4,Report and Regression,
+S250,2025,activity,A3,Test code,T2
+S250,2025,activity,A9,Test repair,T4
+S250,2025,activity,A13,Log analysis,T4
+S250,2025,vendor,M2,Meta,
+S250,2025,vendor,M4,Mistral AI,
+S250,2025,vendor,M5,Microsoft,
+S251,2025,prompt_engineering,PE1,Few-shot / in-context learning,
+S251,2025,prompt_engineering,PE2,Zero-shot,
+S251,2025,prompt_engineering,PE5,Iterative / feedback / self-refine,
+S251,2025,prompt_engineering,PE6,Template-based / structured,
+S251,2025,prompt_engineering,PE8,Step-by-step / decomposition,
+S251,2025,stage,T1,Requirements Management,
+S251,2025,stage,T2,Artifact Generation,
+S251,2025,activity,A2,Element localization,T1
+S251,2025,activity,A5,Test input,T2
+S251,2025,vendor,M1,OpenAI,
+S251,2025,vendor,M2,Meta,
+S251,2025,vendor,M3,Google,
+S251,2025,vendor,M4,Mistral AI,
+S251,2025,vendor,M10,Alibaba,
+S251,2025,architecture,AR1,Single-agent,
+S252,2025,prompt_engineering,PE3,Chain-of-Thought,
+S252,2025,prompt_engineering,PE5,Iterative / feedback / self-refine,
+S252,2025,prompt_engineering,PE6,Template-based / structured,
+S252,2025,prompt_engineering,PE8,Step-by-step / decomposition,
+S252,2025,stage,T2,Artifact Generation,
+S252,2025,stage,T4,Report and Regression,
+S252,2025,activity,A5,Test input,T2
+S252,2025,activity,A9,Test repair,T4
+S252,2025,vendor,M1,OpenAI,
+S252,2025,vendor,M9,DeepSeek,
+S253,2025,prompt_engineering,PE1,Few-shot / in-context learning,
+S253,2025,prompt_engineering,PE3,Chain-of-Thought,
+S253,2025,prompt_engineering,PE6,Template-based / structured,
+S253,2025,stage,T1,Requirements Management,
+S253,2025,stage,T2,Artifact Generation,
+S253,2025,activity,A2,Element localization,T1
+S253,2025,activity,A5,Test input,T2
+S253,2025,vendor,M1,OpenAI,
+S253,2025,vendor,M11,Other origins,
+S253,2025,architecture,AR1,Single-agent,
+S254,2025,prompt_engineering,PE3,Chain-of-Thought,
+S254,2025,prompt_engineering,PE5,Iterative / feedback / self-refine,
+S254,2025,prompt_engineering,PE6,Template-based / structured,
+S254,2025,stage,T2,Artifact Generation,
+S254,2025,activity,A5,Test input,T2
+S254,2025,vendor,M1,OpenAI,
+S254,2025,architecture,AR1,Single-agent,
+S255,2025,prompt_engineering,PE6,Template-based / structured,
+S255,2025,prompt_engineering,PE8,Step-by-step / decomposition,
+S255,2025,fine_tuning,FT5,Unspecified fine-tuning,
+S255,2025,stage,T1,Requirements Management,
+S255,2025,stage,T2,Artifact Generation,
+S255,2025,activity,A2,Element localization,T1
+S255,2025,activity,A5,Test input,T2
+S255,2025,vendor,M11,Other origins,
+S255,2025,architecture,AR1,Single-agent,
+S256,2025,prompt_engineering,PE5,Iterative / feedback / self-refine,
+S256,2025,prompt_engineering,PE7,RAG,
+S256,2025,stage,T2,Artifact Generation,
+S256,2025,activity,A3,Test code,T2
+S256,2025,activity,A5,Test input,T2
+S256,2025,vendor,M1,OpenAI,
+S256,2025,architecture,AR1,Single-agent,
+S257,2025,prompt_engineering,PE1,Few-shot / in-context learning,
+S257,2025,prompt_engineering,PE7,RAG,
+S257,2025,stage,T2,Artifact Generation,
+S257,2025,stage,T3,Verification and Prioritization,
+S257,2025,activity,A3,Test code,T2
+S257,2025,activity,A7,Semantic judgment,T3
+S257,2025,vendor,M2,Meta,
+S257,2025,vendor,M4,Mistral AI,
+S257,2025,vendor,M9,DeepSeek,
+S257,2025,vendor,M10,Alibaba,
+S257,2025,vendor,M11,Other origins,
+S257,2025,architecture,AR2,Multi-agent,
+S258,2025,prompt_engineering,PE5,Iterative / feedback / self-refine,
+S258,2025,prompt_engineering,PE8,Step-by-step / decomposition,
+S258,2025,stage,T2,Artifact Generation,
+S258,2025,stage,T4,Report and Regression,
+S258,2025,activity,A3,Test code,T2
+S258,2025,activity,A5,Test input,T2
+S258,2025,activity,A9,Test repair,T4
+S258,2025,activity,A13,Log analysis,T4
+S258,2025,architecture,AR2,Multi-agent,
+S259,2025,prompt_engineering,PE4,Role / persona prompting,
+S259,2025,prompt_engineering,PE6,Template-based / structured,
+S259,2025,stage,T2,Artifact Generation,
+S259,2025,activity,A3,Test code,T2
+S259,2025,vendor,M1,OpenAI,
+S259,2025,vendor,M2,Meta,
+S259,2025,vendor,M4,Mistral AI,
+S260,2025,prompt_engineering,PE2,Zero-shot,
+S260,2025,prompt_engineering,PE5,Iterative / feedback / self-refine,
+S260,2025,fine_tuning,FT3,LoRA,
+S260,2025,stage,T2,Artifact Generation,
+S260,2025,activity,A5,Test input,T2
+S260,2025,vendor,M1,OpenAI,
+S260,2025,vendor,M2,Meta,
+S260,2025,architecture,AR1,Single-agent,
+S261,2025,prompt_engineering,PE1,Few-shot / in-context learning,
+S261,2025,prompt_engineering,PE2,Zero-shot,
+S261,2025,stage,T2,Artifact Generation,
+S261,2025,stage,T4,Report and Regression,
+S261,2025,activity,A3,Test code,T2
+S261,2025,activity,A12,Suite quality,T4
+S261,2025,vendor,M1,OpenAI,
+S261,2025,vendor,M2,Meta,
+S261,2025,vendor,M3,Google,
+S261,2025,architecture,AR1,Single-agent,
+S262,2025,prompt_engineering,PE5,Iterative / feedback / self-refine,
+S262,2025,prompt_engineering,PE6,Template-based / structured,
+S262,2025,stage,T3,Verification and Prioritization,
+S262,2025,activity,A7,Semantic judgment,T3
+S262,2025,vendor,M2,Meta,
+S262,2025,vendor,M3,Google,
+S262,2025,vendor,M7,BigCode / HuggingFace,
+S262,2025,architecture,AR2,Multi-agent,
+S263,2025,prompt_engineering,PE2,Zero-shot,
+S263,2025,prompt_engineering,PE6,Template-based / structured,
+S263,2025,stage,T3,Verification and Prioritization,
+S263,2025,activity,A7,Semantic judgment,T3
+S263,2025,vendor,M3,Google,
+S263,2025,architecture,AR1,Single-agent,
+S264,2025,prompt_engineering,PE5,Iterative / feedback / self-refine,
+S264,2025,stage,T2,Artifact Generation,
+S264,2025,activity,A3,Test code,T2
+S264,2025,activity,A5,Test input,T2
+S264,2025,activity,A6,Test oracle,T2
+S264,2025,architecture,AR2,Multi-agent,
+S265,2025,prompt_engineering,PE5,Iterative / feedback / self-refine,
+S265,2025,prompt_engineering,PE6,Template-based / structured,
+S265,2025,stage,T2,Artifact Generation,
+S265,2025,activity,A5,Test input,T2
+S265,2025,vendor,M1,OpenAI,
+S265,2025,vendor,M2,Meta,
+S265,2025,architecture,AR1,Single-agent,
+S266,2025,prompt_engineering,PE5,Iterative / feedback / self-refine,
+S266,2025,prompt_engineering,PE6,Template-based / structured,
+S266,2025,prompt_engineering,PE7,RAG,
+S266,2025,stage,T2,Artifact Generation,
+S266,2025,stage,T4,Report and Regression,
+S266,2025,activity,A3,Test code,T2
+S266,2025,activity,A9,Test repair,T4
+S266,2025,vendor,M1,OpenAI,
+S266,2025,vendor,M9,DeepSeek,
+S267,2025,prompt_engineering,PE5,Iterative / feedback / self-refine,
+S267,2025,prompt_engineering,PE7,RAG,
+S267,2025,stage,T1,Requirements Management,
+S267,2025,activity,A1,Requirement extraction,T1
+S267,2025,vendor,M1,OpenAI,
+S268,2025,prompt_engineering,PE1,Few-shot / in-context learning,
+S268,2025,prompt_engineering,PE2,Zero-shot,
+S268,2025,prompt_engineering,PE4,Role / persona prompting,
+S268,2025,prompt_engineering,PE6,Template-based / structured,
+S268,2025,stage,T2,Artifact Generation,
+S268,2025,stage,T4,Report and Regression,
+S268,2025,activity,A3,Test code,T2
+S268,2025,activity,A9,Test repair,T4
+S268,2025,vendor,M3,Google,
+S268,2025,architecture,AR2,Multi-agent,
+S269,2025,prompt_engineering,PE3,Chain-of-Thought,
+S269,2025,prompt_engineering,PE5,Iterative / feedback / self-refine,
+S269,2025,prompt_engineering,PE8,Step-by-step / decomposition,
+S269,2025,fine_tuning,FT3,LoRA,
+S269,2025,stage,T2,Artifact Generation,
+S269,2025,activity,A3,Test code,T2
+S269,2025,vendor,M2,Meta,
+S269,2025,vendor,M7,BigCode / HuggingFace,
+S269,2025,vendor,M9,DeepSeek,
+S269,2025,vendor,M10,Alibaba,
+S269,2025,vendor,M11,Other origins,
+S269,2025,architecture,AR2,Multi-agent,
+S270,2025,prompt_engineering,PE3,Chain-of-Thought,
+S270,2025,prompt_engineering,PE4,Role / persona prompting,
+S270,2025,prompt_engineering,PE5,Iterative / feedback / self-refine,
+S270,2025,prompt_engineering,PE6,Template-based / structured,
+S270,2025,prompt_engineering,PE7,RAG,
+S270,2025,prompt_engineering,PE8,Step-by-step / decomposition,
+S270,2025,stage,T2,Artifact Generation,
+S270,2025,stage,T4,Report and Regression,
+S270,2025,activity,A3,Test code,T2
+S270,2025,activity,A9,Test repair,T4
+S270,2025,vendor,M1,OpenAI,
+S270,2025,vendor,M3,Google,
+S270,2025,vendor,M6,Anthropic,
+S270,2025,vendor,M9,DeepSeek,
+S270,2025,architecture,AR2,Multi-agent,
+S271,2025,prompt_engineering,PE4,Role / persona prompting,
+S271,2025,prompt_engineering,PE6,Template-based / structured,
+S271,2025,stage,T2,Artifact Generation,
+S271,2025,stage,T4,Report and Regression,
+S271,2025,activity,A3,Test code,T2
+S271,2025,activity,A13,Log analysis,T4
+S271,2025,vendor,M1,OpenAI,
+S271,2025,vendor,M2,Meta,
+S271,2025,vendor,M11,Other origins,
+S271,2025,architecture,AR2,Multi-agent,
+S272,2025,prompt_engineering,PE11,Undefined,
+S272,2025,stage,T1,Requirements Management,
+S272,2025,stage,T3,Verification and Prioritization,
+S272,2025,activity,A1,Requirement extraction,T1
+S272,2025,activity,A12,Suite quality,T3
+S272,2025,vendor,M1,OpenAI,
+S272,2025,vendor,M9,DeepSeek,
+S272,2025,vendor,M11,Other origins,
+S272,2025,architecture,AR2,Multi-agent,
+S273,2025,prompt_engineering,PE6,Template-based / structured,
+S273,2025,prompt_engineering,PE5,Iterative / feedback / self-refine,
+S273,2025,prompt_engineering,PE8,Step-by-step / decomposition,
+S273,2025,fine_tuning,FT3,LoRA,
+S273,2025,stage,T2,Artifact Generation,
+S273,2025,stage,T4,Report and Regression,
+S273,2025,activity,A3,Test code,T2
+S273,2025,activity,A9,Test repair,T4
+S273,2025,vendor,M1,OpenAI,
+S273,2025,vendor,M2,Meta,
+S273,2025,vendor,M7,BigCode / HuggingFace,
+S273,2025,vendor,M9,DeepSeek,
+S273,2025,architecture,AR1,Single-agent,
+S274,2025,prompt_engineering,PE1,Few-shot / in-context learning,
+S274,2025,prompt_engineering,PE3,Chain-of-Thought,
+S274,2025,prompt_engineering,PE5,Iterative / feedback / self-refine,
+S274,2025,stage,T2,Artifact Generation,
+S274,2025,stage,T4,Report and Regression,
+S274,2025,activity,A3,Test code,T2
+S274,2025,activity,A9,Test repair,T4
+S274,2025,vendor,M1,OpenAI,
+S274,2025,architecture,AR1,Single-agent,
+S275,2025,prompt_engineering,PE1,Few-shot / in-context learning,
+S275,2025,prompt_engineering,PE2,Zero-shot,
+S275,2025,prompt_engineering,PE3,Chain-of-Thought,
+S275,2025,prompt_engineering,PE5,Iterative / feedback / self-refine,
+S275,2025,stage,T2,Artifact Generation,
+S275,2025,stage,T4,Report and Regression,
+S275,2025,activity,A3,Test code,T2
+S275,2025,activity,A9,Test repair,T4
+S275,2025,activity,A12,Suite quality,T4
+S275,2025,vendor,M1,OpenAI,
+S276,2025,prompt_engineering,PE2,Zero-shot,
+S276,2025,prompt_engineering,PE6,Template-based / structured,
+S276,2025,prompt_engineering,PE8,Step-by-step / decomposition,
+S276,2025,stage,T2,Artifact Generation,
+S276,2025,stage,T3,Verification and Prioritization,
+S276,2025,activity,A3,Test code,T2
+S276,2025,activity,A7,Semantic judgment,T3
+S276,2025,vendor,M2,Meta,
+S277,2025,prompt_engineering,PE5,Iterative / feedback / self-refine,
+S277,2025,prompt_engineering,PE6,Template-based / structured,
+S277,2025,stage,T2,Artifact Generation,
+S277,2025,stage,T4,Report and Regression,
+S277,2025,activity,A3,Test code,T2
+S277,2025,activity,A9,Test repair,T4
+S277,2025,vendor,M2,Meta,
+S277,2025,architecture,AR1,Single-agent,
+S278,2025,prompt_engineering,PE1,Few-shot / in-context learning,
+S278,2025,prompt_engineering,PE5,Iterative / feedback / self-refine,
+S278,2025,prompt_engineering,PE6,Template-based / structured,
+S278,2025,stage,T2,Artifact Generation,
+S278,2025,activity,A3,Test code,T2
+S278,2025,activity,A5,Test input,T2
+S278,2025,vendor,M1,OpenAI,
+S278,2025,vendor,M9,DeepSeek,
+S278,2025,vendor,M3,Google,
+S278,2025,architecture,AR1,Single-agent,
+S279,2025,prompt_engineering,PE5,Iterative / feedback / self-refine,
+S279,2025,prompt_engineering,PE6,Template-based / structured,
+S279,2025,stage,T2,Artifact Generation,
+S279,2025,stage,T4,Report and Regression,
+S279,2025,activity,A3,Test code,T2
+S279,2025,activity,A9,Test repair,T4
+S279,2025,vendor,M1,OpenAI,
+S279,2025,vendor,M2,Meta,
+S279,2025,vendor,M9,DeepSeek,
+S279,2025,vendor,M10,Alibaba,
+S279,2025,architecture,AR1,Single-agent,
+S280,2025,prompt_engineering,PE5,Iterative / feedback / self-refine,
+S280,2025,prompt_engineering,PE6,Template-based / structured,
+S280,2025,stage,T2,Artifact Generation,
+S280,2025,activity,A5,Test input,T2
+S280,2025,vendor,M1,OpenAI,
+S281,2025,prompt_engineering,PE5,Iterative / feedback / self-refine,
+S281,2025,prompt_engineering,PE6,Template-based / structured,
+S281,2025,prompt_engineering,PE7,RAG,
+S281,2025,prompt_engineering,PE8,Step-by-step / decomposition,
+S281,2025,stage,T4,Report and Regression,
+S281,2025,activity,A9,Test repair,T4
+S281,2025,vendor,M1,OpenAI,
+S281,2025,vendor,M9,DeepSeek,
+S281,2025,vendor,M10,Alibaba,
+S282,2025,prompt_engineering,PE1,Few-shot / in-context learning,
+S282,2025,prompt_engineering,PE6,Template-based / structured,
+S282,2025,prompt_engineering,PE9,ReAct,
+S282,2025,stage,T1,Requirements Management,
+S282,2025,stage,T2,Artifact Generation,
+S282,2025,activity,A2,Element localization,T1
+S282,2025,activity,A3,Test code,T2
+S282,2025,activity,A4,Test instruction,T2
+S282,2025,vendor,M1,OpenAI,
+S282,2025,architecture,AR1,Single-agent,
+S283,2025,prompt_engineering,PE1,Few-shot / in-context learning,
+S283,2025,prompt_engineering,PE2,Zero-shot,
+S283,2025,prompt_engineering,PE3,Chain-of-Thought,
+S283,2025,stage,T2,Artifact Generation,
+S283,2025,activity,A3,Test code,T2
+S283,2025,activity,A5,Test input,T2
+S283,2025,activity,A6,Test oracle,T2
+S283,2025,vendor,M1,OpenAI,
+S283,2025,vendor,M6,Anthropic,
+S283,2025,vendor,M3,Google,
+S283,2025,vendor,M11,Other origins,
+S283,2025,architecture,AR1,Single-agent,
+S284,2025,prompt_engineering,PE1,Few-shot / in-context learning,
+S284,2025,prompt_engineering,PE7,RAG,
+S284,2025,fine_tuning,FT3,LoRA,
+S284,2025,fine_tuning,FT4,Reinforcement-learning fine-tuning,
+S284,2025,stage,T2,Artifact Generation,
+S284,2025,activity,A3,Test code,T2
+S284,2025,vendor,M11,Other origins,
+S284,2025,architecture,AR1,Single-agent,
+S285,2025,prompt_engineering,PE2,Zero-shot,
+S285,2025,prompt_engineering,PE5,Iterative / feedback / self-refine,
+S285,2025,prompt_engineering,PE6,Template-based / structured,
+S285,2025,stage,T2,Artifact Generation,
+S285,2025,activity,A3,Test code,T2
+S285,2025,activity,A6,Test oracle,T2
+S285,2025,vendor,M1,OpenAI,
+S285,2025,vendor,M4,Mistral AI,
+S285,2025,architecture,AR1,Single-agent,
+S286,2025,prompt_engineering,PE4,Role / persona prompting,
+S286,2025,prompt_engineering,PE5,Iterative / feedback / self-refine,
+S286,2025,prompt_engineering,PE6,Template-based / structured,
+S286,2025,prompt_engineering,PE8,Step-by-step / decomposition,
+S286,2025,stage,T2,Artifact Generation,
+S286,2025,activity,A3,Test code,T2
+S286,2025,vendor,M1,OpenAI,
+S286,2025,architecture,AR1,Single-agent,
+S287,2025,prompt_engineering,PE5,Iterative / feedback / self-refine,
+S287,2025,stage,T2,Artifact Generation,
+S287,2025,activity,A3,Test code,T2
+S287,2025,vendor,M2,Meta,
+S287,2025,architecture,AR1,Single-agent,
+S288,2025,prompt_engineering,PE2,Zero-shot,
+S288,2025,prompt_engineering,PE5,Iterative / feedback / self-refine,
+S288,2025,stage,T2,Artifact Generation,
+S288,2025,activity,A3,Test code,T2
+S288,2025,activity,A5,Test input,T2
+S288,2025,vendor,M1,OpenAI,
+S288,2025,vendor,M2,Meta,
+S288,2025,vendor,M11,Other origins,
+S289,2025,prompt_engineering,PE2,Zero-shot,
+S289,2025,prompt_engineering,PE4,Role / persona prompting,
+S289,2025,prompt_engineering,PE5,Iterative / feedback / self-refine,
+S289,2025,stage,T2,Artifact Generation,
+S289,2025,stage,T4,Report and Regression,
+S289,2025,activity,A3,Test code,T2
+S289,2025,activity,A9,Test repair,T4
+S289,2025,vendor,M1,OpenAI,
+S289,2025,vendor,M2,Meta,
+S289,2025,vendor,M9,DeepSeek,
+S290,2025,prompt_engineering,PE2,Zero-shot,
+S290,2025,stage,T1,Requirements Management,
+S290,2025,stage,T2,Artifact Generation,
+S290,2025,activity,A2,Element localization,T1
+S290,2025,activity,A3,Test code,T2
+S290,2025,vendor,M1,OpenAI,
+S290,2025,vendor,M11,Other origins,
+S290,2025,architecture,AR2,Multi-agent,
+S291,2025,prompt_engineering,PE2,Zero-shot,
+S291,2025,prompt_engineering,PE6,Template-based / structured,
+S291,2025,stage,T2,Artifact Generation,
+S291,2025,activity,A3,Test code,T2
+S291,2025,vendor,M1,OpenAI,
+S291,2025,vendor,M2,Meta,
+S291,2025,vendor,M11,Other origins,
+S291,2025,architecture,AR1,Single-agent,
+S292,2025,prompt_engineering,PE3,Chain-of-Thought,
+S292,2025,prompt_engineering,PE5,Iterative / feedback / self-refine,
+S292,2025,prompt_engineering,PE6,Template-based / structured,
+S292,2025,prompt_engineering,PE7,RAG,
+S292,2025,fine_tuning,FT2,QLoRA,
+S292,2025,stage,T2,Artifact Generation,
+S292,2025,stage,T4,Report and Regression,
+S292,2025,activity,A6,Test oracle,T2
+S292,2025,activity,A10,Test improvement,T4
+S292,2025,vendor,M2,Meta,
+S292,2025,vendor,M5,Microsoft,
+S293,2025,prompt_engineering,PE6,Template-based / structured,
+S293,2025,prompt_engineering,PE7,RAG,
+S293,2025,prompt_engineering,PE8,Step-by-step / decomposition,
+S293,2025,stage,T1,Requirements Management,
+S293,2025,stage,T2,Artifact Generation,
+S293,2025,activity,A2,Element localization,T1
+S293,2025,activity,A3,Test code,T2
+S293,2025,activity,A4,Test instruction,T2
+S293,2025,vendor,M1,OpenAI,
+S293,2025,architecture,AR1,Single-agent,
+S294,2025,prompt_engineering,PE2,Zero-shot,
+S294,2025,fine_tuning,FT1,Supervised fine-tuning (SFT / full),
+S294,2025,stage,T3,Verification and Prioritization,
+S294,2025,stage,T4,Report and Regression,
+S294,2025,activity,A8,Prioritization,T3
+S294,2025,activity,A13,Log analysis,T4
+S294,2025,vendor,M1,OpenAI,
+S294,2025,vendor,M3,Google,
+S294,2025,architecture,AR1,Single-agent,
+S295,2025,prompt_engineering,PE1,Few-shot / in-context learning,
+S295,2025,prompt_engineering,PE3,Chain-of-Thought,
+S295,2025,prompt_engineering,PE6,Template-based / structured,
+S295,2025,stage,T3,Verification and Prioritization,
+S295,2025,activity,A8,Prioritization,T3
+S295,2025,vendor,M1,OpenAI,
+S296,2025,prompt_engineering,PE1,Few-shot / in-context learning,
+S296,2025,prompt_engineering,PE3,Chain-of-Thought,
+S296,2025,prompt_engineering,PE5,Iterative / feedback / self-refine,
+S296,2025,prompt_engineering,PE6,Template-based / structured,
+S296,2025,stage,T2,Artifact Generation,
+S296,2025,stage,T3,Verification and Prioritization,
+S296,2025,activity,A3,Test code,T2
+S296,2025,activity,A5,Test input,T2
+S296,2025,activity,A7,Semantic judgment,T3
+S296,2025,vendor,M9,DeepSeek,
+S296,2025,vendor,M10,Alibaba,
+S296,2025,architecture,AR2,Multi-agent,
+S297,2025,prompt_engineering,PE2,Zero-shot,
+S297,2025,fine_tuning,FT1,Supervised fine-tuning (SFT / full),
+S297,2025,fine_tuning,FT4,Reinforcement-learning fine-tuning,
+S297,2025,stage,T2,Artifact Generation,
+S297,2025,activity,A3,Test code,T2
+S297,2025,vendor,M1,OpenAI,
+S298,2025,prompt_engineering,PE6,Template-based / structured,
+S298,2025,fine_tuning,FT1,Supervised fine-tuning (SFT / full),
+S298,2025,stage,T2,Artifact Generation,
+S298,2025,activity,A5,Test input,T2
+S298,2025,vendor,M2,Meta,
+S298,2025,architecture,AR1,Single-agent,
+S299,2025,prompt_engineering,PE1,Few-shot / in-context learning,
+S299,2025,prompt_engineering,PE5,Iterative / feedback / self-refine,
+S299,2025,prompt_engineering,PE6,Template-based / structured,
+S299,2025,stage,T2,Artifact Generation,
+S299,2025,activity,A3,Test code,T2
+S299,2025,activity,A5,Test input,T2
+S299,2025,vendor,M2,Meta,
+S299,2025,architecture,AR1,Single-agent,
+S300,2025,prompt_engineering,PE6,Template-based / structured,
+S300,2025,stage,T1,Requirements Management,
+S300,2025,stage,T2,Artifact Generation,
+S300,2025,activity,A1,Requirement extraction,T1
+S300,2025,activity,A3,Test code,T2
+S300,2025,activity,A4,Test instruction,T2
+S300,2025,vendor,M2,Meta,
+S300,2025,architecture,AR1,Single-agent,
+S301,2025,prompt_engineering,PE2,Zero-shot,
+S301,2025,stage,T2,Artifact Generation,
+S301,2025,activity,A5,Test input,T2
+S301,2025,vendor,M9,DeepSeek,
+S301,2025,architecture,AR1,Single-agent,
+S302,2025,prompt_engineering,PE5,Iterative / feedback / self-refine,
+S302,2025,prompt_engineering,PE6,Template-based / structured,
+S302,2025,prompt_engineering,PE8,Step-by-step / decomposition,
+S302,2025,stage,T2,Artifact Generation,
+S302,2025,activity,A3,Test code,T2
+S302,2025,activity,A5,Test input,T2
+S302,2025,activity,A6,Test oracle,T2
+S302,2025,vendor,M1,OpenAI,
+S303,2025,prompt_engineering,PE1,Few-shot / in-context learning,
+S303,2025,prompt_engineering,PE6,Template-based / structured,
+S303,2025,stage,T2,Artifact Generation,
+S303,2025,stage,T3,Verification and Prioritization,
+S303,2025,activity,A5,Test input,T2
+S303,2025,activity,A8,Prioritization,T3
+S303,2025,vendor,M1,OpenAI,
+S303,2025,architecture,AR1,Single-agent,
+S304,2025,prompt_engineering,PE2,Zero-shot,
+S304,2025,prompt_engineering,PE4,Role / persona prompting,
+S304,2025,prompt_engineering,PE6,Template-based / structured,
+S304,2025,stage,T2,Artifact Generation,
+S304,2025,activity,A6,Test oracle,T2
+S304,2025,vendor,M1,OpenAI,
+S304,2025,vendor,M2,Meta,
+S304,2025,vendor,M3,Google,
+S304,2025,vendor,M5,Microsoft,
+S304,2025,vendor,M9,DeepSeek,
+S304,2025,vendor,M10,Alibaba,
+S304,2025,architecture,AR1,Single-agent,
+S305,2025,prompt_engineering,PE2,Zero-shot,
+S305,2025,prompt_engineering,PE6,Template-based / structured,
+S305,2025,stage,T2,Artifact Generation,
+S305,2025,activity,A3,Test code,T2
+S305,2025,vendor,M1,OpenAI,
+S305,2025,vendor,M2,Meta,
+S305,2025,vendor,M5,Microsoft,
+S306,2025,prompt_engineering,PE1,Few-shot / in-context learning,
+S306,2025,prompt_engineering,PE6,Template-based / structured,
+S306,2025,stage,T2,Artifact Generation,
+S306,2025,activity,A5,Test input,T2
+S306,2025,vendor,M1,OpenAI,
+S306,2025,architecture,AR1,Single-agent,
+S307,2025,prompt_engineering,PE11,Undefined,
+S307,2025,stage,T4,Report and Regression,
+S307,2025,activity,A9,Test repair,T4
+S307,2025,vendor,M1,OpenAI,
+S308,2025,prompt_engineering,PE3,Chain-of-Thought,
+S308,2025,prompt_engineering,PE6,Template-based / structured,
+S308,2025,stage,T2,Artifact Generation,
+S308,2025,stage,T4,Report and Regression,
+S308,2025,activity,A3,Test code,T2
+S308,2025,activity,A9,Test repair,T4
+S308,2025,vendor,M1,OpenAI,
+S308,2025,vendor,M9,DeepSeek,
+S308,2025,architecture,AR1,Single-agent,
+S309,2025,prompt_engineering,PE2,Zero-shot,
+S309,2025,prompt_engineering,PE5,Iterative / feedback / self-refine,
+S309,2025,stage,T4,Report and Regression,
+S309,2025,activity,A9,Test repair,T4
+S309,2025,vendor,M1,OpenAI,
+S310,2025,prompt_engineering,PE2,Zero-shot,
+S310,2025,prompt_engineering,PE6,Template-based / structured,
+S310,2025,stage,T2,Artifact Generation,
+S310,2025,activity,A5,Test input,T2
+S310,2025,vendor,M2,Meta,
+S310,2025,vendor,M4,Mistral AI,
+S310,2025,vendor,M8,Salesforce,
+S310,2025,vendor,M9,DeepSeek,
+S310,2025,vendor,M10,Alibaba,
+S310,2025,architecture,AR1,Single-agent,
+S311,2025,prompt_engineering,PE1,Few-shot / in-context learning,
+S311,2025,prompt_engineering,PE3,Chain-of-Thought,
+S311,2025,prompt_engineering,PE4,Role / persona prompting,
+S311,2025,prompt_engineering,PE6,Template-based / structured,
+S311,2025,stage,T2,Artifact Generation,
+S311,2025,activity,A5,Test input,T2
+S311,2025,activity,A6,Test oracle,T2
+S311,2025,vendor,M9,DeepSeek,
+S311,2025,architecture,AR1,Single-agent,
+S312,2025,prompt_engineering,PE5,Iterative / feedback / self-refine,
+S312,2025,prompt_engineering,PE11,Undefined,
+S312,2025,stage,T2,Artifact Generation,
+S312,2025,activity,A3,Test code,T2
+S312,2025,activity,A4,Test instruction,T2
+S312,2025,activity,A6,Test oracle,T2
+S312,2025,vendor,M1,OpenAI,
+S312,2025,vendor,M3,Google,
+S312,2025,vendor,M5,Microsoft,
+S312,2025,architecture,AR1,Single-agent,
+S313,2025,prompt_engineering,PE2,Zero-shot,
+S313,2025,stage,T2,Artifact Generation,
+S313,2025,activity,A3,Test code,T2
+S313,2025,activity,A5,Test input,T2
+S313,2025,vendor,M1,OpenAI,
+S313,2025,architecture,AR1,Single-agent,
+S314,2025,prompt_engineering,PE4,Role / persona prompting,
+S314,2025,prompt_engineering,PE6,Template-based / structured,
+S314,2025,stage,T2,Artifact Generation,
+S314,2025,activity,A5,Test input,T2
+S314,2025,vendor,M1,OpenAI,
+S315,2025,prompt_engineering,PE5,Iterative / feedback / self-refine,
+S315,2025,prompt_engineering,PE6,Template-based / structured,
+S315,2025,prompt_engineering,PE8,Step-by-step / decomposition,
+S315,2025,stage,T1,Requirements Management,
+S315,2025,stage,T2,Artifact Generation,
+S315,2025,activity,A1,Requirement extraction,T1
+S315,2025,activity,A2,Element localization,T1
+S315,2025,activity,A3,Test code,T2
+S315,2025,activity,A4,Test instruction,T2
+S315,2025,vendor,M9,DeepSeek,
+S315,2025,vendor,M3,Google,
+S315,2025,architecture,AR2,Multi-agent,
+S316,2025,prompt_engineering,PE1,Few-shot / in-context learning,
+S316,2025,prompt_engineering,PE4,Role / persona prompting,
+S316,2025,prompt_engineering,PE5,Iterative / feedback / self-refine,
+S316,2025,prompt_engineering,PE8,Step-by-step / decomposition,
+S316,2025,prompt_engineering,PE6,Template-based / structured,
+S316,2025,stage,T2,Artifact Generation,
+S316,2025,activity,A6,Test oracle,T2
+S316,2025,vendor,M9,DeepSeek,
+S316,2025,architecture,AR2,Multi-agent,
+S317,2025,prompt_engineering,PE1,Few-shot / in-context learning,
+S317,2025,prompt_engineering,PE2,Zero-shot,
+S317,2025,prompt_engineering,PE5,Iterative / feedback / self-refine,
+S317,2025,prompt_engineering,PE7,RAG,
+S317,2025,stage,T1,Requirements Management,
+S317,2025,activity,A1,Requirement extraction,T1
+S317,2025,vendor,M1,OpenAI,
+S317,2025,architecture,AR1,Single-agent,
+S318,2025,prompt_engineering,PE3,Chain-of-Thought,
+S318,2025,prompt_engineering,PE7,RAG,
+S318,2025,stage,T2,Artifact Generation,
+S318,2025,activity,A5,Test input,T2
+S318,2025,vendor,M3,Google,
+S318,2025,architecture,AR1,Single-agent,
+S319,2025,prompt_engineering,PE1,Few-shot / in-context learning,
+S319,2025,prompt_engineering,PE4,Role / persona prompting,
+S319,2025,prompt_engineering,PE5,Iterative / feedback / self-refine,
+S319,2025,prompt_engineering,PE6,Template-based / structured,
+S319,2025,stage,T1,Requirements Management,
+S319,2025,stage,T2,Artifact Generation,
+S319,2025,activity,A1,Requirement extraction,T1
+S319,2025,activity,A5,Test input,T2
+S319,2025,activity,A6,Test oracle,T2
+S319,2025,vendor,M1,OpenAI,
+S319,2025,vendor,M2,Meta,
+S319,2025,architecture,AR1,Single-agent,
+S320,2025,prompt_engineering,PE1,Few-shot / in-context learning,
+S320,2025,stage,T2,Artifact Generation,
+S320,2025,activity,A5,Test input,T2
+S320,2025,vendor,M1,OpenAI,
+S320,2025,architecture,AR1,Single-agent,
+S321,2025,prompt_engineering,PE3,Chain-of-Thought,
+S321,2025,prompt_engineering,PE5,Iterative / feedback / self-refine,
+S321,2025,prompt_engineering,PE9,ReAct,
+S321,2025,stage,T2,Artifact Generation,
+S321,2025,stage,T4,Report and Regression,
+S321,2025,activity,A3,Test code,T2
+S321,2025,activity,A5,Test input,T2
+S321,2025,activity,A9,Test repair,T4
+S321,2025,vendor,M1,OpenAI,
+S321,2025,architecture,AR1,Single-agent,
+S321,2025,architecture,AR2,Multi-agent,
+S322,2025,prompt_engineering,PE2,Zero-shot,
+S322,2025,stage,T1,Requirements Management,
+S322,2025,stage,T2,Artifact Generation,
+S322,2025,activity,A1,Requirement extraction,T1
+S322,2025,activity,A4,Test instruction,T2
+S322,2025,vendor,M2,Meta,
+S322,2025,architecture,AR1,Single-agent,
+S323,2025,prompt_engineering,PE7,RAG,
+S323,2025,prompt_engineering,PE11,Undefined,
+S323,2025,stage,T1,Requirements Management,
+S323,2025,stage,T2,Artifact Generation,
+S323,2025,stage,T3,Verification and Prioritization,
+S323,2025,activity,A1,Requirement extraction,T1
+S323,2025,activity,A4,Test instruction,T2
+S323,2025,activity,A11,Validation,T3
+S323,2025,vendor,M1,OpenAI,
+S323,2025,vendor,M5,Microsoft,
+S323,2025,vendor,M6,Anthropic,
+S323,2025,vendor,M10,Alibaba,
+S323,2025,architecture,AR2,Multi-agent,
+S324,2025,prompt_engineering,PE2,Zero-shot,
+S324,2025,stage,T2,Artifact Generation,
+S324,2025,activity,A4,Test instruction,T2
+S324,2025,vendor,M1,OpenAI,
+S324,2025,vendor,M2,Meta,
+S324,2025,vendor,M3,Google,
+S324,2025,vendor,M6,Anthropic,
+S325,2025,prompt_engineering,PE8,Step-by-step / decomposition,
+S325,2025,stage,T2,Artifact Generation,
+S325,2025,activity,A4,Test instruction,T2
+S325,2025,vendor,M1,OpenAI,
+S326,2025,prompt_engineering,PE6,Template-based / structured,
+S326,2025,prompt_engineering,PE7,RAG,
+S326,2025,fine_tuning,FT3,LoRA,
+S326,2025,stage,T2,Artifact Generation,
+S326,2025,activity,A3,Test code,T2
+S326,2025,vendor,M1,OpenAI,
+S326,2025,vendor,M2,Meta,
+S327,2025,prompt_engineering,PE2,Zero-shot,
+S327,2025,prompt_engineering,PE6,Template-based / structured,
+S327,2025,stage,T2,Artifact Generation,
+S327,2025,activity,A3,Test code,T2
+S327,2025,vendor,M1,OpenAI,
+S327,2025,vendor,M2,Meta,
+S327,2025,vendor,M3,Google,
+S328,2025,prompt_engineering,PE1,Few-shot / in-context learning,
+S328,2025,prompt_engineering,PE2,Zero-shot,
+S328,2025,prompt_engineering,PE3,Chain-of-Thought,
+S328,2025,stage,T2,Artifact Generation,
+S328,2025,activity,A3,Test code,T2
+S328,2025,activity,A5,Test input,T2
+S328,2025,vendor,M1,OpenAI,
+S328,2025,vendor,M2,Meta,
+S328,2025,vendor,M3,Google,
+S328,2025,vendor,M7,BigCode / HuggingFace,
+S328,2025,vendor,M9,DeepSeek,
+S328,2025,vendor,M10,Alibaba,
+S328,2025,architecture,AR1,Single-agent,
+S329,2025,prompt_engineering,PE1,Few-shot / in-context learning,
+S329,2025,prompt_engineering,PE6,Template-based / structured,
+S329,2025,stage,T2,Artifact Generation,
+S329,2025,activity,A3,Test code,T2
+S329,2025,vendor,M1,OpenAI,
+S329,2025,architecture,AR1,Single-agent,
+S330,2025,prompt_engineering,PE1,Few-shot / in-context learning,
+S330,2025,prompt_engineering,PE3,Chain-of-Thought,
+S330,2025,prompt_engineering,PE6,Template-based / structured,
+S330,2025,stage,T1,Requirements Management,
+S330,2025,stage,T2,Artifact Generation,
+S330,2025,activity,A1,Requirement extraction,T1
+S330,2025,activity,A3,Test code,T2
+S330,2025,vendor,M1,OpenAI,
+S330,2025,architecture,AR1,Single-agent,
+S331,2025,prompt_engineering,PE3,Chain-of-Thought,
+S331,2025,prompt_engineering,PE5,Iterative / feedback / self-refine,
+S331,2025,prompt_engineering,PE6,Template-based / structured,
+S331,2025,stage,T2,Artifact Generation,
+S331,2025,stage,T4,Report and Regression,
+S331,2025,activity,A3,Test code,T2
+S331,2025,activity,A6,Test oracle,T2
+S331,2025,activity,A9,Test repair,T4
+S331,2025,vendor,M1,OpenAI,
+S331,2025,vendor,M2,Meta,
+S331,2025,vendor,M9,DeepSeek,
+S332,2025,prompt_engineering,PE1,Few-shot / in-context learning,
+S332,2025,prompt_engineering,PE3,Chain-of-Thought,
+S332,2025,prompt_engineering,PE6,Template-based / structured,
+S332,2025,vendor,M11,Other origins,
+S332,2025,architecture,AR1,Single-agent,
+S333,2025,prompt_engineering,PE1,Few-shot / in-context learning,
+S333,2025,prompt_engineering,PE4,Role / persona prompting,
+S333,2025,prompt_engineering,PE5,Iterative / feedback / self-refine,
+S333,2025,prompt_engineering,PE6,Template-based / structured,
+S333,2025,prompt_engineering,PE7,RAG,
+S333,2025,stage,T2,Artifact Generation,
+S333,2025,activity,A4,Test instruction,T2
+S333,2025,vendor,M1,OpenAI,
+S333,2025,vendor,M2,Meta,
+S333,2025,vendor,M5,Microsoft,
+S333,2025,vendor,M9,DeepSeek,
+S333,2025,architecture,AR1,Single-agent,
+S334,2025,prompt_engineering,PE6,Template-based / structured,
+S334,2025,fine_tuning,FT1,Supervised fine-tuning (SFT / full),
+S334,2025,stage,T2,Artifact Generation,
+S334,2025,activity,A6,Test oracle,T2
+S334,2025,vendor,M5,Microsoft,
+S334,2025,vendor,M7,BigCode / HuggingFace,
+S334,2025,vendor,M8,Salesforce,
+S335,2025,prompt_engineering,PE1,Few-shot / in-context learning,
+S335,2025,prompt_engineering,PE6,Template-based / structured,
+S335,2025,stage,T2,Artifact Generation,
+S335,2025,activity,A5,Test input,T2
+S335,2025,vendor,M1,OpenAI,
+S335,2025,architecture,AR1,Single-agent,
+S336,2025,prompt_engineering,PE6,Template-based / structured,
+S336,2025,prompt_engineering,PE7,RAG,
+S336,2025,prompt_engineering,PE9,ReAct,
+S336,2025,stage,T4,Report and Regression,
+S336,2025,activity,A9,Test repair,T4
+S336,2025,architecture,AR1,Single-agent,
+S337,2025,prompt_engineering,PE11,Undefined,
+S337,2025,stage,T2,Artifact Generation,
+S337,2025,activity,A5,Test input,T2
+S337,2025,architecture,AR1,Single-agent,
+S338,2025,prompt_engineering,PE5,Iterative / feedback / self-refine,
+S338,2025,prompt_engineering,PE8,Step-by-step / decomposition,
+S338,2025,stage,T2,Artifact Generation,
+S338,2025,stage,T4,Report and Regression,
+S338,2025,activity,A3,Test code,T2
+S338,2025,activity,A12,Suite quality,T4
+S338,2025,vendor,M1,OpenAI,
+S338,2025,vendor,M6,Anthropic,
+S338,2025,architecture,AR1,Single-agent,
+S339,2025,prompt_engineering,PE11,Undefined,
+S339,2025,fine_tuning,FT1,Supervised fine-tuning (SFT / full),
+S339,2025,stage,T2,Artifact Generation,
+S339,2025,activity,A3,Test code,T2
+S339,2025,vendor,M5,Microsoft,
+S339,2025,vendor,M8,Salesforce,
+S340,2025,prompt_engineering,PE2,Zero-shot,
+S340,2025,prompt_engineering,PE6,Template-based / structured,
+S340,2025,stage,T2,Artifact Generation,
+S340,2025,activity,A3,Test code,T2
+S340,2025,vendor,M3,Google,
+S340,2025,architecture,AR1,Single-agent,
+S341,2025,prompt_engineering,PE4,Role / persona prompting,
+S341,2025,prompt_engineering,PE5,Iterative / feedback / self-refine,
+S341,2025,stage,T2,Artifact Generation,
+S341,2025,stage,T4,Report and Regression,
+S341,2025,activity,A3,Test code,T2
+S341,2025,activity,A9,Test repair,T4
+S341,2025,vendor,M9,DeepSeek,
+S341,2025,architecture,AR2,Multi-agent,
+S342,2025,prompt_engineering,PE2,Zero-shot,
+S342,2025,stage,T3,Verification and Prioritization,
+S342,2025,activity,A8,Prioritization,T3
+S342,2025,vendor,M1,OpenAI,
+S342,2025,vendor,M3,Google,
+S342,2025,vendor,M9,DeepSeek,
+S342,2025,architecture,AR1,Single-agent,
+S343,2025,prompt_engineering,PE1,Few-shot / in-context learning,
+S343,2025,prompt_engineering,PE4,Role / persona prompting,
+S343,2025,prompt_engineering,PE6,Template-based / structured,
+S343,2025,stage,T2,Artifact Generation,
+S343,2025,activity,A3,Test code,T2
+S343,2025,activity,A5,Test input,T2
+S343,2025,vendor,M6,Anthropic,
+S343,2025,architecture,AR1,Single-agent,
+S344,2025,prompt_engineering,PE3,Chain-of-Thought,
+S344,2025,prompt_engineering,PE5,Iterative / feedback / self-refine,
+S344,2025,prompt_engineering,PE6,Template-based / structured,
+S344,2025,stage,T2,Artifact Generation,
+S344,2025,stage,T4,Report and Regression,
+S344,2025,activity,A3,Test code,T2
+S344,2025,activity,A9,Test repair,T4
+S344,2025,activity,A10,Test improvement,T4
+S344,2025,vendor,M1,OpenAI,
+S344,2025,vendor,M2,Meta,
+S344,2025,vendor,M9,DeepSeek,
+S344,2025,architecture,AR1,Single-agent,
+S345,2025,prompt_engineering,PE5,Iterative / feedback / self-refine,
+S345,2025,stage,T2,Artifact Generation,
+S345,2025,stage,T3,Verification and Prioritization,
+S345,2025,stage,T4,Report and Regression,
+S345,2025,activity,A3,Test code,T2
+S345,2025,activity,A7,Semantic judgment,T3
+S345,2025,activity,A9,Test repair,T4
+S345,2025,activity,A12,Suite quality,T4
+S345,2025,vendor,M1,OpenAI,
+S345,2025,architecture,AR1,Single-agent,
+S346,2025,prompt_engineering,PE2,Zero-shot,
+S346,2025,prompt_engineering,PE5,Iterative / feedback / self-refine,
+S346,2025,stage,T1,Requirements Management,
+S346,2025,stage,T2,Artifact Generation,
+S346,2025,activity,A1,Requirement extraction,T1
+S346,2025,activity,A4,Test instruction,T2
+S346,2025,vendor,M2,Meta,
+S346,2025,vendor,M3,Google,
+S346,2025,vendor,M4,Mistral AI,
+S346,2025,vendor,M5,Microsoft,
+S346,2025,vendor,M10,Alibaba,
+S346,2025,architecture,AR1,Single-agent,
+S347,2025,prompt_engineering,PE1,Few-shot / in-context learning,
+S347,2025,prompt_engineering,PE5,Iterative / feedback / self-refine,
+S347,2025,prompt_engineering,PE6,Template-based / structured,
+S347,2025,stage,T2,Artifact Generation,
+S347,2025,activity,A3,Test code,T2
+S347,2025,activity,A5,Test input,T2
+S347,2025,vendor,M1,OpenAI,
+S347,2025,architecture,AR1,Single-agent,
+S348,2025,prompt_engineering,PE1,Few-shot / in-context learning,
+S348,2025,prompt_engineering,PE2,Zero-shot,
+S348,2025,prompt_engineering,PE3,Chain-of-Thought,
+S348,2025,prompt_engineering,PE4,Role / persona prompting,
+S348,2025,stage,T4,Report and Regression,
+S348,2025,activity,A10,Test improvement,T4
+S348,2025,vendor,M1,OpenAI,
+S348,2025,vendor,M2,Meta,
+S349,2025,fine_tuning,FT5,Unspecified fine-tuning,
+S349,2025,stage,T3,Verification and Prioritization,
+S349,2025,stage,T4,Report and Regression,
+S349,2025,activity,A7,Semantic judgment,T3
+S349,2025,activity,A8,Prioritization,T3
+S349,2025,activity,A13,Log analysis,T4
+S349,2025,vendor,M1,OpenAI,
+S349,2025,architecture,AR1,Single-agent,
+S350,2025,prompt_engineering,PE1,Few-shot / in-context learning,
+S350,2025,prompt_engineering,PE6,Template-based / structured,
+S350,2025,stage,T1,Requirements Management,
+S350,2025,stage,T2,Artifact Generation,
+S350,2025,activity,A1,Requirement extraction,T1
+S350,2025,activity,A4,Test instruction,T2
+S350,2025,vendor,M1,OpenAI,
+S350,2025,architecture,AR1,Single-agent,
+S351,2025,prompt_engineering,PE3,Chain-of-Thought,
+S351,2025,prompt_engineering,PE5,Iterative / feedback / self-refine,
+S351,2025,prompt_engineering,PE6,Template-based / structured,
+S351,2025,prompt_engineering,PE8,Step-by-step / decomposition,
+S351,2025,stage,T4,Report and Regression,
+S351,2025,activity,A9,Test repair,T4
+S351,2025,activity,A10,Test improvement,T4
+S351,2025,vendor,M6,Anthropic,
+S351,2025,vendor,M2,Meta,
+S351,2025,vendor,M9,DeepSeek,
+S351,2025,architecture,AR1,Single-agent,
+S352,2025,prompt_engineering,PE1,Few-shot / in-context learning,
+S352,2025,prompt_engineering,PE2,Zero-shot,
+S352,2025,prompt_engineering,PE6,Template-based / structured,
+S352,2025,stage,T2,Artifact Generation,
+S352,2025,activity,A3,Test code,T2
+S352,2025,activity,A6,Test oracle,T2
+S352,2025,vendor,M1,OpenAI,
+S353,2025,prompt_engineering,PE2,Zero-shot,
+S353,2025,prompt_engineering,PE6,Template-based / structured,
+S353,2025,stage,T2,Artifact Generation,
+S353,2025,activity,A3,Test code,T2
+S353,2025,activity,A5,Test input,T2
+S353,2025,activity,A6,Test oracle,T2
+S353,2025,vendor,M1,OpenAI,
+S353,2025,vendor,M2,Meta,
+S353,2025,vendor,M4,Mistral AI,
+S353,2025,architecture,AR1,Single-agent,
+S354,2025,prompt_engineering,PE5,Iterative / feedback / self-refine,
+S354,2025,vendor,M1,OpenAI,
+S355,2025,prompt_engineering,PE6,Template-based / structured,
+S355,2025,stage,T4,Report and Regression,
+S355,2025,activity,A9,Test repair,T4
+S355,2025,vendor,M1,OpenAI,
+S355,2025,architecture,AR1,Single-agent,
+S356,2025,prompt_engineering,PE5,Iterative / feedback / self-refine,
+S356,2025,prompt_engineering,PE6,Template-based / structured,
+S356,2025,prompt_engineering,PE8,Step-by-step / decomposition,
+S356,2025,stage,T2,Artifact Generation,
+S356,2025,activity,A3,Test code,T2
+S356,2025,activity,A5,Test input,T2
+S356,2025,vendor,M1,OpenAI,
+S356,2025,vendor,M2,Meta,
+S356,2025,architecture,AR1,Single-agent,
+S357,2026,prompt_engineering,PE2,Zero-shot,
+S357,2026,prompt_engineering,PE3,Chain-of-Thought,
+S357,2026,prompt_engineering,PE5,Iterative / feedback / self-refine,
+S357,2026,prompt_engineering,PE6,Template-based / structured,
+S357,2026,prompt_engineering,PE8,Step-by-step / decomposition,
+S357,2026,stage,T2,Artifact Generation,
+S357,2026,stage,T3,Verification and Prioritization,
+S357,2026,activity,A3,Test code,T2
+S357,2026,activity,A5,Test input,T2
+S357,2026,activity,A6,Test oracle,T2
+S357,2026,activity,A7,Semantic judgment,T3
+S357,2026,vendor,M1,OpenAI,
+S357,2026,vendor,M2,Meta,
+S357,2026,vendor,M8,Salesforce,
+S357,2026,vendor,M10,Alibaba,
+S357,2026,vendor,M11,Other origins,
+S357,2026,architecture,AR1,Single-agent,
+S358,2026,stage,T1,Requirements Management,
+S358,2026,stage,T2,Artifact Generation,
+S358,2026,activity,A1,Requirement extraction,T1
+S358,2026,activity,A3,Test code,T2
+S358,2026,activity,A6,Test oracle,T2
+S358,2026,vendor,M1,OpenAI,
+S358,2026,architecture,AR1,Single-agent,
+S359,2026,prompt_engineering,PE2,Zero-shot,
+S359,2026,prompt_engineering,PE7,RAG,
+S359,2026,stage,T2,Artifact Generation,
+S359,2026,stage,T4,Report and Regression,
+S359,2026,activity,A3,Test code,T2
+S359,2026,activity,A9,Test repair,T4
+S359,2026,vendor,M1,OpenAI,
+S359,2026,vendor,M2,Meta,
+S359,2026,vendor,M3,Google,
+S359,2026,vendor,M6,Anthropic,
+S359,2026,vendor,M9,DeepSeek,
+S359,2026,vendor,M10,Alibaba,
+S359,2026,architecture,AR1,Single-agent,
+S360,2026,prompt_engineering,PE1,Few-shot / in-context learning,
+S360,2026,prompt_engineering,PE2,Zero-shot,
+S360,2026,prompt_engineering,PE3,Chain-of-Thought,
+S360,2026,stage,T4,Report and Regression,
+S360,2026,activity,A9,Test repair,T4
+S360,2026,vendor,M1,OpenAI,
+S360,2026,architecture,AR1,Single-agent,
+S361,2026,prompt_engineering,PE4,Role / persona prompting,
+S361,2026,prompt_engineering,PE6,Template-based / structured,
+S361,2026,stage,T1,Requirements Management,
+S361,2026,stage,T2,Artifact Generation,
+S361,2026,activity,A2,Element localization,T1
+S361,2026,activity,A3,Test code,T2
+S361,2026,activity,A5,Test input,T2
+S361,2026,activity,A6,Test oracle,T2
+S361,2026,vendor,M10,Alibaba,
+S361,2026,architecture,AR1,Single-agent,
+S362,2026,prompt_engineering,PE3,Chain-of-Thought,
+S362,2026,prompt_engineering,PE5,Iterative / feedback / self-refine,
+S362,2026,stage,T2,Artifact Generation,
+S362,2026,activity,A3,Test code,T2
+S362,2026,vendor,M2,Meta,
+S362,2026,vendor,M9,DeepSeek,
+S362,2026,vendor,M1,OpenAI,
+S362,2026,architecture,AR1,Single-agent,
+S363,2026,prompt_engineering,PE8,Step-by-step / decomposition,
+S363,2026,prompt_engineering,PE9,ReAct,
+S363,2026,stage,T2,Artifact Generation,
+S363,2026,activity,A5,Test input,T2
+S363,2026,vendor,M6,Anthropic,
+S363,2026,architecture,AR1,Single-agent,
+S364,2026,prompt_engineering,PE2,Zero-shot,
+S364,2026,prompt_engineering,PE6,Template-based / structured,
+S364,2026,prompt_engineering,PE8,Step-by-step / decomposition,
+S364,2026,stage,T1,Requirements Management,
+S364,2026,stage,T2,Artifact Generation,
+S364,2026,activity,A1,Requirement extraction,T1
+S364,2026,activity,A4,Test instruction,T2
+S364,2026,vendor,M1,OpenAI,
+S364,2026,vendor,M2,Meta,
+S364,2026,architecture,AR1,Single-agent,
+S365,2026,prompt_engineering,PE5,Iterative / feedback / self-refine,
+S365,2026,prompt_engineering,PE6,Template-based / structured,
+S365,2026,prompt_engineering,PE7,RAG,
+S365,2026,stage,T1,Requirements Management,
+S365,2026,stage,T2,Artifact Generation,
+S365,2026,stage,T4,Report and Regression,
+S365,2026,activity,A1,Requirement extraction,T1
+S365,2026,activity,A3,Test code,T2
+S365,2026,activity,A4,Test instruction,T2
+S365,2026,activity,A5,Test input,T2
+S365,2026,activity,A6,Test oracle,T2
+S365,2026,activity,A9,Test repair,T4
+S365,2026,activity,A10,Test improvement,T4
+S365,2026,vendor,M1,OpenAI,
+S365,2026,architecture,AR1,Single-agent,
+S366,2026,prompt_engineering,PE8,Step-by-step / decomposition,
+S366,2026,stage,T2,Artifact Generation,
+S366,2026,activity,A5,Test input,T2
+S366,2026,vendor,M2,Meta,
+S366,2026,vendor,M3,Google,
+S366,2026,vendor,M11,Other origins,
+S366,2026,architecture,AR1,Single-agent,
+S367,2026,prompt_engineering,PE2,Zero-shot,
+S367,2026,prompt_engineering,PE6,Template-based / structured,
+S367,2026,stage,T1,Requirements Management,
+S367,2026,stage,T2,Artifact Generation,
+S367,2026,activity,A1,Requirement extraction,T1
+S367,2026,activity,A3,Test code,T2
+S367,2026,activity,A5,Test input,T2
+S367,2026,activity,A6,Test oracle,T2
+S367,2026,vendor,M1,OpenAI,
+S367,2026,vendor,M6,Anthropic,
+S367,2026,vendor,M9,DeepSeek,
+S367,2026,architecture,AR1,Single-agent,
+S368,2026,prompt_engineering,PE4,Role / persona prompting,
+S368,2026,prompt_engineering,PE6,Template-based / structured,
+S368,2026,stage,T2,Artifact Generation,
+S368,2026,stage,T3,Verification and Prioritization,
+S368,2026,activity,A4,Test instruction,T2
+S368,2026,activity,A6,Test oracle,T2
+S368,2026,activity,A8,Prioritization,T3
+S368,2026,architecture,AR1,Single-agent,
+S369,2026,prompt_engineering,PE1,Few-shot / in-context learning,
+S369,2026,prompt_engineering,PE5,Iterative / feedback / self-refine,
+S369,2026,stage,T2,Artifact Generation,
+S369,2026,activity,A3,Test code,T2
+S369,2026,activity,A5,Test input,T2
+S369,2026,architecture,AR1,Single-agent,
+S370,2026,prompt_engineering,PE11,Undefined,
+S370,2026,stage,T1,Requirements Management,
+S370,2026,stage,T2,Artifact Generation,
+S370,2026,stage,T3,Verification and Prioritization,
+S370,2026,activity,A2,Element localization,T1
+S370,2026,activity,A4,Test instruction,T2
+S370,2026,activity,A7,Semantic judgment,T3
+S370,2026,vendor,M1,OpenAI,
+S370,2026,architecture,AR2,Multi-agent,
+S371,2026,prompt_engineering,PE4,Role / persona prompting,
+S371,2026,prompt_engineering,PE6,Template-based / structured,
+S371,2026,stage,T1,Requirements Management,
+S371,2026,stage,T2,Artifact Generation,
+S371,2026,activity,A2,Element localization,T1
+S371,2026,activity,A5,Test input,T2
+S371,2026,vendor,M10,Alibaba,
+S371,2026,architecture,AR2,Multi-agent,
+S372,2026,prompt_engineering,PE2,Zero-shot,
+S372,2026,prompt_engineering,PE6,Template-based / structured,
+S372,2026,prompt_engineering,PE7,RAG,
+S372,2026,stage,T2,Artifact Generation,
+S372,2026,activity,A6,Test oracle,T2
+S372,2026,vendor,M1,OpenAI,
+S372,2026,vendor,M2,Meta,
+S372,2026,vendor,M3,Google,
+S372,2026,vendor,M11,Other origins,
+S372,2026,architecture,AR1,Single-agent,
+S373,2026,prompt_engineering,PE1,Few-shot / in-context learning,
+S373,2026,prompt_engineering,PE2,Zero-shot,
+S373,2026,prompt_engineering,PE3,Chain-of-Thought,
+S373,2026,prompt_engineering,PE4,Role / persona prompting,
+S373,2026,prompt_engineering,PE6,Template-based / structured,
+S373,2026,prompt_engineering,PE9,ReAct,
+S373,2026,stage,T2,Artifact Generation,
+S373,2026,activity,A3,Test code,T2
+S373,2026,activity,A5,Test input,T2
+S373,2026,activity,A6,Test oracle,T2
+S373,2026,vendor,M11,Other origins,
+S373,2026,architecture,AR2,Multi-agent,
+S374,2026,prompt_engineering,PE2,Zero-shot,
+S374,2026,prompt_engineering,PE6,Template-based / structured,
+S374,2026,stage,T3,Verification and Prioritization,
+S374,2026,activity,A7,Semantic judgment,T3
+S374,2026,activity,A13,Log analysis,T3
+S374,2026,vendor,M1,OpenAI,
+S374,2026,vendor,M4,Mistral AI,
+S374,2026,architecture,AR1,Single-agent,
+S375,2026,prompt_engineering,PE1,Few-shot / in-context learning,
+S375,2026,prompt_engineering,PE5,Iterative / feedback / self-refine,
+S375,2026,stage,T2,Artifact Generation,
+S375,2026,activity,A3,Test code,T2
+S375,2026,activity,A6,Test oracle,T2
+S375,2026,vendor,M1,OpenAI,
+S375,2026,architecture,AR1,Single-agent,
+S376,2026,prompt_engineering,PE3,Chain-of-Thought,
+S376,2026,prompt_engineering,PE4,Role / persona prompting,
+S376,2026,prompt_engineering,PE5,Iterative / feedback / self-refine,
+S376,2026,prompt_engineering,PE6,Template-based / structured,
+S376,2026,stage,T2,Artifact Generation,
+S376,2026,stage,T4,Report and Regression,
+S376,2026,activity,A3,Test code,T2
+S376,2026,activity,A11,Validation,T4
+S376,2026,vendor,M9,DeepSeek,
+S376,2026,architecture,AR2,Multi-agent,
+S377,2026,prompt_engineering,PE1,Few-shot / in-context learning,
+S377,2026,prompt_engineering,PE5,Iterative / feedback / self-refine,
+S377,2026,stage,T2,Artifact Generation,
+S377,2026,stage,T4,Report and Regression,
+S377,2026,activity,A3,Test code,T2
+S377,2026,activity,A10,Test improvement,T2
+S377,2026,activity,A9,Test repair,T4
+S377,2026,activity,A12,Suite quality,T4
+S377,2026,vendor,M1,OpenAI,
+S377,2026,vendor,M6,Anthropic,
+S377,2026,architecture,AR2,Multi-agent,
+S378,2026,prompt_engineering,PE1,Few-shot / in-context learning,
+S378,2026,prompt_engineering,PE2,Zero-shot,
+S378,2026,prompt_engineering,PE6,Template-based / structured,
+S378,2026,stage,T1,Requirements Management,
+S378,2026,stage,T2,Artifact Generation,
+S378,2026,activity,A1,Requirement extraction,T1
+S378,2026,activity,A4,Test instruction,T2
+S378,2026,vendor,M1,OpenAI,
+S378,2026,vendor,M2,Meta,
+S378,2026,vendor,M3,Google,
+S378,2026,vendor,M4,Mistral AI,
+S378,2026,vendor,M11,Other origins,
+S378,2026,architecture,AR1,Single-agent,
+S379,2026,prompt_engineering,PE1,Few-shot / in-context learning,
+S379,2026,prompt_engineering,PE4,Role / persona prompting,
+S379,2026,prompt_engineering,PE6,Template-based / structured,
+S379,2026,prompt_engineering,PE7,RAG,
+S379,2026,stage,T2,Artifact Generation,
+S379,2026,activity,A3,Test code,T2
+S379,2026,vendor,M1,OpenAI,
+S379,2026,architecture,AR1,Single-agent,
+S380,2026,prompt_engineering,PE3,Chain-of-Thought,
+S380,2026,prompt_engineering,PE8,Step-by-step / decomposition,
+S380,2026,fine_tuning,FT1,Supervised fine-tuning (SFT / full),
+S380,2026,fine_tuning,FT4,Reinforcement-learning fine-tuning,
+S380,2026,stage,T2,Artifact Generation,
+S380,2026,activity,A3,Test code,T2
+S380,2026,activity,A5,Test input,T2
+S380,2026,vendor,M1,OpenAI,
+S380,2026,vendor,M2,Meta,
+S380,2026,vendor,M5,Microsoft,
+S380,2026,architecture,AR1,Single-agent,
+S381,2026,prompt_engineering,PE1,Few-shot / in-context learning,
+S381,2026,prompt_engineering,PE8,Step-by-step / decomposition,
+S381,2026,stage,T2,Artifact Generation,
+S381,2026,activity,A6,Test oracle,T2
+S381,2026,vendor,M1,OpenAI,
+S381,2026,vendor,M2,Meta,
+S381,2026,vendor,M3,Google,
+S381,2026,vendor,M11,Other origins,
+S381,2026,architecture,AR1,Single-agent,
+S382,2026,prompt_engineering,PE3,Chain-of-Thought,
+S382,2026,prompt_engineering,PE6,Template-based / structured,
+S382,2026,prompt_engineering,PE8,Step-by-step / decomposition,
+S382,2026,stage,T2,Artifact Generation,
+S382,2026,stage,T3,Verification and Prioritization,
+S382,2026,stage,T4,Report and Regression,
+S382,2026,activity,A3,Test code,T2
+S382,2026,activity,A7,Semantic judgment,T3
+S382,2026,activity,A9,Test repair,T4
+S382,2026,vendor,M1,OpenAI,
+S382,2026,vendor,M9,DeepSeek,
+S382,2026,vendor,M11,Other origins,
+S382,2026,architecture,AR2,Multi-agent,
+S383,2026,prompt_engineering,PE11,Undefined,
+S383,2026,fine_tuning,FT3,LoRA,
+S383,2026,stage,T2,Artifact Generation,
+S383,2026,stage,T3,Verification and Prioritization,
+S383,2026,activity,A6,Test oracle,T2
+S383,2026,activity,A7,Semantic judgment,T3
+S383,2026,vendor,M10,Alibaba,
+S383,2026,architecture,AR1,Single-agent,
+S384,2026,prompt_engineering,PE6,Template-based / structured,
+S384,2026,stage,T2,Artifact Generation,
+S384,2026,activity,A3,Test code,T2
+S384,2026,activity,A5,Test input,T2
+S384,2026,vendor,M6,Anthropic,
+S384,2026,vendor,M1,OpenAI,
+S384,2026,vendor,M3,Google,
+S384,2026,architecture,AR1,Single-agent,
+S385,2026,prompt_engineering,PE2,Zero-shot,
+S385,2026,prompt_engineering,PE5,Iterative / feedback / self-refine,
+S385,2026,stage,T2,Artifact Generation,
+S385,2026,activity,A3,Test code,T2
+S385,2026,vendor,M1,OpenAI,
+S385,2026,vendor,M2,Meta,
+S385,2026,vendor,M3,Google,
+S385,2026,vendor,M5,Microsoft,
+S385,2026,vendor,M9,DeepSeek,
+S385,2026,vendor,M10,Alibaba,
+S385,2026,vendor,M11,Other origins,
+S385,2026,architecture,AR1,Single-agent,
+S386,2026,prompt_engineering,PE1,Few-shot / in-context learning,
+S386,2026,prompt_engineering,PE2,Zero-shot,
+S386,2026,stage,T2,Artifact Generation,
+S386,2026,activity,A5,Test input,T2
+S386,2026,vendor,M1,OpenAI,
+S386,2026,architecture,AR1,Single-agent,
+S387,2026,prompt_engineering,PE3,Chain-of-Thought,
+S387,2026,prompt_engineering,PE7,RAG,
+S387,2026,stage,T2,Artifact Generation,
+S387,2026,stage,T4,Report and Regression,
+S387,2026,activity,A3,Test code,T2
+S387,2026,activity,A9,Test repair,T4
+S387,2026,vendor,M9,DeepSeek,
+S387,2026,vendor,M1,OpenAI,
+S387,2026,vendor,M3,Google,
+S387,2026,vendor,M6,Anthropic,
+S387,2026,vendor,M10,Alibaba,
+S387,2026,architecture,AR1,Single-agent,
+S388,2026,prompt_engineering,PE2,Zero-shot,
+S388,2026,prompt_engineering,PE5,Iterative / feedback / self-refine,
+S388,2026,prompt_engineering,PE6,Template-based / structured,
+S388,2026,stage,T1,Requirements Management,
+S388,2026,stage,T2,Artifact Generation,
+S388,2026,activity,A1,Requirement extraction,T1
+S388,2026,activity,A4,Test instruction,T2
+S388,2026,vendor,M1,OpenAI,
+S388,2026,architecture,AR1,Single-agent,
+S389,2026,prompt_engineering,PE5,Iterative / feedback / self-refine,
+S389,2026,prompt_engineering,PE6,Template-based / structured,
+S389,2026,fine_tuning,FT3,LoRA,
+S389,2026,stage,T2,Artifact Generation,
+S389,2026,stage,T4,Report and Regression,
+S389,2026,activity,A3,Test code,T2
+S389,2026,activity,A9,Test repair,T4
+S389,2026,vendor,M9,DeepSeek,
+S389,2026,architecture,AR1,Single-agent,
+S390,2026,fine_tuning,FT1,Supervised fine-tuning (SFT / full),
+S390,2026,stage,T2,Artifact Generation,
+S390,2026,activity,A3,Test code,T2
+S390,2026,vendor,M1,OpenAI,
+S390,2026,vendor,M2,Meta,
+S390,2026,vendor,M8,Salesforce,
+S390,2026,architecture,AR1,Single-agent,
+S391,2026,prompt_engineering,PE2,Zero-shot,
+S391,2026,prompt_engineering,PE6,Template-based / structured,
+S391,2026,stage,T2,Artifact Generation,
+S391,2026,activity,A3,Test code,T2
+S391,2026,vendor,M9,DeepSeek,
+S391,2026,architecture,AR1,Single-agent,
+S392,2026,prompt_engineering,PE2,Zero-shot,
+S392,2026,prompt_engineering,PE6,Template-based / structured,
+S392,2026,stage,T4,Report and Regression,
+S392,2026,activity,A10,Test improvement,T4
+S392,2026,vendor,M2,Meta,
+S392,2026,architecture,AR1,Single-agent,
+S393,2026,prompt_engineering,PE2,Zero-shot,
+S393,2026,prompt_engineering,PE6,Template-based / structured,
+S393,2026,stage,T2,Artifact Generation,
+S393,2026,activity,A3,Test code,T2
+S393,2026,vendor,M1,OpenAI,
+S393,2026,vendor,M2,Meta,
+S393,2026,vendor,M9,DeepSeek,
+S393,2026,architecture,AR1,Single-agent,
+S394,2026,prompt_engineering,PE1,Few-shot / in-context learning,
+S394,2026,prompt_engineering,PE2,Zero-shot,
+S394,2026,prompt_engineering,PE3,Chain-of-Thought,
+S394,2026,prompt_engineering,PE6,Template-based / structured,
+S394,2026,stage,T3,Verification and Prioritization,
+S394,2026,activity,A7,Semantic judgment,T3
+S394,2026,vendor,M1,OpenAI,
+S394,2026,vendor,M10,Alibaba,
+S394,2026,architecture,AR1,Single-agent,
+S395,2026,prompt_engineering,PE2,Zero-shot,
+S395,2026,prompt_engineering,PE6,Template-based / structured,
+S395,2026,stage,T2,Artifact Generation,
+S395,2026,activity,A3,Test code,T2
+S395,2026,vendor,M1,OpenAI,
+S395,2026,vendor,M3,Google,
+S395,2026,vendor,M6,Anthropic,
+S395,2026,architecture,AR2,Multi-agent,
+S396,2026,prompt_engineering,PE5,Iterative / feedback / self-refine,
+S396,2026,prompt_engineering,PE6,Template-based / structured,
+S396,2026,stage,T2,Artifact Generation,
+S396,2026,activity,A3,Test code,T2
+S396,2026,vendor,M9,DeepSeek,
+S396,2026,vendor,M1,OpenAI,
+S396,2026,vendor,M2,Meta,
+S396,2026,architecture,AR1,Single-agent,
+S397,2026,prompt_engineering,PE5,Iterative / feedback / self-refine,
+S397,2026,prompt_engineering,PE7,RAG,
+S397,2026,stage,T2,Artifact Generation,
+S397,2026,stage,T4,Report and Regression,
+S397,2026,activity,A3,Test code,T2
+S397,2026,activity,A9,Test repair,T4
+S397,2026,vendor,M1,OpenAI,
+S397,2026,architecture,AR1,Single-agent,
+S398,2026,prompt_engineering,PE6,Template-based / structured,
+S398,2026,prompt_engineering,PE7,RAG,
+S398,2026,stage,T1,Requirements Management,
+S398,2026,stage,T2,Artifact Generation,
+S398,2026,activity,A1,Requirement extraction,T1
+S398,2026,activity,A4,Test instruction,T2
+S398,2026,architecture,AR1,Single-agent,
+S399,2026,prompt_engineering,PE1,Few-shot / in-context learning,
+S399,2026,prompt_engineering,PE3,Chain-of-Thought,
+S399,2026,prompt_engineering,PE5,Iterative / feedback / self-refine,
+S399,2026,stage,T2,Artifact Generation,
+S399,2026,stage,T3,Verification and Prioritization,
+S399,2026,activity,A3,Test code,T2
+S399,2026,activity,A7,Semantic judgment,T3
+S399,2026,vendor,M1,OpenAI,
+S399,2026,vendor,M3,Google,
+S399,2026,vendor,M10,Alibaba,
+S399,2026,architecture,AR1,Single-agent,
+S400,2026,prompt_engineering,PE4,Role / persona prompting,
+S400,2026,prompt_engineering,PE5,Iterative / feedback / self-refine,
+S400,2026,prompt_engineering,PE9,ReAct,
+S400,2026,stage,T2,Artifact Generation,
+S400,2026,stage,T4,Report and Regression,
+S400,2026,activity,A3,Test code,T2
+S400,2026,activity,A9,Test repair,T4
+S400,2026,vendor,M6,Anthropic,
+S400,2026,architecture,AR2,Multi-agent,
+S401,2026,prompt_engineering,PE1,Few-shot / in-context learning,
+S401,2026,prompt_engineering,PE5,Iterative / feedback / self-refine,
+S401,2026,prompt_engineering,PE6,Template-based / structured,
+S401,2026,stage,T2,Artifact Generation,
+S401,2026,stage,T4,Report and Regression,
+S401,2026,activity,A3,Test code,T2
+S401,2026,activity,A5,Test input,T2
+S401,2026,activity,A10,Test improvement,T4
+S401,2026,vendor,M1,OpenAI,
+S401,2026,vendor,M9,DeepSeek,
+S401,2026,vendor,M10,Alibaba,
+S401,2026,architecture,AR1,Single-agent,
+S402,2026,prompt_engineering,PE6,Template-based / structured,
+S402,2026,prompt_engineering,PE8,Step-by-step / decomposition,
+S402,2026,stage,T2,Artifact Generation,
+S402,2026,activity,A3,Test code,T2
+S402,2026,activity,A5,Test input,T2
+S402,2026,vendor,M1,OpenAI,
+S402,2026,architecture,AR1,Single-agent,
+S403,2026,prompt_engineering,PE2,Zero-shot,
+S403,2026,stage,T4,Report and Regression,
+S403,2026,activity,A10,Test improvement,T4
+S403,2026,vendor,M1,OpenAI,
+S403,2026,architecture,AR1,Single-agent,
+S404,2026,prompt_engineering,PE5,Iterative / feedback / self-refine,
+S404,2026,prompt_engineering,PE7,RAG,
+S404,2026,stage,T1,Requirements Management,
+S404,2026,stage,T2,Artifact Generation,
+S404,2026,activity,A1,Requirement extraction,T1
+S404,2026,activity,A3,Test code,T2
+S404,2026,vendor,M1,OpenAI,
+S404,2026,vendor,M6,Anthropic,
+S404,2026,vendor,M9,DeepSeek,
+S404,2026,architecture,AR1,Single-agent,
+S405,2026,prompt_engineering,PE2,Zero-shot,
+S405,2026,prompt_engineering,PE6,Template-based / structured,
+S405,2026,stage,T2,Artifact Generation,
+S405,2026,activity,A3,Test code,T2
+S405,2026,vendor,M2,Meta,
+S405,2026,vendor,M3,Google,
+S405,2026,vendor,M4,Mistral AI,
+S405,2026,architecture,AR1,Single-agent,
+S406,2026,prompt_engineering,PE2,Zero-shot,
+S406,2026,prompt_engineering,PE5,Iterative / feedback / self-refine,
+S406,2026,stage,T2,Artifact Generation,
+S406,2026,activity,A5,Test input,T2
+S406,2026,activity,A6,Test oracle,T2
+S406,2026,vendor,M1,OpenAI,
+S406,2026,architecture,AR1,Single-agent,
+S407,2026,prompt_engineering,PE1,Few-shot / in-context learning,
+S407,2026,prompt_engineering,PE2,Zero-shot,
+S407,2026,prompt_engineering,PE3,Chain-of-Thought,
+S407,2026,prompt_engineering,PE4,Role / persona prompting,
+S407,2026,prompt_engineering,PE5,Iterative / feedback / self-refine,
+S407,2026,prompt_engineering,PE6,Template-based / structured,
+S407,2026,prompt_engineering,PE9,ReAct,
+S407,2026,prompt_engineering,PE10,Tree-of-Thought,
+S407,2026,stage,T2,Artifact Generation,
+S407,2026,activity,A4,Test instruction,T2
+S407,2026,activity,A5,Test input,T2
+S407,2026,activity,A6,Test oracle,T2
+S407,2026,vendor,M1,OpenAI,
+S407,2026,vendor,M4,Mistral AI,
+S407,2026,architecture,AR1,Single-agent,
+S408,2026,prompt_engineering,PE2,Zero-shot,
+S408,2026,prompt_engineering,PE5,Iterative / feedback / self-refine,
+S408,2026,stage,T2,Artifact Generation,
+S408,2026,activity,A3,Test code,T2
+S408,2026,activity,A5,Test input,T2
+S408,2026,vendor,M1,OpenAI,
+S408,2026,vendor,M9,DeepSeek,
+S408,2026,architecture,AR1,Single-agent,
+S409,2026,prompt_engineering,PE2,Zero-shot,
+S409,2026,prompt_engineering,PE6,Template-based / structured,
+S409,2026,stage,T2,Artifact Generation,
+S409,2026,activity,A3,Test code,T2
+S409,2026,activity,A5,Test input,T2
+S409,2026,activity,A6,Test oracle,T2
+S409,2026,vendor,M1,OpenAI,
+S409,2026,vendor,M2,Meta,
+S409,2026,vendor,M3,Google,
+S409,2026,vendor,M4,Mistral AI,
+S409,2026,vendor,M5,Microsoft,
+S409,2026,vendor,M6,Anthropic,
+S409,2026,vendor,M9,DeepSeek,
+S409,2026,vendor,M10,Alibaba,
+S409,2026,vendor,M11,Other origins,
+S409,2026,architecture,AR1,Single-agent,
+S410,2026,prompt_engineering,PE7,RAG,
+S410,2026,stage,T1,Requirements Management,
+S410,2026,stage,T2,Artifact Generation,
+S410,2026,activity,A2,Element localization,T1
+S410,2026,activity,A5,Test input,T2
+S410,2026,vendor,M1,OpenAI,
+S410,2026,architecture,AR1,Single-agent,
+S411,2026,prompt_engineering,PE2,Zero-shot,
+S411,2026,stage,T2,Artifact Generation,
+S411,2026,stage,T4,Report and Regression,
+S411,2026,activity,A3,Test code,T2
+S411,2026,activity,A10,Test improvement,T4
+S411,2026,vendor,M1,OpenAI,
+S411,2026,vendor,M3,Google,
+S411,2026,vendor,M6,Anthropic,
+S411,2026,architecture,AR1,Single-agent,
+S412,2026,prompt_engineering,PE1,Few-shot / in-context learning,
+S412,2026,prompt_engineering,PE3,Chain-of-Thought,
+S412,2026,prompt_engineering,PE5,Iterative / feedback / self-refine,
+S412,2026,prompt_engineering,PE6,Template-based / structured,
+S412,2026,prompt_engineering,PE9,ReAct,
+S412,2026,stage,T2,Artifact Generation,
+S412,2026,stage,T3,Verification and Prioritization,
+S412,2026,activity,A3,Test code,T2
+S412,2026,activity,A7,Semantic judgment,T3
+S412,2026,vendor,M3,Google,
+S412,2026,vendor,M1,OpenAI,
+S412,2026,architecture,AR2,Multi-agent,
+S413,2026,prompt_engineering,PE5,Iterative / feedback / self-refine,
+S413,2026,stage,T2,Artifact Generation,
+S413,2026,stage,T4,Report and Regression,
+S413,2026,activity,A5,Test input,T2
+S413,2026,activity,A9,Test repair,T4
+S413,2026,vendor,M7,BigCode / HuggingFace,
+S413,2026,architecture,AR1,Single-agent,
+S414,2026,prompt_engineering,PE3,Chain-of-Thought,
+S414,2026,prompt_engineering,PE5,Iterative / feedback / self-refine,
+S414,2026,prompt_engineering,PE6,Template-based / structured,
+S414,2026,stage,T1,Requirements Management,
+S414,2026,stage,T2,Artifact Generation,
+S414,2026,stage,T4,Report and Regression,
+S414,2026,activity,A1,Requirement extraction,T1
+S414,2026,activity,A3,Test code,T2
+S414,2026,activity,A9,Test repair,T4
+S414,2026,vendor,M1,OpenAI,
+S414,2026,architecture,AR1,Single-agent,
+S415,2026,prompt_engineering,PE5,Iterative / feedback / self-refine,
+S415,2026,prompt_engineering,PE6,Template-based / structured,
+S415,2026,stage,T2,Artifact Generation,
+S415,2026,stage,T4,Report and Regression,
+S415,2026,activity,A3,Test code,T2
+S415,2026,activity,A9,Test repair,T4
+S415,2026,vendor,M9,DeepSeek,
+S415,2026,vendor,M1,OpenAI,
+S415,2026,architecture,AR1,Single-agent,
+S416,2026,prompt_engineering,PE6,Template-based / structured,
+S416,2026,prompt_engineering,PE8,Step-by-step / decomposition,
+S416,2026,stage,T1,Requirements Management,
+S416,2026,stage,T2,Artifact Generation,
+S416,2026,activity,A1,Requirement extraction,T1
+S416,2026,activity,A3,Test code,T2
+S416,2026,vendor,M1,OpenAI,
+S416,2026,vendor,M9,DeepSeek,
+S416,2026,architecture,AR1,Single-agent,
+S417,2026,prompt_engineering,PE5,Iterative / feedback / self-refine,
+S417,2026,prompt_engineering,PE6,Template-based / structured,
+S417,2026,prompt_engineering,PE7,RAG,
+S417,2026,stage,T1,Requirements Management,
+S417,2026,stage,T2,Artifact Generation,
+S417,2026,stage,T4,Report and Regression,
+S417,2026,activity,A2,Element localization,T1
+S417,2026,activity,A5,Test input,T2
+S417,2026,activity,A10,Test improvement,T4
+S417,2026,activity,A13,Log analysis,T4
+S417,2026,vendor,M1,OpenAI,
+S417,2026,vendor,M3,Google,
+S417,2026,vendor,M6,Anthropic,
+S417,2026,architecture,AR1,Single-agent,
+S418,2026,prompt_engineering,PE4,Role / persona prompting,
+S418,2026,prompt_engineering,PE5,Iterative / feedback / self-refine,
+S418,2026,stage,T2,Artifact Generation,
+S418,2026,activity,A3,Test code,T2
+S418,2026,activity,A6,Test oracle,T2
+S418,2026,vendor,M2,Meta,
+S418,2026,vendor,M9,DeepSeek,
+S418,2026,vendor,M1,OpenAI,
+S418,2026,vendor,M7,BigCode / HuggingFace,
+S418,2026,architecture,AR2,Multi-agent,
+S419,2026,prompt_engineering,PE5,Iterative / feedback / self-refine,
+S419,2026,prompt_engineering,PE6,Template-based / structured,
+S419,2026,stage,T2,Artifact Generation,
+S419,2026,stage,T4,Report and Regression,
+S419,2026,activity,A3,Test code,T2
+S419,2026,activity,A9,Test repair,T4
+S419,2026,vendor,M9,DeepSeek,
+S419,2026,architecture,AR1,Single-agent,
+S420,2026,prompt_engineering,PE2,Zero-shot,
+S420,2026,prompt_engineering,PE3,Chain-of-Thought,
+S420,2026,prompt_engineering,PE5,Iterative / feedback / self-refine,
+S420,2026,prompt_engineering,PE8,Step-by-step / decomposition,
+S420,2026,stage,T2,Artifact Generation,
+S420,2026,stage,T4,Report and Regression,
+S420,2026,activity,A3,Test code,T2
+S420,2026,activity,A9,Test repair,T4
+S420,2026,vendor,M1,OpenAI,
+S420,2026,vendor,M2,Meta,
+S420,2026,vendor,M9,DeepSeek,
+S420,2026,architecture,AR1,Single-agent,
+S421,2026,prompt_engineering,PE1,Few-shot / in-context learning,
+S421,2026,prompt_engineering,PE3,Chain-of-Thought,
+S421,2026,prompt_engineering,PE6,Template-based / structured,
+S421,2026,stage,T4,Report and Regression,
+S421,2026,activity,A13,Log analysis,T4
+S421,2026,vendor,M1,OpenAI,
+S421,2026,vendor,M10,Alibaba,
+S421,2026,architecture,AR1,Single-agent,
+S422,2026,prompt_engineering,PE6,Template-based / structured,
+S422,2026,prompt_engineering,PE2,Zero-shot,
+S422,2026,stage,T1,Requirements Management,
+S422,2026,stage,T3,Verification and Prioritization,
+S422,2026,activity,A1,Requirement extraction,T1
+S422,2026,activity,A7,Semantic judgment,T3
+S422,2026,vendor,M1,OpenAI,
+S422,2026,architecture,AR1,Single-agent,
+S423,2026,prompt_engineering,PE5,Iterative / feedback / self-refine,
+S423,2026,prompt_engineering,PE6,Template-based / structured,
+S423,2026,stage,T4,Report and Regression,
+S423,2026,activity,A9,Test repair,T4
+S423,2026,vendor,M6,Anthropic,
+S423,2026,architecture,AR1,Single-agent,
+S424,2026,prompt_engineering,PE3,Chain-of-Thought,
+S424,2026,prompt_engineering,PE6,Template-based / structured,
+S424,2026,stage,T2,Artifact Generation,
+S424,2026,stage,T4,Report and Regression,
+S424,2026,activity,A3,Test code,T2
+S424,2026,activity,A5,Test input,T2
+S424,2026,activity,A6,Test oracle,T2
+S424,2026,activity,A10,Test improvement,T4
+S424,2026,vendor,M1,OpenAI,
+S424,2026,vendor,M2,Meta,
+S424,2026,vendor,M9,DeepSeek,
+S424,2026,architecture,AR1,Single-agent,
+S425,2026,prompt_engineering,PE1,Few-shot / in-context learning,
+S425,2026,prompt_engineering,PE6,Template-based / structured,
+S425,2026,stage,T2,Artifact Generation,
+S425,2026,activity,A3,Test code,T2
+S425,2026,vendor,M1,OpenAI,
+S425,2026,vendor,M2,Meta,
+S425,2026,vendor,M3,Google,
+S425,2026,architecture,AR1,Single-agent,
+S426,2026,prompt_engineering,PE3,Chain-of-Thought,
+S426,2026,prompt_engineering,PE4,Role / persona prompting,
+S426,2026,prompt_engineering,PE6,Template-based / structured,
+S426,2026,stage,T2,Artifact Generation,
+S426,2026,stage,T3,Verification and Prioritization,
+S426,2026,activity,A6,Test oracle,T2
+S426,2026,activity,A7,Semantic judgment,T3
+S426,2026,vendor,M1,OpenAI,
+S426,2026,vendor,M2,Meta,
+S426,2026,architecture,AR1,Single-agent,
+S427,2026,prompt_engineering,PE1,Few-shot / in-context learning,
+S427,2026,prompt_engineering,PE4,Role / persona prompting,
+S427,2026,prompt_engineering,PE6,Template-based / structured,
+S427,2026,stage,T2,Artifact Generation,
+S427,2026,stage,T3,Verification and Prioritization,
+S427,2026,activity,A3,Test code,T2
+S427,2026,activity,A7,Semantic judgment,T3
+S427,2026,vendor,M1,OpenAI,
+S427,2026,vendor,M2,Meta,
+S427,2026,vendor,M9,DeepSeek,
+S427,2026,architecture,AR1,Single-agent,
+S428,2026,prompt_engineering,PE1,Few-shot / in-context learning,
+S428,2026,prompt_engineering,PE5,Iterative / feedback / self-refine,
+S428,2026,stage,T2,Artifact Generation,
+S428,2026,stage,T4,Report and Regression,
+S428,2026,activity,A3,Test code,T2
+S428,2026,activity,A9,Test repair,T4
+S428,2026,vendor,M1,OpenAI,
+S428,2026,vendor,M6,Anthropic,
+S428,2026,architecture,AR1,Single-agent,
+S429,2026,prompt_engineering,PE6,Template-based / structured,
+S429,2026,prompt_engineering,PE7,RAG,
+S429,2026,stage,T2,Artifact Generation,
+S429,2026,activity,A4,Test instruction,T2
+S429,2026,activity,A6,Test oracle,T2
+S429,2026,vendor,M2,Meta,
+S429,2026,vendor,M3,Google,
+S429,2026,architecture,AR1,Single-agent,
+S430,2026,prompt_engineering,PE1,Few-shot / in-context learning,
+S430,2026,prompt_engineering,PE6,Template-based / structured,
+S430,2026,stage,T2,Artifact Generation,
+S430,2026,activity,A3,Test code,T2
+S430,2026,activity,A5,Test input,T2
+S430,2026,activity,A6,Test oracle,T2
+S430,2026,vendor,M1,OpenAI,
+S430,2026,vendor,M2,Meta,
+S430,2026,vendor,M3,Google,
+S430,2026,vendor,M6,Anthropic,
+S430,2026,architecture,AR1,Single-agent,
+S431,2026,prompt_engineering,PE3,Chain-of-Thought,
+S431,2026,prompt_engineering,PE7,RAG,
+S431,2026,stage,T4,Report and Regression,
+S431,2026,activity,A13,Log analysis,T4
+S431,2026,architecture,AR1,Single-agent,
+S432,2026,prompt_engineering,PE5,Iterative / feedback / self-refine,
+S432,2026,stage,T2,Artifact Generation,
+S432,2026,stage,T4,Report and Regression,
+S432,2026,activity,A3,Test code,T2
+S432,2026,activity,A9,Test repair,T4
+S432,2026,vendor,M1,OpenAI,
+S432,2026,vendor,M6,Anthropic,
+S432,2026,architecture,AR1,Single-agent,
+S433,2026,prompt_engineering,PE2,Zero-shot,
+S433,2026,prompt_engineering,PE11,Undefined,
+S433,2026,stage,T2,Artifact Generation,
+S433,2026,stage,T3,Verification and Prioritization,
+S433,2026,activity,A3,Test code,T2
+S433,2026,activity,A7,Semantic judgment,T3
+S433,2026,vendor,M2,Meta,
+S433,2026,vendor,M3,Google,
+S433,2026,vendor,M6,Anthropic,
+S433,2026,architecture,AR1,Single-agent,
+S434,2026,prompt_engineering,PE5,Iterative / feedback / self-refine,
+S434,2026,stage,T2,Artifact Generation,
+S434,2026,activity,A3,Test code,T2
+S434,2026,activity,A5,Test input,T2
+S434,2026,vendor,M3,Google,
+S434,2026,architecture,AR1,Single-agent,
+S435,2026,prompt_engineering,PE5,Iterative / feedback / self-refine,
+S435,2026,prompt_engineering,PE6,Template-based / structured,
+S435,2026,prompt_engineering,PE8,Step-by-step / decomposition,
+S435,2026,stage,T2,Artifact Generation,
+S435,2026,activity,A3,Test code,T2
+S435,2026,activity,A5,Test input,T2
+S435,2026,vendor,M1,OpenAI,
+S435,2026,architecture,AR1,Single-agent,
+S436,2026,prompt_engineering,PE6,Template-based / structured,
+S436,2026,stage,T2,Artifact Generation,
+S436,2026,activity,A5,Test input,T2
+S436,2026,vendor,M1,OpenAI,
+S436,2026,vendor,M2,Meta,
+S436,2026,vendor,M11,Other origins,
+S436,2026,architecture,AR1,Single-agent,
+S437,2026,prompt_engineering,PE1,Few-shot / in-context learning,
+S437,2026,stage,T2,Artifact Generation,
+S437,2026,activity,A3,Test code,T2
+S437,2026,activity,A5,Test input,T2
+S437,2026,activity,A6,Test oracle,T2
+S437,2026,vendor,M1,OpenAI,
+S437,2026,vendor,M3,Google,
+S437,2026,vendor,M5,Microsoft,
+S437,2026,vendor,M6,Anthropic,
+S437,2026,vendor,M11,Other origins,
+S437,2026,architecture,AR1,Single-agent,
+S438,2026,prompt_engineering,PE4,Role / persona prompting,
+S438,2026,prompt_engineering,PE6,Template-based / structured,
+S438,2026,stage,T4,Report and Regression,
+S438,2026,activity,A9,Test repair,T4
+S438,2026,activity,A10,Test improvement,T4
+S438,2026,vendor,M1,OpenAI,
+S438,2026,vendor,M6,Anthropic,
+S438,2026,vendor,M10,Alibaba,
+S438,2026,architecture,AR1,Single-agent,
+S439,2026,prompt_engineering,PE4,Role / persona prompting,
+S439,2026,prompt_engineering,PE5,Iterative / feedback / self-refine,
+S439,2026,stage,T2,Artifact Generation,
+S439,2026,stage,T4,Report and Regression,
+S439,2026,activity,A3,Test code,T2
+S439,2026,activity,A9,Test repair,T4
+S439,2026,activity,A13,Log analysis,T4
+S439,2026,vendor,M1,OpenAI,
+S439,2026,architecture,AR2,Multi-agent,
+S440,2026,prompt_engineering,PE1,Few-shot / in-context learning,
+S440,2026,prompt_engineering,PE6,Template-based / structured,
+S440,2026,stage,T4,Report and Regression,
+S440,2026,activity,A13,Log analysis,T4
+S440,2026,vendor,M1,OpenAI,
+S440,2026,architecture,AR1,Single-agent,
+S441,2026,prompt_engineering,PE1,Few-shot / in-context learning,
+S441,2026,prompt_engineering,PE7,RAG,
+S441,2026,stage,T1,Requirements Management,
+S441,2026,stage,T2,Artifact Generation,
+S441,2026,activity,A1,Requirement extraction,T1
+S441,2026,activity,A4,Test instruction,T2
+S441,2026,activity,A5,Test input,T2
+S441,2026,activity,A6,Test oracle,T2
+S441,2026,vendor,M1,OpenAI,
+S441,2026,vendor,M2,Meta,
+S441,2026,vendor,M4,Mistral AI,
+S441,2026,vendor,M5,Microsoft,
+S441,2026,vendor,M9,DeepSeek,
+S441,2026,vendor,M10,Alibaba,
+S441,2026,architecture,AR1,Single-agent,
+S442,2026,prompt_engineering,PE2,Zero-shot,
+S442,2026,prompt_engineering,PE4,Role / persona prompting,
+S442,2026,prompt_engineering,PE6,Template-based / structured,
+S442,2026,stage,T2,Artifact Generation,
+S442,2026,activity,A4,Test instruction,T2
+S442,2026,vendor,M1,OpenAI,
+S442,2026,architecture,AR1,Single-agent,
+S443,2026,prompt_engineering,PE3,Chain-of-Thought,
+S443,2026,prompt_engineering,PE5,Iterative / feedback / self-refine,
+S443,2026,prompt_engineering,PE6,Template-based / structured,
+S443,2026,stage,T1,Requirements Management,
+S443,2026,activity,A1,Requirement extraction,T1
+S443,2026,vendor,M1,OpenAI,
+S443,2026,architecture,AR1,Single-agent,
+S444,2026,prompt_engineering,PE2,Zero-shot,
+S444,2026,stage,T2,Artifact Generation,
+S444,2026,activity,A5,Test input,T2
+S444,2026,vendor,M2,Meta,
+S444,2026,vendor,M9,DeepSeek,
+S444,2026,vendor,M10,Alibaba,
+S444,2026,architecture,AR1,Single-agent,
+S445,2026,prompt_engineering,PE4,Role / persona prompting,
+S445,2026,prompt_engineering,PE5,Iterative / feedback / self-refine,
+S445,2026,prompt_engineering,PE6,Template-based / structured,
+S445,2026,stage,T2,Artifact Generation,
+S445,2026,stage,T3,Verification and Prioritization,
+S445,2026,activity,A3,Test code,T2
+S445,2026,activity,A7,Semantic judgment,T3
+S445,2026,vendor,M6,Anthropic,
+S445,2026,architecture,AR1,Single-agent,
+S446,2026,prompt_engineering,PE3,Chain-of-Thought,
+S446,2026,prompt_engineering,PE4,Role / persona prompting,
+S446,2026,prompt_engineering,PE6,Template-based / structured,
+S446,2026,stage,T4,Report and Regression,
+S446,2026,activity,A13,Log analysis,T4
+S446,2026,vendor,M1,OpenAI,
+S446,2026,vendor,M6,Anthropic,
+S446,2026,vendor,M9,DeepSeek,
+S446,2026,architecture,AR1,Single-agent,
+S447,2026,prompt_engineering,PE2,Zero-shot,
+S447,2026,prompt_engineering,PE3,Chain-of-Thought,
+S447,2026,prompt_engineering,PE5,Iterative / feedback / self-refine,
+S447,2026,prompt_engineering,PE7,RAG,
+S447,2026,stage,T2,Artifact Generation,
+S447,2026,activity,A5,Test input,T2
+S447,2026,vendor,M1,OpenAI,
+S447,2026,vendor,M2,Meta,
+S447,2026,vendor,M9,DeepSeek,
+S447,2026,architecture,AR1,Single-agent,
+S448,2026,prompt_engineering,PE3,Chain-of-Thought,
+S448,2026,prompt_engineering,PE4,Role / persona prompting,
+S448,2026,prompt_engineering,PE5,Iterative / feedback / self-refine,
+S448,2026,prompt_engineering,PE6,Template-based / structured,
+S448,2026,prompt_engineering,PE9,ReAct,
+S448,2026,stage,T2,Artifact Generation,
+S448,2026,stage,T3,Verification and Prioritization,
+S448,2026,stage,T4,Report and Regression,
+S448,2026,activity,A6,Test oracle,T2
+S448,2026,activity,A7,Semantic judgment,T3
+S448,2026,activity,A9,Test repair,T4
+S448,2026,activity,A13,Log analysis,T4
+S448,2026,vendor,M9,DeepSeek,
+S448,2026,architecture,AR2,Multi-agent,
+S449,2026,prompt_engineering,PE2,Zero-shot,
+S449,2026,prompt_engineering,PE4,Role / persona prompting,
+S449,2026,stage,T2,Artifact Generation,
+S449,2026,activity,A3,Test code,T2
+S449,2026,vendor,M1,OpenAI,
+S449,2026,vendor,M2,Meta,
+S449,2026,vendor,M3,Google,
+S449,2026,vendor,M6,Anthropic,
+S449,2026,vendor,M11,Other origins,
+S449,2026,architecture,AR1,Single-agent,
+S450,2026,prompt_engineering,PE2,Zero-shot,
+S450,2026,prompt_engineering,PE6,Template-based / structured,
+S450,2026,prompt_engineering,PE8,Step-by-step / decomposition,
+S450,2026,stage,T2,Artifact Generation,
+S450,2026,activity,A3,Test code,T2
+S450,2026,activity,A5,Test input,T2
+S450,2026,activity,A6,Test oracle,T2
+S450,2026,vendor,M1,OpenAI,
+S450,2026,vendor,M3,Google,
+S450,2026,vendor,M6,Anthropic,
+S450,2026,architecture,AR1,Single-agent,
+S451,2026,prompt_engineering,PE3,Chain-of-Thought,
+S451,2026,prompt_engineering,PE8,Step-by-step / decomposition,
+S451,2026,stage,T2,Artifact Generation,
+S451,2026,stage,T3,Verification and Prioritization,
+S451,2026,activity,A3,Test code,T2
+S451,2026,activity,A5,Test input,T2
+S451,2026,activity,A6,Test oracle,T2
+S451,2026,activity,A7,Semantic judgment,T3
+S451,2026,vendor,M1,OpenAI,
+S451,2026,vendor,M9,DeepSeek,
+S451,2026,vendor,M10,Alibaba,
+S451,2026,vendor,M11,Other origins,
+S451,2026,architecture,AR1,Single-agent,
+S452,2026,prompt_engineering,PE2,Zero-shot,
+S452,2026,prompt_engineering,PE4,Role / persona prompting,
+S452,2026,prompt_engineering,PE6,Template-based / structured,
+S452,2026,stage,T1,Requirements Management,
+S452,2026,stage,T2,Artifact Generation,
+S452,2026,activity,A1,Requirement extraction,T1
+S452,2026,activity,A3,Test code,T2
+S452,2026,vendor,M1,OpenAI,
+S452,2026,architecture,AR1,Single-agent,
+S453,2026,prompt_engineering,PE5,Iterative / feedback / self-refine,
+S453,2026,prompt_engineering,PE6,Template-based / structured,
+S453,2026,stage,T2,Artifact Generation,
+S453,2026,stage,T4,Report and Regression,
+S453,2026,activity,A3,Test code,T2
+S453,2026,activity,A10,Test improvement,T4
+S453,2026,vendor,M1,OpenAI,
+S453,2026,architecture,AR1,Single-agent,
+S454,2026,prompt_engineering,PE1,Few-shot / in-context learning,
+S454,2026,prompt_engineering,PE6,Template-based / structured,
+S454,2026,prompt_engineering,PE7,RAG,
+S454,2026,stage,T1,Requirements Management,
+S454,2026,stage,T2,Artifact Generation,
+S454,2026,activity,A2,Element localization,T1
+S454,2026,activity,A3,Test code,T2
+S454,2026,activity,A6,Test oracle,T2
+S454,2026,vendor,M1,OpenAI,
+S454,2026,vendor,M3,Google,
+S454,2026,architecture,AR2,Multi-agent,
+S455,2026,prompt_engineering,PE4,Role / persona prompting,
+S455,2026,prompt_engineering,PE5,Iterative / feedback / self-refine,
+S455,2026,prompt_engineering,PE6,Template-based / structured,
+S455,2026,prompt_engineering,PE7,RAG,
+S455,2026,stage,T2,Artifact Generation,
+S455,2026,stage,T4,Report and Regression,
+S455,2026,activity,A3,Test code,T2
+S455,2026,activity,A5,Test input,T2
+S455,2026,activity,A9,Test repair,T4
+S455,2026,vendor,M9,DeepSeek,
+S455,2026,architecture,AR2,Multi-agent,
+S456,2026,prompt_engineering,PE1,Few-shot / in-context learning,
+S456,2026,prompt_engineering,PE5,Iterative / feedback / self-refine,
+S456,2026,stage,T1,Requirements Management,
+S456,2026,stage,T2,Artifact Generation,
+S456,2026,activity,A1,Requirement extraction,T1
+S456,2026,activity,A5,Test input,T2
+S456,2026,activity,A6,Test oracle,T2
+S456,2026,vendor,M1,OpenAI,
+S456,2026,vendor,M9,DeepSeek,
+S456,2026,architecture,AR1,Single-agent,
+S457,2026,prompt_engineering,PE4,Role / persona prompting,
+S457,2026,prompt_engineering,PE5,Iterative / feedback / self-refine,
+S457,2026,prompt_engineering,PE7,RAG,
+S457,2026,prompt_engineering,PE8,Step-by-step / decomposition,
+S457,2026,stage,T2,Artifact Generation,
+S457,2026,activity,A3,Test code,T2
+S457,2026,activity,A5,Test input,T2
+S457,2026,architecture,AR1,Single-agent,
+S458,2026,prompt_engineering,PE5,Iterative / feedback / self-refine,
+S458,2026,prompt_engineering,PE6,Template-based / structured,
+S458,2026,prompt_engineering,PE8,Step-by-step / decomposition,
+S458,2026,stage,T2,Artifact Generation,
+S458,2026,stage,T3,Verification and Prioritization,
+S458,2026,stage,T4,Report and Regression,
+S458,2026,activity,A5,Test input,T2
+S458,2026,activity,A6,Test oracle,T2
+S458,2026,activity,A7,Semantic judgment,T3
+S458,2026,activity,A9,Test repair,T4
+S458,2026,activity,A13,Log analysis,T4
+S458,2026,vendor,M1,OpenAI,
+S458,2026,vendor,M6,Anthropic,
+S458,2026,architecture,AR2,Multi-agent,
+S459,2026,prompt_engineering,PE3,Chain-of-Thought,
+S459,2026,prompt_engineering,PE7,RAG,
+S459,2026,prompt_engineering,PE8,Step-by-step / decomposition,
+S459,2026,stage,T2,Artifact Generation,
+S459,2026,activity,A3,Test code,T2
+S459,2026,activity,A5,Test input,T2
+S459,2026,vendor,M1,OpenAI,
+S459,2026,vendor,M2,Meta,
+S459,2026,vendor,M9,DeepSeek,
+S459,2026,vendor,M10,Alibaba,
+S459,2026,architecture,AR2,Multi-agent,
+S460,2026,prompt_engineering,PE1,Few-shot / in-context learning,
+S460,2026,prompt_engineering,PE5,Iterative / feedback / self-refine,
+S460,2026,prompt_engineering,PE6,Template-based / structured,
+S460,2026,stage,T2,Artifact Generation,
+S460,2026,activity,A5,Test input,T2
+S460,2026,vendor,M1,OpenAI,
+S460,2026,vendor,M3,Google,
+S460,2026,vendor,M6,Anthropic,
+S460,2026,vendor,M10,Alibaba,
+S460,2026,vendor,M11,Other origins,
+S460,2026,architecture,AR1,Single-agent,
+S461,2026,prompt_engineering,PE1,Few-shot / in-context learning,
+S461,2026,prompt_engineering,PE2,Zero-shot,
+S461,2026,prompt_engineering,PE3,Chain-of-Thought,
+S461,2026,prompt_engineering,PE10,Tree-of-Thought,
+S461,2026,stage,T4,Report and Regression,
+S461,2026,activity,A12,Suite quality,T4
+S461,2026,vendor,M1,OpenAI,
+S461,2026,vendor,M2,Meta,
+S461,2026,vendor,M4,Mistral AI,
+S461,2026,architecture,AR1,Single-agent,
+S462,2026,prompt_engineering,PE1,Few-shot / in-context learning,
+S462,2026,stage,T2,Artifact Generation,
+S462,2026,activity,A3,Test code,T2
+S462,2026,vendor,M1,OpenAI,
+S462,2026,vendor,M4,Mistral AI,
+S462,2026,architecture,AR1,Single-agent,
+S463,2026,prompt_engineering,PE4,Role / persona prompting,
+S463,2026,prompt_engineering,PE5,Iterative / feedback / self-refine,
+S463,2026,prompt_engineering,PE6,Template-based / structured,
+S463,2026,stage,T2,Artifact Generation,
+S463,2026,activity,A5,Test input,T2
+S463,2026,vendor,M1,OpenAI,
+S463,2026,architecture,AR1,Single-agent,
+S464,2026,prompt_engineering,PE3,Chain-of-Thought,
+S464,2026,prompt_engineering,PE5,Iterative / feedback / self-refine,
+S464,2026,prompt_engineering,PE6,Template-based / structured,
+S464,2026,stage,T3,Verification and Prioritization,
+S464,2026,stage,T4,Report and Regression,
+S464,2026,activity,A7,Semantic judgment,T3
+S464,2026,activity,A13,Log analysis,T4
+S464,2026,architecture,AR1,Single-agent,
+S465,2026,prompt_engineering,PE5,Iterative / feedback / self-refine,
+S465,2026,prompt_engineering,PE6,Template-based / structured,
+S465,2026,prompt_engineering,PE8,Step-by-step / decomposition,
+S465,2026,prompt_engineering,PE9,ReAct,
+S465,2026,stage,T2,Artifact Generation,
+S465,2026,activity,A5,Test input,T2
+S465,2026,vendor,M6,Anthropic,
+S465,2026,vendor,M1,OpenAI,
+S465,2026,architecture,AR1,Single-agent,
+S466,2026,prompt_engineering,PE11,Undefined,
+S466,2026,stage,T2,Artifact Generation,
+S466,2026,activity,A4,Test instruction,T2
+S466,2026,vendor,M1,OpenAI,
+S466,2026,architecture,AR1,Single-agent,
+S467,2026,prompt_engineering,PE1,Few-shot / in-context learning,
+S467,2026,prompt_engineering,PE6,Template-based / structured,
+S467,2026,stage,T2,Artifact Generation,
+S467,2026,activity,A3,Test code,T2
+S467,2026,activity,A5,Test input,T2
+S467,2026,vendor,M2,Meta,
+S467,2026,architecture,AR1,Single-agent,
+S468,2026,prompt_engineering,PE7,RAG,
+S468,2026,prompt_engineering,PE8,Step-by-step / decomposition,
+S468,2026,stage,T2,Artifact Generation,
+S468,2026,activity,A3,Test code,T2
+S468,2026,vendor,M9,DeepSeek,
+S468,2026,architecture,AR1,Single-agent,
+S469,2026,prompt_engineering,PE3,Chain-of-Thought,
+S469,2026,prompt_engineering,PE6,Template-based / structured,
+S469,2026,prompt_engineering,PE8,Step-by-step / decomposition,
+S469,2026,stage,T3,Verification and Prioritization,
+S469,2026,activity,A7,Semantic judgment,T3
+S469,2026,vendor,M2,Meta,
+S469,2026,vendor,M4,Mistral AI,
+S469,2026,vendor,M10,Alibaba,
+S469,2026,architecture,AR2,Multi-agent,
+S470,2026,prompt_engineering,PE1,Few-shot / in-context learning,
+S470,2026,prompt_engineering,PE3,Chain-of-Thought,
+S470,2026,prompt_engineering,PE6,Template-based / structured,
+S470,2026,prompt_engineering,PE7,RAG,
+S470,2026,stage,T1,Requirements Management,
+S470,2026,stage,T2,Artifact Generation,
+S470,2026,activity,A1,Requirement extraction,T1
+S470,2026,activity,A3,Test code,T2
+S470,2026,activity,A4,Test instruction,T2
+S470,2026,activity,A5,Test input,T2
+S470,2026,vendor,M1,OpenAI,
+S470,2026,vendor,M2,Meta,
+S470,2026,vendor,M3,Google,
+S470,2026,vendor,M10,Alibaba,
+S470,2026,vendor,M11,Other origins,
+S470,2026,architecture,AR1,Single-agent,
+S471,2026,prompt_engineering,PE6,Template-based / structured,
+S471,2026,stage,T2,Artifact Generation,
+S471,2026,activity,A3,Test code,T2
+S471,2026,activity,A5,Test input,T2
+S471,2026,vendor,M1,OpenAI,
+S471,2026,vendor,M2,Meta,
+S471,2026,vendor,M4,Mistral AI,
+S471,2026,vendor,M5,Microsoft,
+S471,2026,architecture,AR1,Single-agent,
+S472,2026,prompt_engineering,PE2,Zero-shot,
+S472,2026,prompt_engineering,PE6,Template-based / structured,
+S472,2026,stage,T1,Requirements Management,
+S472,2026,stage,T2,Artifact Generation,
+S472,2026,activity,A1,Requirement extraction,T1
+S472,2026,activity,A2,Element localization,T1
+S472,2026,activity,A3,Test code,T2
+S472,2026,activity,A5,Test input,T2
+S472,2026,vendor,M1,OpenAI,
+S472,2026,vendor,M2,Meta,
+S472,2026,vendor,M6,Anthropic,
+S472,2026,vendor,M9,DeepSeek,
+S472,2026,architecture,AR1,Single-agent,
+S473,2026,prompt_engineering,PE1,Few-shot / in-context learning,
+S473,2026,prompt_engineering,PE2,Zero-shot,
+S473,2026,prompt_engineering,PE6,Template-based / structured,
+S473,2026,fine_tuning,FT1,Supervised fine-tuning (SFT / full),
+S473,2026,fine_tuning,FT3,LoRA,
+S473,2026,stage,T2,Artifact Generation,
+S473,2026,activity,A4,Test instruction,T2
+S473,2026,vendor,M1,OpenAI,
+S473,2026,vendor,M2,Meta,
+S473,2026,vendor,M5,Microsoft,
+S473,2026,vendor,M8,Salesforce,
+S473,2026,vendor,M9,DeepSeek,
+S473,2026,vendor,M10,Alibaba,
+S473,2026,architecture,AR1,Single-agent,
+S474,2026,prompt_engineering,PE2,Zero-shot,
+S474,2026,prompt_engineering,PE6,Template-based / structured,
+S474,2026,fine_tuning,FT1,Supervised fine-tuning (SFT / full),
+S474,2026,fine_tuning,FT3,LoRA,
+S474,2026,stage,T3,Verification and Prioritization,
+S474,2026,activity,A7,Semantic judgment,T3
+S474,2026,vendor,M10,Alibaba,
+S474,2026,vendor,M9,DeepSeek,
+S474,2026,vendor,M3,Google,
+S474,2026,vendor,M4,Mistral AI,
+S474,2026,vendor,M1,OpenAI,
+S474,2026,architecture,AR1,Single-agent,
+S475,2026,prompt_engineering,PE2,Zero-shot,
+S475,2026,prompt_engineering,PE6,Template-based / structured,
+S475,2026,stage,T2,Artifact Generation,
+S475,2026,activity,A3,Test code,T2
+S475,2026,vendor,M1,OpenAI,
+S475,2026,architecture,AR1,Single-agent,
+S476,2026,prompt_engineering,PE11,Undefined,
+S476,2026,stage,T2,Artifact Generation,
+S476,2026,stage,T3,Verification and Prioritization,
+S476,2026,stage,T4,Report and Regression,
+S476,2026,activity,A5,Test input,T2
+S476,2026,activity,A7,Semantic judgment,T3
+S476,2026,activity,A13,Log analysis,T4
+S476,2026,vendor,M1,OpenAI,
+S476,2026,vendor,M5,Microsoft,
+S476,2026,vendor,M11,Other origins,
+S476,2026,architecture,AR1,Single-agent,
+S477,2026,prompt_engineering,PE4,Role / persona prompting,
+S477,2026,prompt_engineering,PE5,Iterative / feedback / self-refine,
+S477,2026,prompt_engineering,PE8,Step-by-step / decomposition,
+S477,2026,stage,T1,Requirements Management,
+S477,2026,stage,T2,Artifact Generation,
+S477,2026,stage,T3,Verification and Prioritization,
+S477,2026,activity,A2,Element localization,T1
+S477,2026,activity,A3,Test code,T2
+S477,2026,activity,A7,Semantic judgment,T3
+S477,2026,vendor,M1,OpenAI,
+S477,2026,architecture,AR2,Multi-agent,
+S478,2026,prompt_engineering,PE2,Zero-shot,
+S478,2026,stage,T2,Artifact Generation,
+S478,2026,activity,A3,Test code,T2
+S478,2026,vendor,M1,OpenAI,
+S478,2026,vendor,M9,DeepSeek,
+S478,2026,vendor,M10,Alibaba,
+S478,2026,vendor,M11,Other origins,
+S478,2026,architecture,AR1,Single-agent,
+S479,2026,prompt_engineering,PE1,Few-shot / in-context learning,
+S479,2026,prompt_engineering,PE7,RAG,
+S479,2026,prompt_engineering,PE8,Step-by-step / decomposition,
+S479,2026,stage,T2,Artifact Generation,
+S479,2026,stage,T3,Verification and Prioritization,
+S479,2026,stage,T4,Report and Regression,
+S479,2026,activity,A5,Test input,T2
+S479,2026,activity,A6,Test oracle,T2
+S479,2026,activity,A8,Prioritization,T3
+S479,2026,activity,A13,Log analysis,T4
+S479,2026,vendor,M1,OpenAI,
+S479,2026,vendor,M9,DeepSeek,
+S479,2026,vendor,M10,Alibaba,
+S479,2026,architecture,AR2,Multi-agent,
+S480,2026,prompt_engineering,PE5,Iterative / feedback / self-refine,
+S480,2026,prompt_engineering,PE6,Template-based / structured,
+S480,2026,stage,T1,Requirements Management,
+S480,2026,stage,T2,Artifact Generation,
+S480,2026,activity,A1,Requirement extraction,T1
+S480,2026,activity,A4,Test instruction,T2
+S480,2026,architecture,AR2,Multi-agent,
+S481,2026,prompt_engineering,PE2,Zero-shot,
+S481,2026,prompt_engineering,PE5,Iterative / feedback / self-refine,
+S481,2026,prompt_engineering,PE6,Template-based / structured,
+S481,2026,stage,T2,Artifact Generation,
+S481,2026,stage,T4,Report and Regression,
+S481,2026,activity,A3,Test code,T2
+S481,2026,activity,A9,Test repair,T4
+S481,2026,activity,A10,Test improvement,T4
+S481,2026,vendor,M1,OpenAI,
+S481,2026,vendor,M3,Google,
+S481,2026,vendor,M4,Mistral AI,
+S481,2026,vendor,M9,DeepSeek,
+S481,2026,vendor,M10,Alibaba,
+S481,2026,architecture,AR1,Single-agent,
+S482,2026,prompt_engineering,PE4,Role / persona prompting,
+S482,2026,prompt_engineering,PE5,Iterative / feedback / self-refine,
+S482,2026,prompt_engineering,PE8,Step-by-step / decomposition,
+S482,2026,stage,T2,Artifact Generation,
+S482,2026,stage,T4,Report and Regression,
+S482,2026,activity,A3,Test code,T2
+S482,2026,activity,A9,Test repair,T4
+S482,2026,activity,A12,Suite quality,T4
+S482,2026,vendor,M1,OpenAI,
+S482,2026,vendor,M9,DeepSeek,
+S482,2026,vendor,M10,Alibaba,
+S482,2026,architecture,AR2,Multi-agent,
+S483,2026,prompt_engineering,PE1,Few-shot / in-context learning,
+S483,2026,prompt_engineering,PE2,Zero-shot,
+S483,2026,prompt_engineering,PE3,Chain-of-Thought,
+S483,2026,prompt_engineering,PE6,Template-based / structured,
+S483,2026,stage,T4,Report and Regression,
+S483,2026,activity,A10,Test improvement,T4
+S483,2026,vendor,M1,OpenAI,
+S483,2026,vendor,M6,Anthropic,
+S483,2026,architecture,AR1,Single-agent,
+S484,2026,prompt_engineering,PE5,Iterative / feedback / self-refine,
+S484,2026,prompt_engineering,PE6,Template-based / structured,
+S484,2026,prompt_engineering,PE8,Step-by-step / decomposition,
+S484,2026,stage,T2,Artifact Generation,
+S484,2026,activity,A3,Test code,T2
+S484,2026,vendor,M1,OpenAI,
+S484,2026,vendor,M9,DeepSeek,
+S484,2026,architecture,AR1,Single-agent,
+S485,2026,prompt_engineering,PE1,Few-shot / in-context learning,
+S485,2026,prompt_engineering,PE6,Template-based / structured,
+S485,2026,stage,T1,Requirements Management,
+S485,2026,stage,T2,Artifact Generation,
+S485,2026,activity,A1,Requirement extraction,T1
+S485,2026,activity,A4,Test instruction,T2
+S485,2026,activity,A5,Test input,T2
+S485,2026,activity,A6,Test oracle,T2
+S485,2026,vendor,M1,OpenAI,
+S485,2026,vendor,M2,Meta,
+S485,2026,vendor,M4,Mistral AI,
+S485,2026,architecture,AR1,Single-agent,
+S486,2026,prompt_engineering,PE2,Zero-shot,
+S486,2026,stage,T2,Artifact Generation,
+S486,2026,activity,A3,Test code,T2
+S486,2026,activity,A4,Test instruction,T2
+S486,2026,vendor,M3,Google,
+S486,2026,vendor,M1,OpenAI,
+S486,2026,architecture,AR1,Single-agent,
+S487,2026,prompt_engineering,PE4,Role / persona prompting,
+S487,2026,prompt_engineering,PE6,Template-based / structured,
+S487,2026,fine_tuning,FT4,Reinforcement-learning fine-tuning,
+S487,2026,stage,T1,Requirements Management,
+S487,2026,stage,T2,Artifact Generation,
+S487,2026,activity,A1,Requirement extraction,T1
+S487,2026,activity,A3,Test code,T2
+S487,2026,activity,A5,Test input,T2
+S487,2026,activity,A6,Test oracle,T2
+S487,2026,vendor,M9,DeepSeek,
+S487,2026,vendor,M10,Alibaba,
+S487,2026,architecture,AR1,Single-agent,
+S488,2026,stage,T2,Artifact Generation,
+S488,2026,stage,T3,Verification and Prioritization,
+S488,2026,activity,A6,Test oracle,T2
+S488,2026,activity,A7,Semantic judgment,T3
+S488,2026,architecture,AR1,Single-agent,
+S489,2026,prompt_engineering,PE4,Role / persona prompting,
+S489,2026,prompt_engineering,PE5,Iterative / feedback / self-refine,
+S489,2026,prompt_engineering,PE8,Step-by-step / decomposition,
+S489,2026,stage,T1,Requirements Management,
+S489,2026,stage,T2,Artifact Generation,
+S489,2026,stage,T3,Verification and Prioritization,
+S489,2026,activity,A2,Element localization,T1
+S489,2026,activity,A3,Test code,T2
+S489,2026,activity,A7,Semantic judgment,T3
+S489,2026,vendor,M1,OpenAI,
+S489,2026,architecture,AR1,Single-agent,
+S490,2026,prompt_engineering,PE5,Iterative / feedback / self-refine,
+S490,2026,prompt_engineering,PE6,Template-based / structured,
+S490,2026,stage,T4,Report and Regression,
+S490,2026,activity,A9,Test repair,T4
+S490,2026,vendor,M3,Google,
+S490,2026,architecture,AR1,Single-agent,
+S491,2026,prompt_engineering,PE1,Few-shot / in-context learning,
+S491,2026,prompt_engineering,PE5,Iterative / feedback / self-refine,
+S491,2026,stage,T1,Requirements Management,
+S491,2026,stage,T2,Artifact Generation,
+S491,2026,stage,T3,Verification and Prioritization,
+S491,2026,activity,A1,Requirement extraction,T1
+S491,2026,activity,A3,Test code,T2
+S491,2026,activity,A5,Test input,T2
+S491,2026,activity,A7,Semantic judgment,T3
+S491,2026,vendor,M1,OpenAI,
+S491,2026,architecture,AR1,Single-agent,
+S492,2026,prompt_engineering,PE1,Few-shot / in-context learning,
+S492,2026,prompt_engineering,PE3,Chain-of-Thought,
+S492,2026,prompt_engineering,PE8,Step-by-step / decomposition,
+S492,2026,prompt_engineering,PE6,Template-based / structured,
+S492,2026,stage,T2,Artifact Generation,
+S492,2026,activity,A5,Test input,T2
+S492,2026,vendor,M1,OpenAI,
+S492,2026,vendor,M6,Anthropic,
+S492,2026,vendor,M9,DeepSeek,
+S492,2026,architecture,AR1,Single-agent,
+S493,2026,prompt_engineering,PE5,Iterative / feedback / self-refine,
+S493,2026,prompt_engineering,PE7,RAG,
+S493,2026,stage,T2,Artifact Generation,
+S493,2026,stage,T4,Report and Regression,
+S493,2026,activity,A3,Test code,T2
+S493,2026,activity,A5,Test input,T2
+S493,2026,activity,A9,Test repair,T4
+S493,2026,vendor,M1,OpenAI,
+S493,2026,vendor,M9,DeepSeek,
+S493,2026,vendor,M10,Alibaba,
+S493,2026,architecture,AR1,Single-agent,
+S494,2026,prompt_engineering,PE4,Role / persona prompting,
+S494,2026,prompt_engineering,PE6,Template-based / structured,
+S494,2026,stage,T2,Artifact Generation,
+S494,2026,stage,T4,Report and Regression,
+S494,2026,activity,A3,Test code,T2
+S494,2026,activity,A9,Test repair,T4
+S494,2026,vendor,M9,DeepSeek,
+S494,2026,vendor,M10,Alibaba,
+S494,2026,vendor,M11,Other origins,
+S494,2026,architecture,AR1,Single-agent,
+S495,2026,prompt_engineering,PE1,Few-shot / in-context learning,
+S495,2026,prompt_engineering,PE2,Zero-shot,
+S495,2026,prompt_engineering,PE3,Chain-of-Thought,
+S495,2026,prompt_engineering,PE10,Tree-of-Thought,
+S495,2026,stage,T2,Artifact Generation,
+S495,2026,activity,A6,Test oracle,T2
+S495,2026,vendor,M1,OpenAI,
+S495,2026,vendor,M7,BigCode / HuggingFace,
+S495,2026,architecture,AR1,Single-agent,
+S496,2026,prompt_engineering,PE2,Zero-shot,
+S496,2026,prompt_engineering,PE4,Role / persona prompting,
+S496,2026,prompt_engineering,PE6,Template-based / structured,
+S496,2026,stage,T2,Artifact Generation,
+S496,2026,activity,A4,Test instruction,T2
+S496,2026,vendor,M1,OpenAI,
+S496,2026,architecture,AR1,Single-agent,
+S497,2026,prompt_engineering,PE1,Few-shot / in-context learning,
+S497,2026,prompt_engineering,PE4,Role / persona prompting,
+S497,2026,prompt_engineering,PE5,Iterative / feedback / self-refine,
+S497,2026,prompt_engineering,PE6,Template-based / structured,
+S497,2026,stage,T2,Artifact Generation,
+S497,2026,stage,T4,Report and Regression,
+S497,2026,activity,A5,Test input,T2
+S497,2026,activity,A9,Test repair,T4
+S497,2026,vendor,M1,OpenAI,
+S497,2026,architecture,AR1,Single-agent,
+S498,2026,prompt_engineering,PE2,Zero-shot,
+S498,2026,prompt_engineering,PE6,Template-based / structured,
+S498,2026,stage,T2,Artifact Generation,
+S498,2026,activity,A3,Test code,T2
+S498,2026,activity,A4,Test instruction,T2
+S498,2026,activity,A5,Test input,T2
+S498,2026,activity,A6,Test oracle,T2
+S498,2026,vendor,M10,Alibaba,
+S498,2026,architecture,AR2,Multi-agent,
+S499,2026,prompt_engineering,PE1,Few-shot / in-context learning,
+S499,2026,prompt_engineering,PE6,Template-based / structured,
+S499,2026,stage,T1,Requirements Management,
+S499,2026,stage,T2,Artifact Generation,
+S499,2026,activity,A2,Element localization,T1
+S499,2026,activity,A5,Test input,T2
+S499,2026,vendor,M1,OpenAI,
+S499,2026,architecture,AR1,Single-agent,
+S500,2026,prompt_engineering,PE1,Few-shot / in-context learning,
+S500,2026,prompt_engineering,PE3,Chain-of-Thought,
+S500,2026,prompt_engineering,PE5,Iterative / feedback / self-refine,
+S500,2026,prompt_engineering,PE6,Template-based / structured,
+S500,2026,prompt_engineering,PE8,Step-by-step / decomposition,
+S500,2026,stage,T1,Requirements Management,
+S500,2026,stage,T2,Artifact Generation,
+S500,2026,stage,T3,Verification and Prioritization,
+S500,2026,activity,A2,Element localization,T1
+S500,2026,activity,A5,Test input,T2
+S500,2026,activity,A8,Prioritization,T3
+S500,2026,vendor,M1,OpenAI,
+S500,2026,vendor,M9,DeepSeek,
+S500,2026,architecture,AR2,Multi-agent,
+S501,2026,prompt_engineering,PE4,Role / persona prompting,
+S501,2026,prompt_engineering,PE5,Iterative / feedback / self-refine,
+S501,2026,prompt_engineering,PE8,Step-by-step / decomposition,
+S501,2026,stage,T2,Artifact Generation,
+S501,2026,stage,T3,Verification and Prioritization,
+S501,2026,activity,A3,Test code,T2
+S501,2026,activity,A7,Semantic judgment,T3
+S501,2026,vendor,M1,OpenAI,
+S501,2026,vendor,M2,Meta,
+S501,2026,vendor,M9,DeepSeek,
+S501,2026,vendor,M11,Other origins,
+S501,2026,architecture,AR2,Multi-agent,

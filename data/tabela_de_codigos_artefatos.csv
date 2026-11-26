@@ -1,0 +1,502 @@
+ID,S ID,Title,Year,Stages/Activities,Instruction format,Instruction consumer,Input value,Input consumer,Input context,Oracle form,Oracle consumer,Oracle context,Oracle language,Code purpose,Code loop,Code route,Code language
+11,S1,An Approach to Generating API Test Scripts Using GPT,2023,"T1(A1) T2(A3, A5)",-,-,IV4,ID1,IX5,-,-,-,-,CP7,CL1,CR1,LG10
+10,S2,An initial investigation of ChatGPT unit test generation capability,2023,T2(A3),-,-,-,-,-,-,-,-,-,CP1,CL2,CR2,LG1
+12,S3,Assessing Evaluation Metrics for Neural Test Oracle Generation,2023,T2(A6),-,-,-,-,-,OF1,OC1,OX1,OL1,-,-,-,-
+13,S4,Automated Metamorphic-Relation Generation with ChatGPT: An Experience Report,2023,T2(A6),-,-,-,-,-,OF4,OC5,OX2,OL8,-,-,-,-
+14,S5,CAT-LM Training Language Models on Aligned Code And Tests,2023,T2(A3),-,-,-,-,-,-,-,-,-,CP1,CL2,CR2,"LG1, LG2"
+15,S6,CHEMFuzz: Large Language Models-assisted Fuzzing for Quantum Chemistry Software Bug Detection,2023,"T2(A5, A6)",-,-,IV2,ID1,IX7,OF3,OC4,OX3,OL8,-,-,-,-
+5,S7,CodaMosa: Escaping coverage Plateaus in Test Generation with Pre-trained Large Language Models,2023,T2(A3),-,-,-,-,-,-,-,-,-,CP1,CL3,CR2,LG2
+16,S8,Evaluating Diverse Large Language Models for Automatic and General Bug Reproduction,2023,T2(A3),-,-,-,-,-,-,-,-,-,CP3,CL3,CR4,LG1
+4,S9,Exploring the Capability of ChatGPT in Test Generation,2023,T2(A3),-,-,-,-,-,-,-,-,-,CP1,CL3,CR2,LG1
+2,S10,Getting pwn’d by AI: Penetration Testing with Large Language Models,2023,"T2(A5, A4)",IF5,IC1,IV6,ID1,IX3,-,-,-,-,-,-,-,-
+26,S11,How Can ChatGPT Support Human Security Testers to Help Mitigate Supply Chain Attacks?,2023,T2(A3),-,-,-,-,-,-,-,-,-,CP4,CL2,CR2,LG1
+6,S12,Improving the Readability of Generated Tests Using GPT-4 and ChatGPT Code Interpreter,2023,T4(A10),-,-,-,-,-,-,-,-,-,-,-,-,-
+3,S13,Improving web element localization by using a large language model,2023,T1(A2),-,-,-,-,-,-,-,-,-,-,-,-,-
+19,S14,Large Language Models are Few-shot Testers: Exploring LLM-based General Bug Reproduction,2023,T2(A3) T3(A8) T4(A9),-,-,-,-,-,-,-,-,-,CP3,CL3,CR4,LG1
+8,S15,Large Language Models Are Zero-Shot Fuzzers: Fuzzing Deep-Learning Libraries via Large Language Models,2023,"T2(A3, A5)",-,-,IV2,ID1,IX3,-,-,-,-,CP9,CL3,CR4,LG2
+18,S16,Large Language Models: The Next Frontier for Variable Discovery within Metamorphic Testing?,2023,T1(A1),-,-,-,-,-,-,-,-,-,-,-,-,-
+1,S17,"LLM for Test Script Generation and Migration: Challenges, Capabilities, and Opportunities",2023,"T1(A2) T2(A3, A5)",-,-,IV3,ID1,IX2,-,-,-,-,CP2,CL2,CR3,LG0
+9,S18,LLM-Based Code Generation Method for Golang Compiler Testing,2023,T2(A3),-,-,-,-,-,-,-,-,-,CP9,CL3,CR1,LG5
+17,S19,LLM4VV: Developing LLM-Driven Testsuite for Compiler Validation,2023,T2(A3),-,-,-,-,-,-,-,-,-,CP9,CL2,CR1,"LG3, LG10"
+20,S20,Nuances are the Key: Unlocking ChatGPT to Find Failure-Inducing Tests with Differential Prompting,2023,"T2(A3, A5, A6)",-,-,IV1,ID1,IX1,OF1,OC1,OX1,OL2,CP1,CL3,CR3,LG2
+21,S21,Object Oriented BDD and Executable Human-language Module Specification,2023,"T1(A1) T2(A3, A4, A5, A6)",IF3,IC1,IV3,ID1,IX4,OF2,OC5,OX2,OL3,CP5,CL2,CR4,LG0
+22,S22,On the Potential and Limitations of Few-Shot In-Context Learning to Generate Metamorphic Specifications for Tax Preparation Software,2023,T1(A1) T2(A6),-,-,-,-,-,OF4,OC5,OX2,OL8,-,-,-,-
+23,S23,Retrieval-Based Prompt Selection for Code-Related Few-Shot Learning,2023,"T2(A3, A6)",-,-,-,-,-,OF1,OC3,OX1,OL1,CP1,CL2,CR1,LG1
+25,S24,SearchGEM5: Towards Reliable gem5 with Search Based Software Testing and Large Language Models,2023,T2(A5),-,-,IV2,ID1,IX7,-,-,-,-,-,-,-,-
+24,S25,SMT Solver Validation Empowered by Large Pre-trained Language Models,2023,T2(A5),-,-,IV6,ID1,IX7,-,-,-,-,-,-,-,-
+7,S26,Variable Discovery with Large Language Models for Metamorphic Testing of Scientific Software,2023,T1(A1),-,-,-,-,-,-,-,-,-,-,-,-,-
+91,S27,A Case Study on Test Case Construction with Large Language Models: Unveiling Practical Insights and Challenges,2024,"T1(A1) T2(A4, A5, A6)",IF2,IC1,IV3,ID3,IX4,OF2,OC5,OX2,OL3,-,-,-,-
+36,S28,A new approach for automatic test case generation from use case diagram using LLMs and prompt engineering,2024,T2(A4),IF2,IC1,-,-,-,-,-,-,-,-,-,-,-
+89,S29,A Study of Using Multimodal LLMs for Non-Crash Functional Bug Detection in Android Apps,2024,T3(A7),-,-,-,-,-,-,-,-,-,-,-,-,-
+80,S30,AgoneTest: Automated creation and assessment of Unit tests leveraging Large Language Models,2024,T2(A3) T3(A12),-,-,-,-,-,-,-,-,-,CP1,CL2,CR2,LG1
+87,S31,AGORA: An Approach for Generating Acceptance Test Cases from Use Cases,2024,"T1(A1) T2(A4, A6)",IF2,IC1,-,-,-,OF2,OC5,OX2,OL8,-,-,-,-
+85,S32,AI in Service of Software Quality: How ChatGPT and Personas Are Transforming Exploratory Testing,2024,T2(A4),IF7,IC1,-,-,-,-,-,-,-,-,-,-,-
+38,S33,AI-Driven Prompt Templates for User Acceptance Test Case Generation,2024,T2(A4),IF2,IC1,-,-,-,-,-,-,-,-,-,-,-
+88,S34,AI-Driven Testing: Unleashing Autonomous Systems for Superior Software Quality Using Generative AI,2024,"T2(A3, A5) T3(A8)",-,-,IV1,ID1,IX1,-,-,-,-,CP1,CL1,CR2,LG3
+40,S35,AI-Generated Test Scripts for Web E2E Testing with ChatGPT and Copilot: A Preliminary Study,2024,T2(A3),-,-,-,-,-,-,-,-,-,CP2,CL6,CR4,LG1
+32,S36,AI-Powered Multi-Agent Framework for Automated Unit Test Case Generation: Enhancing Software Quality through LLM’s,2024,"T2(A4, A3) T3(A12, A7) T4(A9)",IF4,IC2,-,-,-,-,-,-,-,CP1,CL1,CR3,LG1
+31,S37,An Empirical Evaluation of Using Large Language Models for Automated Unit Test Generation,2024,T2(A3) T4(A9),-,-,-,-,-,-,-,-,-,CP1,CL1,CR1,LG4
+72,S38,An Empirical Study on How Large Language Models Impact Software Testing Learning,2024,"T2(A3, A4)",IF4,IC1,-,-,-,-,-,-,-,CP6,CL6,CR2,LG0
+90,S39,An LLM-based Multi-stage Approach for Automated Test Case Generation from User Stories,2024,"T1(A1) T2(A3, A5, A6)",-,-,IV6,ID3,IX4,OF2,OC5,OX2,OL8,CP5,CL2,CR3,LG0
+46,S40,Are We Testing or Being Tested? Exploring the Practical Applications of Large Language Models in Software Testing,2024,,-,-,-,-,-,-,-,-,-,-,-,-,-
+66,S41,AutoConsis: Automatic GUI-driven Data Inconsistency Detection of Mobile Apps,2024,T3(A7),-,-,-,-,-,-,-,-,-,-,-,-,-
+52,S42,Automated Control Logic Test Case Generation using Large Language Models,2024,"T2(A3, A6)",-,-,-,-,-,OF1,OC1,OX1,OL8,CP1,CL2,CR2,LG10
+78,S43,Automated Generation and Compilation of Fuzz Driver Based on Large Language Models,2024,T2(A3) T4(A9),-,-,-,-,-,-,-,-,-,CP9,CL1,CR4,LG3
+92,S44,Automated Structural Test Case Generation for Human-Computer Interaction Software Based on Large Language Model,2024,T2(A3) T4(A10),-,-,-,-,-,-,-,-,-,CP2,CL2,CR4,LG0
+93,S45,Automated Test Case Generation For Satellite FRD Using NLP And Large Language Model,2024,"T1(A1) T2(A3, A5)",-,-,IV1,ID2,IX4,-,-,-,-,CP5,CL4,CR1,LG0
+28,S46,Automated Unit Test Improvement using Large Language Models at Meta,2024,T2(A3),-,-,-,-,-,-,-,-,-,CP1,CL4,CR2,LG9
+56,S47,Automatic Generation of Test Cases based on Bug Reports: A Feasibility Study with Large Language Models,2024,T2(A3) T1(A1),-,-,-,-,-,-,-,-,-,CP3,CL2,CR4,LG1
+63,S48,AXNav: Replaying Accessibility Tests from Natural Language,2024,T1(A2) T2(A3) T3(A7),-,-,-,-,-,-,-,-,-,CP2,CL1,CR3,LG0
+57,S49,Can ChatGPT Repair Non-Order-Dependent Flaky Tests?,2024,T4(A9),-,-,-,-,-,-,-,-,-,-,-,-,-
+29,S50,ChatGPT vs SBST: A Comparative Assessment of Unit Test Suite Generation,2024,"T2(A3, A6)",-,-,-,-,-,OF1,OC1,OX1,OL1,CP1,CL2,CR2,LG1
+62,S51,ChatUniTest: A Framework for LLM-Based Test Generation,2024,T2(A3) T4(A9),-,-,-,-,-,-,-,-,-,CP1,CL1,CR1,LG1
+94,S52,CKGFuzzer: LLM-Based Fuzz Driver Generation Enhanced By Code Knowledge Graph,2024,"T2(A3, A5) T4(A9, A13)",-,-,IV2,ID1,IX1,-,-,-,-,CP9,CL1,CR1,LG3
+95,S53,Combating Missed Recalls in E-commerce Search: A CoT-Prompting Testing Approach,2024,"T2(A5, A6)",-,-,IV4,ID2,IX7,OF4,OC4,OX3,OL8,-,-,-,-
+96,S54,Comparing the Adaptability of a Genetic Algorithm and an LLM-Based Framework for Automated Software Test Data Generation: In the Context of Web Applications,2024,T2(A5),-,-,IV1,ID1,IX1,-,-,-,-,-,-,-,-
+97,S55,Comprehensive Evaluation and Insights into the Use of Large Language Models in the Automation of Behavior-Driven Development Acceptance Test Formulation,2024,T2(A4),IF3,IC3,-,-,-,-,-,-,-,-,-,-,-
+98,S56,Domain Adaptation for Code Model-based Unit Test Case Generation,2024,"T2(A3, A6)",-,-,-,-,-,OF1,OC1,OX1,OL1,CP1,CL2,CR2,LG1
+68,S57,Domain Knowledge is All You Need: A Field Deployment of LLM-Powered Test Case Generation in FinTech Domain,2024,T1(A1) T2(A5),-,-,IV6,ID1,IX4,-,-,-,-,-,-,-,-
+113,S58,DynER: Optimized Test Case Generation for Representational State Transfer (REST)ful Application Programming Interface (API) Fuzzers Guided by Dynamic Error Responses,2024,T2(A5),-,-,IV4,ID1,IX3,-,-,-,-,-,-,-,-
+42,S59,Effective Test Generation Using Pre-trained Large Language Models and Mutation Testing,2024,T2(A3),-,-,-,-,-,-,-,-,-,CP6,CL1,CR2,LG2
+99,S60,Enhancing Black-box Compiler Option Fuzzing with LLM through Command Feedback,2024,T2(A5) T4(A13),-,-,IV6,ID1,IX3,-,-,-,-,-,-,-,-
+100,S61,Evaluating Large Language Models Versus Traditional Tools in SQL Injection Exploit Generation,2024,T2(A5),-,-,IV5,ID1,IX7,-,-,-,-,-,-,-,-
+59,S62,Evaluation of Large Language Models for Unit Test Generation,2024,T2(A3),-,-,-,-,-,-,-,-,-,CP1,CL2,CR2,LG0
+77,S63,First Experiments on Automated Execution of Gherkin Test Specifications with Collaborating LLM Agents,2024,T1(A2) T2(A3) T3(A7),-,-,-,-,-,-,-,-,-,CP5,CL1,CR3,LG0
+101,S64,Fix the Tests: Augmenting LLMs to Repair Test Cases with Static Collector and Neural Reranker,2024,T4(A9),-,-,-,-,-,-,-,-,-,-,-,-,-
+67,S65,Flakiness Repair in the Era of Large Language Models,2024,T4(A9),-,-,-,-,-,-,-,-,-,-,-,-,-
+50,S66,FlakyFix: Using Large Language Models for Predicting Flaky Test Fix Categories and Test Code Repair,2024,T4(A9),-,-,-,-,-,-,-,-,-,-,-,-,-
+102,S67,Fuzz4All: Universal Fuzzing with Large Language Models,2024,T2(A5),-,-,IV2,ID1,IX4,-,-,-,-,-,-,-,-
+103,S68,Fuzzing BusyBox: Leveraging LLM and Crash Reuse for Embedded Bug Unearthing,2024,T2(A5),-,-,IV2,ID1,IX7,-,-,-,-,-,-,-,-
+104,S69,Generating Abuse Stories and Misuse Cases using Large Language Models,2024,T2(A4),IF3,IC3,-,-,-,-,-,-,-,-,-,-,-
+83,S70,"If At First You Don't Succeed, Try, Try, Again...? Insights and LLM-informed Tooling for Detecting Retry Bugs in Software Systems",2024,-,-,-,-,-,-,-,-,-,-,-,-,-,-
+84,S71,Increasing Test Coverage by Automating BDD Tests in Proofs of Concepts (POCs) using LLM,2024,T2(A3),-,-,-,-,-,-,-,-,-,CP5,CL6,CR4,LG2
+44,S72,Intent-Driven Mobile GUI Testing with Autonomous Large Language Model Agents,2024,"T2(A4, A6, A5) T3(A7) T4(A13)",IF1,IC2,IV3,ID1,IX2,OF3,OC6,OX3,OL3,-,-,-,-
+48,S73,KAT: Dependency-aware Automated API Testing with Large Language Models,2024,T1(A1) T2(A5),-,-,IV4,ID1,IX5,-,-,-,-,-,-,-,-
+105,S74,Large Language Model guided State Selection Approach for Fuzzing Network Protocol,2024,T3(A8),-,-,-,-,-,-,-,-,-,-,-,-,-
+33,S75,Large Language Models for Equivalent Mutant Detection: How Far Are We?,2024,,-,-,-,-,-,-,-,-,-,-,-,-,-
+86,S76,Large Language Models in Software Engineering: A Focus on Issue Report Classification and User Acceptance Test Generation,2024,"T1(A1) T2(A4, A6)",IF2,IC1,-,-,-,OF2,OC5,OX2,OL8,-,-,-,-
+51,S77,Leveraging Large Language Models for Python Unit Test,2024,T2(A3),-,-,-,-,-,-,-,-,-,CP1,CL2,CR4,LG2
+61,S78,Leveraging Pre-Trained Large Language Models (LLMs) for On-Premises Comprehensive Automated Test Case Generation: An Empirical Study,2024,T2(A4),IF2,IC1,-,-,-,-,-,-,-,-,-,-,-
+60,S79,LLM-based methods for the creation of unit tests in game development,2024,T2(A3),-,-,-,-,-,-,-,-,-,CP1,CL3,CR4,"LG3, LG6"
+81,S80,LLMs and Prompting for Unit Test Generation: A Large-Scale Evaluation,2024,T2(A3),-,-,-,-,-,-,-,-,-,CP1,CL2,CR2,LG1
+35,S81,LTM: Scalable and Black-Box Similarity-Based Test Suite Minimization Based on Language Models,2024,,-,-,-,-,-,-,-,-,-,-,-,-,-
+82,S82,MR-Adopt: Automatic Deduction of Input Transformation Function for Metamorphic Testing,2024,"T2(A3, A5)",-,-,IV1,ID2,IX1,-,-,-,-,CP9,CL3,CR2,LG0
+115,S83,Multi-Agent Assisted Automatic Test Generation for Java JSON Libraries,2024,T2(A3),-,-,-,-,-,-,-,-,-,CP9,CL3,CR3,LG1
+106,S84,Navigating Confidentiality in Test Automation: A Case Study in LLM Driven Test Data Generation,2024,T2(A5) T4(A9),-,-,IV3,ID1,IX4,-,-,-,-,-,-,-,-
+71,S85,Neurosymbolic Repair of Test Flakiness,2024,T4(A9),-,-,-,-,-,-,-,-,-,-,-,-,-
+107,S86,"""No Free Lunch"" when using Large Language Models to Verify Self-Generated Programs",2024,"T2(A3, A6)",-,-,-,-,-,OF1,OC1,OX1,OL2,CP1,CL2,CR2,LG2
+45,S87,On the Evaluation of Large Language Models in Unit Test Generation,2024,T2(A3),-,-,-,-,-,-,-,-,-,CP1,CL2,CR1,LG1
+75,S88,Optimizing Search-Based Unit Test Generation with Large Language Models: An Empirical Study,2024,"T2(A3, A5)",-,-,IV2,ID1,IX1,-,-,-,-,CP1,CL3,CR2,LG2
+41,S89,Oracle-Guided Program Selection from Large Language Models,2024,T2(A6),-,-,-,-,-,OF3,OC4,OX2,OL2,-,-,-,-
+76,S90,Pay Attention! Human-Centric Improvements of LLM-based Interfaces for Assisting Software Test Case Development,2024,T2(A4),IF1,IC1,-,-,-,-,-,-,-,-,-,-,-
+73,S91,Predicting Test Results without Execution,2024,T3(A7),-,-,-,-,-,-,-,-,-,-,-,-,-
+108,S92,ProphetFuzz: Fully Automated Prediction and Fuzzing of High-Risk Option Combinations with Only Documentation via Large Language Model,2024,"T2(A3, A5)",-,-,IV2,ID1,IX4,-,-,-,-,CP9,CL2,CR3,LG2
+47,S93,Representation and Generation of Machine Learning Test Functions,2024,T2(A3),-,-,-,-,-,-,-,-,-,CP1,CL2,CR2,LG2
+114,S94,Seeing is Believing: Vision-driven Non-crash Functional Bug Detection for Mobile Apps,2024,T1(A2) T2(A6) T3(A7),-,-,-,-,-,OF3,OC4,OX3,OL3,-,-,-,-
+70,S95,Semantic Constraint Inference for Web Form Test Generation,2024,"T1(A2) T2(A5, A6)",-,-,IV3,ID1,IX2,OF1,OC1,OX3,OL3,-,-,-,-
+64,S96,Software System Testing Assisted by Large Language Models: An Exploratory Study,2024,"T2(A3, A4)",IF1,IC2,-,-,-,-,-,-,-,CP2,CL6,CR3,LG1
+53,S97,State Diagram Extension and Test Case Generation Based on Large Language Models for Improving Test Engineers’ Efficiency in Safety Testing,2024,"T2(A4, A5)",IF6,IC3,IV2,ID1,IX7,-,-,-,-,-,-,-,-
+65,S98,Static Program Analysis Guided LLM Based Unit Test Generation,2024,T2(A3),-,-,-,-,-,-,-,-,-,CP1,CL2,CR1,LG1
+37,S99,SWT-Bench: Testing and Validating Real-World Bug-Fixes with Code Agents,2024,T2(A3) T3(A7),-,-,-,-,-,-,-,-,-,CP3,CL1,CR4,LG2
+109,S100,Symbolic Execution with Test Cases Generated by Large Language Models,2024,"T2(A3, A5)",-,-,IV2,ID1,IX4,-,-,-,-,CP9,CL2,CR4,LG10
+43,S101,Technology adoption performance evaluation applied to testing industrial REST APIs,2024,,-,-,-,-,-,-,-,-,-,-,-,-,-
+54,S102,Test-Agent: A Multimodal App Automation Testing Framework Based on the Large Language Model,2024,"T2(A4, A5)",IF1,IC2,IV3,ID1,IX2,-,-,-,-,-,-,-,-
+69,S103,TestGen-Dart: Supervised Fine-Tuning of Transformer-Based LLMs for Unit Test Generation in Dart,2024,T2(A3),-,-,-,-,-,-,-,-,-,CP1,CL2,CR2,LG10
+55,S104,TestSpark: IntelliJ IDEA's Ultimate Test Generation Companion,2024,"T2(A3) T4(A9, A10)",-,-,-,-,-,-,-,-,-,CP1,CL5,CR1,LG1
+110,S105,The Program Testing Ability of Large Language Models for Code,2024,"T2(A3, A5, A6)",-,-,IV1,ID1,IX1,OF1,OC1,OX1,OL2,CP1,CL2,CR2,LG2
+116,S106,Toward Automated Validation of Language Model Synthesized Test Cases using Semantic Entropy,2024,"T2(A5, A6) T3(A7)",-,-,IV1,ID1,IX1,OF1,OC4,OX1,OL2,-,-,-,-
+49,S107,Towards Generating Executable Metamorphic Relations Using Large Language Models,2024,T1(A1) T2(A6),-,-,-,-,-,OF4,OC5,OX2,OL8,-,-,-,-
+111,S108,Towards LLM-Assisted System Testing for Microservices,2024,"T1(A1, A2) T2(A3)",-,-,-,-,-,-,-,-,-,CP2,CL1,CR4,LG0
+27,S109,Towards Understanding the Effectiveness of Large Language Models on Directed Test Input Generation,2024,T2(A5),-,-,IV1,ID1,IX1,-,-,-,-,-,-,-,-
+34,S110,Unit Test Generation Multi-Agent AI System for Enhancing Software Documentation and Code coverage,2024,"T2(A4, A3) T4(A9)",IF3,IC2,-,-,-,-,-,-,-,CP1,CL1,CR2,LG2
+30,S111,Unit Test Generation using Generative AI: A Comparative Performance Analysis of Autogeneration Tools,2024,"T2(A3, A6)",-,-,-,-,-,OF1,OC1,OX1,OL2,CP1,CL1,CR2,LG2
+74,S112,Unit Test Generation using Large Language Models for Unity Game Development,2024,T2(A3),-,-,-,-,-,-,-,-,-,CP1,CL3,CR1,"LG3, LG6"
+112,S113,UniTSyn: A Large-Scale Dataset Capable of Enhancing the Prowess of Large Language Models for Program Testing,2024,T2(A3),-,-,-,-,-,-,-,-,-,CP1,CL2,CR2,"LG1, LG2, LG3, LG4, LG5"
+39,S114,Using GitHub Copilot for Test Generation in Python: An Empirical Study,2024,T2(A3),-,-,-,-,-,-,-,-,-,CP1,CL2,CR4,LG2
+58,S115,Using Large Language Models to Generate JUnit Tests: An Empirical Study,2024,T2(A3),-,-,-,-,-,-,-,-,-,CP1,CL3,CR2,LG1
+79,S116,WhiteFox: White-Box Compiler Fuzzing Empowered by Large Language Models,2024,"T1(A1) T2(A3, A5)",-,-,IV2,ID1,IX3,-,-,-,-,CP9,CL3,CR3,LG2
+218,S117,"A Cascaded Pipeline for Self-Directed, Model-Agnostic Unit Test Generation via LLMs",2025,"T2(A3, A5, A6)",-,-,IV1,ID2,IX1,OF1,OC1,OX1,OL1,CP1,CL1,CR1,LG1
+334,S118,"A Comparative evaluation of ChatGPT, DeepSeek and Gemini in automatic unit test generation: a success rate analysis",2025,T2(A3) T4(A9),-,-,-,-,-,-,-,-,-,CP1,CL1,CR2,LG6
+221,S119,A Novel Approach to Test Case Generation in Software Testing Using Pre-Trained Large Language Models,2025,T2(A3),-,-,-,-,-,-,-,-,-,CP1,CL2,CR2,LG1
+219,S120,A Privacy-Preserving Recommender for Filling Web Forms Using a Local Large Language Model,2025,T1(A2) T2(A5),-,-,IV3,ID1,IX2,-,-,-,-,-,-,-,-
+223,S121,A Python Unit Test Generation Method Based on Fine-Tuned Language Models and Coverage,2025,"T2(A3, A6)",-,-,-,-,-,OF1,OC1,OX1,OL2,CP1,CL1,CR1,LG2
+169,S122,A Study on the Application of Large Language Models for libraries Security Testing Under Low-Resource Conditions,2025,T1(A1) T2(A3),-,-,-,-,-,-,-,-,-,CP4,CL4,CR2,LG3
+135,S123,A System for Automated Unit Test Generation using Large Language Models and Assessment of Generated Test Suites,2025,T2(A3),-,-,-,-,-,-,-,-,-,CP1,CL2,CR2,LG1
+222,S124,A Three-Stage Pipeline using ReAct and Reflexion for Reliable LLM-based Java Unit Test Case Generator,2025,T2(A3) T4(A9),-,-,-,-,-,-,-,-,-,CP1,CL1,CR3,LG1
+205,S125,A Tool for Generating Exceptional Behavior Tests With Large Language Models,2025,T2(A3),-,-,-,-,-,-,-,-,-,CP1,CL3,CR1,LG1
+162,S126,Acceptance Test Generation with Large Language Models: An Industrial Case Study,2025,"T2(A4, A3)",IF3,IC2,-,-,-,-,-,-,-,CP5,CL4,CR3,LG4
+154,S127,Adaptive Test Healing using LLM/GPT and Reinforcement Learning,2025,T4(A13),-,-,-,-,-,-,-,-,-,-,-,-,-
+220,S128,Advanced Mutation Testing with Zero and Few-Shot Evaluation Using GPT-v4,2025,T2(A3),-,-,-,-,-,-,-,-,-,CP6,CL2,CR2,"LG1, LG2"
+310,S129,Adversarial generation method for smart contract fuzz testing seeds guided by chain-based LLM,2025,"T2(A3, A5)",-,-,IV2,ID2,IX1,-,-,-,-,CP4,CL1,CR2,LG10
+224,S130,Agentic Penetration Testing using Secure Shell: Context-Aware Command Generation and Analysis Using Open-Source LLMs,2025,T2(A3) T4(A13),-,-,-,-,-,-,-,-,-,CP4,CL1,CR4,LG10
+325,S131,Agentic RAG for Software Testing with Hybrid Vector-Graph and Multi-Agent Orchestration,2025,"T2(A3, A4) T4(A12)",IF2,IC1,-,-,-,-,-,-,-,CP5,CL3,CR1,LG0
+332,S132,AI-Driven Synthetic Test Data and Scenario Generation via GAN-LLM Integration: A Modular Approach for Web Application Testing,2025,"T1(A1, A2)",-,-,-,-,-,-,-,-,-,-,-,-,-
+125,S133,"AI-driven tools in modern software quality assurance: an assessment of benefits, challenges, and future directions",2025,"T2(A4, A5) T3(A7)",IF2,IC2,IV3,ID1,IX4,-,-,-,-,-,-,-,-
+333,S134,"AI-Powered Unit Test Generation via Multi-LLM Chaining: A Case Study With GPT-4o, Gemini, and Claude-3.5 Sonnet",2025,T2(A3),-,-,-,-,-,-,-,-,-,CP1,CL2,CR2,LG1
+183,S135,Alchemist: LLM-Driven Test Generation using Solidity Mutants and the Scientific Method,2025,T2(A3) T4(A9),-,-,-,-,-,-,-,-,-,CP6,CL1,CR1,LG7
+335,S136,An Evaluation Framework for Software Unit Tests Generated by Large Language Models,2025,T2(A3) T4(A12),-,-,-,-,-,-,-,-,-,CP1,CL2,CR2,LG1
+225,S137,An LLM-Assisted Fuzz Testing Framework for Unmanned System Software,2025,T2(A3) T4(A13),-,-,-,-,-,-,-,-,-,CP9,CL1,CR1,LG3
+194,S138,Application of Knowledge Graph Enhanced Large Language Model in Unit Testing,2025,"T2(A3, A6)",-,-,-,-,-,OF1,OC1,OX1,OL1,CP1,CL2,CR1,LG1
+198,S139,Assertion Messages with Large Language Models (LLMs) for Code,2025,T4(A10),-,-,-,-,-,-,-,-,-,-,-,-,-
+226,S140,Assertion-Aware Test Code Summarization with Large Language Models,2025,T2(A4),IF4,IC1,-,-,-,-,-,-,-,-,-,-,-
+176,S141,ASTER: Natural and Multi-Language Unit Test Generation with LLMs,2025,T2(A3) T4(A9),-,-,-,-,-,-,-,-,-,CP1,CL1,CR1,"LG1, LG2"
+123,S142,AugmenTest: Enhancing Tests with LLM-Driven Oracles,2025,T2(A6),-,-,-,-,-,OF1,OC1,OX2,OL1,-,-,-,-
+227,S143,Automated Bug Discovery in Cloud Infrastructure-as-Code Updates with LLM Agents,2025,T2(A5) T3(A8),-,-,IV6,ID1,IX1,-,-,-,-,-,-,-,-
+193,S144,Automated Generation of Accessibility Test Reports from Recorded User Transcripts,2025,T4(A13),-,-,-,-,-,-,-,-,-,-,-,-,-
+337,S145,Automated Generation of Issue-Reproducing Tests by Combining LLMs and Search-Based Testing,2025,T2(A3),-,-,-,-,-,-,-,-,-,CP3,CL3,CR4,LG2
+200,S146,Automated Model-Based Fuzzing for 5G O-RAN,2025,T1(A1),-,-,-,-,-,-,-,-,-,-,-,-,-
+336,S147,Automated Test Case Generation (ATCG): Leveraging Large Language Models for Software Testing,2025,"T2(A3, A5, A6)",-,-,IV1,ID1,IX1,OF2,OC1,OX1,OL1,CP1,CL1,CR1,LG1
+306,S148,Automated Test Generation Using Large Language Models,2025,T2(A3),-,-,-,-,-,-,-,-,-,CP1,CL2,CR2,LG2
+131,S149,Automated Testing of the GUI of a Real-Life Engineering Software using Large Language Models,2025,T2(A5) T3(A7),-,-,IV3,ID1,IX2,-,-,-,-,-,-,-,-
+129,S150,Automatic High-Level Test Case Generation using Large Language Models,2025,T2(A4),IF1,IC1,-,-,-,-,-,-,-,-,-,-,-
+228,S151,Automatic Unit Test Generation for Programming Assignments Using Large Language Models,2025,T1(A1) T2(A3),-,-,-,-,-,-,-,-,-,CP1,CL1,CR4,LG1
+229,S152,Automatically Generating Content for Testing Autonomous Vehicles from User Descriptions,2025,T2(A5),-,-,IV6,ID1,IX4,-,-,-,-,-,-,-,-
+173,S153,Automating a Complete Software Test Process Using LLMs: An Automotive Case Study,2025,"T2(A5, A3)",-,-,IV4,ID1,IX5,-,-,-,-,CP7,CL2,CR3,LG2
+119,S154,Automating Invariant Filtering: Leveraging LLMs to Streamline Test Oracle Generation,2025,T2(A6),-,-,-,-,-,OF3,OC4,OX3,OL8,-,-,-,-
+230,S155,Automating Software Test Case Generation with Pre-trained Large Language Models,2025,T2(A3),-,-,-,-,-,-,-,-,-,CP1,CL2,CR2,LG1
+305,S156,AutoQALLMs: Automating Web Application Testing Using Large Language Models (LLMs) and Selenium,2025,"T2(A3, A5)",-,-,IV3,ID1,IX2,-,-,-,-,CP2,CL3,CR1,LG2
+231,S157,Balancing Cost and Quality in LLM-based Test Case Generation by Prompt Engineering,2025,T2(A3),-,-,-,-,-,-,-,-,-,CP1,CL1,CR2,LG2
+232,S158,Benchmarking Large Language Models for Root Cause Analysis in Train Control Software Testing,2025,T4(A13),-,-,-,-,-,-,-,-,-,-,-,-,-
+233,S159,Beyond Static GUI Agent: Evolving LLM-based GUI Testing via Dynamic Memory,2025,T1(A2) T2(A5) T3(A8) T4(A13),-,-,IV3,ID1,IX2,-,-,-,-,-,-,-,-
+124,S160,Can Generative AI Produce Test Cases? An Experience from the Automotive Domain,2025,T2(A4),IF7,IC3,-,-,-,-,-,-,-,-,-,-,-
+142,S161,Can Large Language Models Discover Metamorphic Relations? A Large-Scale Empirical Study,2025,T2(A6),-,-,-,-,-,OF4,OC1,OX2,OL8,-,-,-,-
+234,S162,CGIFuzz: Enabling Gray-Box Fuzzing for Web CGI of IoT Devices,2025,T1(A2) T2(A5),-,-,IV2,ID1,IX2,-,-,-,-,-,-,-,-
+235,S163,CHAT4SEED: Semantic-Awareness Highly Structured Seed Generation for Fuzzing,2025,T2(A5),-,-,IV2,ID1,IX1,-,-,-,-,-,-,-,-
+134,S164,CHATASSERT: LLM-Based Test Oracle Generation With External Tools Assistance,2025,T2(A6) T4(A9),-,-,-,-,-,OF1,OC1,OX1,OL1,-,-,-,-
+338,S165,CHATTSS: Improving Test Suite Simplification via Large Language Models,2025,"T4(A9, A10)",-,-,-,-,-,-,-,-,-,-,-,-,-
+322,S166,Clarifying Semantics of In-Context Examples for Unit Test Generation,2025,T4(A10) T2(A3),-,-,-,-,-,-,-,-,-,CP1,CL3,CR1,LG1
+236,S167,CoCoEvo: Co-Evolution of Programs and Test Cases to Enhance Code Generation,2025,"T2(A3, A5)",-,-,IV1,ID1,IX4,-,-,-,-,CP9,CL3,CR4,LG0
+339,S168,Comparative Study on Test Case generation using Generative AI,2025,T2(A3),-,-,-,-,-,-,-,-,-,CP1,CL2,CR2,LG2
+340,S169,"Comprehend, Imitate, and then Update: Unleashing the Power of LLMs in Test Suite Evolution",2025,T4(A9),-,-,-,-,-,-,-,-,-,-,-,-,-
+237,S170,ConflictLens: An LLM-Based Method for Detecting Semantic Merge Conflicts,2025,T2(A3) T3(A7),-,-,-,-,-,-,-,-,-,CP9,CL1,CR3,LG1
+238,S171,COTTONTAIL: Large Language Model-Driven Concolic Execution for Highly Structured Test Input Generation,2025,T2(A5),-,-,IV2,ID1,IX7,-,-,-,-,-,-,-,-
+140,S172,CubeTesterAI: Automated JUnit Test Generation using the LLaMA Model,2025,T2(A3) T4(A9),-,-,-,-,-,-,-,-,-,CP1,CL1,CR1,LG1
+239,S173,DEEPLANCET: Effectively Detecting Deep Learning Library Bugs via LLM-assisted Testcase Generation,2025,T1(A1) T2(A5),-,-,IV2,ID1,IX4,-,-,-,-,-,-,-,-
+341,S174,Detecting Test Case Smells using Prompt Engineering: An Empirical Study in Industry,2025,T4(A12),-,-,-,-,-,-,-,-,-,-,-,-,-
+511,S175,Disrupting Test Development with AI Assistants: Building the Base of the Test Pyramid with Three AI Coding Assistants,2025,T2(A3),-,-,-,-,-,-,-,-,-,CP1,CL2,CR2,LG1
+240,S176,Do LLMs Generate Useful Test Oracles? An Empirical Study with an Unbiased Dataset,2025,T2(A6),-,-,-,-,-,OF1,OC1,OX1,OL1,-,-,-,-
+242,S177,Efficient Black-Box Fault Localization for System-Level Test Code Using Large Language Models,2025,T4(A13),-,-,-,-,-,-,-,-,-,-,-,-,-
+241,S178,ELFUZZ: Efficient Input Generation via LLM-driven Synthesis Over Fuzzer Space,2025,T2(A5),-,-,IV2,ID1,IX3,-,-,-,-,-,-,-,-
+243,S179,EmbedRank-LM: Natural Language-Driven Web Element Identification for Automated UI Testing,2025,T1(A2),-,-,-,-,-,-,-,-,-,-,-,-,-
+213,S180,Emerging Compiler Testing Based on Test Case Reuse,2025,"T2(A3, A5) T4(A9)",-,-,IV2,ID1,IX6,-,-,-,-,CP9,CL1,CR4,LG10
+244,S181,Engineering Prompt-Orchestrated LLM Workflows for Automated Test Case Generation in Agile Environments,2025,T1(A1) T2(A3),-,-,-,-,-,-,-,-,-,CP5,CL4,CR3,LG10
+245,S182,Enhancing Adaptive Test Healing with Graph Neural Networks for Dependency-Aware Decision Making,2025,"T4(A9, A13)",-,-,-,-,-,-,-,-,-,-,-,-,-
+191,S183,Enhancing autonomous driving simulations: A hybrid metamorphic testing framework with metamorphic relations generated by GPT,2025,"T2(A4, A6)",IF7,IC1,-,-,-,OF4,OC1,OX2,OL8,-,-,-,-
+133,S184,Enhancing large language models for text-to-testcase generation,2025,"T2(A3, A6)",-,-,-,-,-,OF1,OC1,OX2,OL1,CP1,CL3,CR4,LG1
+317,S185,Enhancing LLM's Ability to Generate More Repository-Aware Unit Tests Through Precise Contextual Information Injection,2025,T2(A3),-,-,-,-,-,-,-,-,-,CP1,CL2,CR1,LG5
+258,S186,Enhancing Requirements via Structured Formalization and Process-State Consistency Validation: An LLM-Assisted Test-Driven Framework,2025,"T1(A1) T2(A3, A4) T4(A11)",IF2,IC1,-,-,-,-,-,-,-,CP5,CL6,CR3,LG0
+247,S187,Enhancing search-based testing with LLMs for finding bugs in system simulators,2025,"T2(A3, A5)",-,-,IV2,ID1,IX7,-,-,-,-,CP9,CL3,CR4,LG3
+246,S188,Enhancing Static Analysis through LLM-Based Semantic Validation,2025,T3(A7),-,-,-,-,-,-,-,-,-,-,-,-,-
+141,S189,Enhancing the Validation of Human Factors in User Interface Software Testing with AI,2025,T2(A5),-,-,IV3,ID1,IX2,-,-,-,-,-,-,-,-
+138,S190,Enriching automatic test case generation by extracting relevant test inputs from bug reports,2025,"T2(A5, A3)",-,-,IV1,ID1,IX6,-,-,-,-,CP1,CL3,CR1,LG1
+150,S191,Evaluating large language models for software testing,2025,T2(A4) T4(A13) T3(A7),IF1,IC1,-,-,-,-,-,-,-,-,-,-,-
+248,S192,Evaluating Large Language Models for the Generation of Unit Tests with Equivalence Partitions and Boundary Values,2025,"T2(A3, A5, A6)",-,-,IV1,ID1,IX4,OF1,OC1,OX2,OL1,CP1,CL2,CR2,LG1
+182,S193,Evaluating the Effectiveness of Large Language Models in Automated Unit Test Generation,2025,T2(A3),-,-,-,-,-,-,-,-,-,CP1,CL2,CR2,LG4
+118,S194,Evaluation of the Choice of LLM in a Multi-agent Solution for GUI-Test Generation,2025,T2(A5) T3(A7),-,-,IV3,ID1,IX2,-,-,-,-,-,-,-,-
+206,S195,Ever-Improving Test Suite by Leveraging Large Language Models,2025,T2(A3) T3(A7),-,-,-,-,-,-,-,-,-,CP9,CL2,CR2,LG1
+121,S196,exLong: Generating Exceptional Behavior Tests with Large Language Models,2025,T2(A3),-,-,-,-,-,-,-,-,-,CP1,CL2,CR1,LG1
+342,S197,Exploration of Code Analysis Driven Unit Test Generation Method Based on LLM,2025,T2(A3) T4(A9),-,-,-,-,-,-,-,-,-,CP1,CL1,CR1,LG1
+249,S198,Exploratory Study on Private GPTs for LLM-Driven Test Generation in Software and Machine Learning Development,2025,T1(A1) T2(A3),-,-,-,-,-,-,-,-,-,CP5,CL2,CR3,LG2
+208,S199,Exploring Automated Assertion Generation via Large Language Models,2025,T2(A6),-,-,-,-,-,OF1,OC1,OX1,OL1,-,-,-,-
+196,S200,Exploring the Integration of Large Language Models in Industrial Test Maintenance Processes,2025,"T2(A3) T4(A9, A10, A11, A12)",-,-,-,-,-,-,-,-,-,CP9,CL2,CR3,LG0
+250,S201,Exploring the Use of LLMs to Reduce the Discarding of MBT Test Cases,2025,T4(A11),-,-,-,-,-,-,-,-,-,-,-,-,-
+181,S202,Extracting Formal Specifications from Documents Using LLMs for Automated Testing,2025,T1(A1),-,-,-,-,-,-,-,-,-,-,-,-,-
+128,S203,Feature-Driven End-To-End Test Generation,2025,T1(A1) T4(A11),-,-,-,-,-,-,-,-,-,-,-,-,-
+143,S204,Filling query-type text inputs for Android applications via inner-app mining and GPT recommendation,2025,T2(A5),-,-,IV3,ID1,IX2,-,-,-,-,-,-,-,-
+209,S205,Finding Missed Code Size Optimizations in Compilers using Large Language Models,2025,"T2(A3, A5)",-,-,IV2,ID1,IX3,-,-,-,-,CP9,CL3,CR3,"LG3, LG8, LG10"
+251,S206,Finetuning LLMs for Automatic Form Interaction on Web-Browser in Selenium Testing Framework,2025,"T2(A3, A4, A5)",IF2,IC2,IV3,ID1,IX2,-,-,-,-,CP2,CL2,CR4,LG0
+252,S207,Framework and Performance Evaluation of Test Case Generation for Large Language Models in Software Testing,2025,"T2(A3, A6)",-,-,-,-,-,OF1,OC1,OX1,OL2,CP1,CL2,CR2,LG2
+144,S208,From LLMs to Randomness: Analyzing Program Input Efficacy With Resourceand Language Metrics,2025,,-,-,-,-,-,-,-,-,-,-,-,-,-
+343,S209,From Prototype Interface to Test Case Generation with Large Language Model,2025,"T1(A2) T2(A4, A6)",IF6,IC1,-,-,-,OF2,OC5,OX3,OL3,-,-,-,-
+253,S210,From Redundancy to Efficiency: Exploiting Shared UI Interactions towards Efficient LLM-Based Testing,2025,"T1(A2) T2(A3, A5)",-,-,IV3,ID1,IX2,-,-,-,-,CP2,CL2,CR3,LG0
+216,S211,From Scenario to Code: Structured Prompting for LLM-Based Unit Test Generation,2025,"T2(A3, A4)",IF1,IC2,-,-,-,-,-,-,-,CP1,CL2,CR3,LG1
+282,S212,Fuzz Testing of Closed-Source Software Using Large Language Models,2025,T1(A2) T2(A5),-,-,IV3,ID1,IX2,-,-,-,-,-,-,-,-
+254,S213,FuzzAug: Data Augmentation by Coverage-guided Fuzzing for Neural Test Generation,2025,"T2(A3, A5)",-,-,IV1,ID1,IX1,-,-,-,-,CP1,CL2,CR2,LG8
+255,S214,FuzzCoder: Code Large Language Model-Based Fuzz Testing for Industrial IoT Programs,2025,T2(A5),-,-,IV2,ID1,IX7,-,-,-,-,-,-,-,-
+256,S215,Generating Failure-Based Oracles to Support Testing of Reported Bugs in Android Apps,2025,T1(A2) T2(A6),-,-,-,-,-,OF1,OC1,OX2,OL3,-,-,-,-
+323,S216,Generating High-Level Test Cases from Requirements using LLM: An Industry Study,2025,T1(A1) T2(A4),IF1,IC1,-,-,-,-,-,-,-,-,-,-,-
+309,S217,gptPromptFuzz: LLM Prompt Engineering based Seed Generation for effective Fuzzing,2025,T2(A5),-,-,IV2,ID1,IX1,-,-,-,-,-,-,-,-
+257,S218,GrammLLM: Grammar-Guided LLM Test Generation for Compiler Validation,2025,T2(A3),-,-,-,-,-,-,-,-,-,CP9,CL4,CR1,LG10
+146,S219,Harnessing Large Language Models for Automated Software Testing: A Leap Towards Scalable Test Case Generation,2025,T2(A3),-,-,-,-,-,-,-,-,-,CP1,CL2,CR2,LG1
+319,S220,High-Fidelity and Complex Test Data Generation for Google SQL Code Generation Services,2025,T2(A5),-,-,IV5,ID1,IX1,-,-,-,-,-,-,-,-
+178,S221,HITS: High-coverage LLM-based Unit Test Generation via Method Slicing,2025,"T2(A4, A3) T4(A9)",IF1,IC2,-,-,-,-,-,-,-,CP1,CL1,CR3,LG1
+344,S222,"How Do Developers Use ChatGPT for Software Test Generation? Usage Patterns, Satisfaction, and Code Adoption Analysis",2025,T2(A3) T4(A9),-,-,-,-,-,-,-,-,-,CP1,CL6,CR2,LG0
+328,S223,HPCAgentTester: A Multi-Agent LLM Approach for Enhanced HPC Unit Test Generation,2025,T2(A3) T3(A7),-,-,-,-,-,-,-,-,-,CP1,CL1,CR3,LG3
+312,S224,Hybrid Language Processor Fuzzing via LLM-Based Constraint Solving,2025,T2(A5),-,-,IV2,ID1,IX1,-,-,-,-,-,-,-,-
+175,S225,Improving Android GUI Automated Testing via Knowledge-Guided Reinforcement Learning and LLM-Generated Inputs,2025,T2(A5),-,-,IV3,ID1,IX2,-,-,-,-,-,-,-,-
+259,S226,Improving Requirement Comprehension in GPT Models for Enhanced Consistency in Test Case Generation,2025,T1(A1) T2(A3),-,-,-,-,-,-,-,-,-,CP5,CL2,CR4,LG0
+130,S227,Improving the Readability of Automatically Generated Tests using Large Language Models,2025,T4(A10),-,-,-,-,-,-,-,-,-,-,-,-,-
+260,S228,Industry Practice of LLM-Assisted Protocol Fuzzing for Commercial Communication Modules,2025,"T2(A3, A5) T4(A13)",-,-,IV2,ID1,IX4,-,-,-,-,CP9,CL6,CR1,LG0
+308,S229,Integrating Large Language Models into Automated Software Testing,2025,"T2(A3, A5, A6)",-,-,IV3,ID1,IX4,OF1,OC3,OX2,OL3,CP2,CL2,CR4,LG2
+155,S230,Integrating LLM-Based Text Generation with Dynamic Context Retrieval for GUI Testing,2025,T2(A5),-,-,IV3,ID1,IX2,-,-,-,-,-,-,-,-
+261,S231,IntelliTest: An Intelligent Framework for Agentic Functional Test Generation Using Multimodal Data and Domain Knowledge,2025,"T1(A1) T2(A3, A5) T3(A8) T4(A13)",-,-,IV4,ID1,IX1,-,-,-,-,CP2,CL1,CR1,LG0
+345,S232,IntelliUnitGen: A Unit Test Case Generation Framework Based on the Integration of Static Analysis and Prompt Learning,2025,T2(A3) T4(A9),-,-,-,-,-,-,-,-,-,CP1,CL1,CR1,LG1
+171,S233,Intent Based E2E Automated Test Case Generation for Web Applications Using LLM,2025,"T2(A4, A3) T4(A9)",IF1,IC2,-,-,-,-,-,-,-,CP2,CL1,CR3,LG0
+152,S234,Intent-Based Mutation Testing: From Naturally Written Programming Intents to Mutants,2025,T2(A3),-,-,-,-,-,-,-,-,-,CP6,CL2,CR4,LG1
+313,S235,Interleaving Large Language Models for Compiler Testing,2025,T2(A5),-,-,IV2,ID1,IX7,-,-,-,-,-,-,-,-
+311,S236,ISC4DGF: Enhancing Directed Grey-Box Fuzzing with Initial Seed Corpus Generation Driven by Large Language Models,2025,"T2(A3, A5)",-,-,IV2,ID1,IX6,-,-,-,-,CP9,CL3,CR3,LG2
+262,S237,KuiTest: Leveraging Knowledge in the Wild as GUI Testing Oracle for Mobile Apps,2025,T1(A2) T3(A7),-,-,-,-,-,-,-,-,-,-,-,-,-
+351,S238,Large Language Model-Enhanced Test Case Generation,2025,T2(A3),-,-,-,-,-,-,-,-,-,CP5,CL6,CR4,LG0
+166,S239,Large Language Models for C Test Case Generation: A Comparative Analysis,2025,"T2(A3, A6, A5)",-,-,IV1,ID1,IX4,OF2,OC1,OX2,OL4,CP1,CL2,CR4,LG3
+215,S240,Leveraging GPT-4 for Vulnerability-Witnessing Unit Test Generation,2025,"T2(A3, A6)",-,-,-,-,-,OF1,OC1,OX1,OL1,CP4,CL1,CR1,LG1
+157,S241,Leveraging Large Language Models for Enhancing the Understandability of Generated Unit Tests,2025,T2(A5) T4(A10),-,-,IV1,ID2,IX7,-,-,-,-,-,-,-,-
+117,S242,Leveraging Large Language Models for Explicit Wait Management in End-to-End Web Testing,2025,T4(A10),-,-,-,-,-,-,-,-,-,-,-,-,-
+188,S243,Leveraging Large Language Models for Usability Testing: a Preliminary Study,2025,T2(A4),IF1,IC1,-,-,-,-,-,-,-,-,-,-,-
+269,S244,Leveraging Long Method Decomposition to Improve Large Language Model-Based Test Case Generation,2025,T2(A3) T4(A9),-,-,-,-,-,-,-,-,-,CP1,CL1,CR1,LG1
+187,S245,LLM Based Input Space Partitioning Testing for libraries APIs,2025,T2(A5),-,-,IV1,ID1,IX1,-,-,-,-,-,-,-,-
+136,S246,LLM Prompt Engineering for Automated White-Box Integration Test Generation in REST APIs,2025,T2(A3),-,-,-,-,-,-,-,-,-,CP7,CL2,CR2,LG1
+349,S247,LLM-assisted Industrial-Scale Differential Testing of Package Incompatibilities in Linux Distributions,2025,T2(A5) T4(A13),-,-,IV6,ID1,IX4,-,-,-,-,-,-,-,-
+264,S248,LLM-based Dynamic Differential Testing for Database Connectors with Reinforcement Learning-Guided Prompt Selection,2025,"T2(A3, A5)",-,-,IV5,ID1,IX7,-,-,-,-,CP9,CL3,CR4,LG1
+346,S249,LLM-Driven Smart Test Case Generation for Scalable Software Testing,2025,T2(A3) T4(A9),-,-,-,-,-,-,-,-,-,CP7,CL1,CR3,LG2
+137,S250,"LLM-Driven, Self-Improving Framework for Security Test Automation: Leveraging Karate DSL for Augmented API Resilience",2025,"T2(A3) T4(A9, A13)",-,-,-,-,-,-,-,-,-,CP4,CL1,CR1,LG10
+347,S251,LLM-Empowered Scriptless Functional Testing,2025,T1(A2) T2(A5),-,-,IV3,ID1,IX2,-,-,-,-,-,-,-,-
+165,S252,LLM-enhanced evolutionary test generation for untyped languages,2025,T2(A5) T4(A9),-,-,IV2,ID1,IX1,-,-,-,-,-,-,-,-
+201,S253,LLM-Explorer: Towards Efficient and Affordable LLM-based Exploration for Mobile Apps,2025,T1(A2) T2(A5),-,-,IV3,ID1,IX2,-,-,-,-,-,-,-,-
+348,S254,LLM-Guided Differential Fuzzing for Detecting Platform-Specific Bugs in Scientific Applications,2025,T2(A5),-,-,IV2,ID1,IX4,-,-,-,-,-,-,-,-
+263,S255,LLM-Powered Automated Testing Framework for Multi-Scenario Mobile Apps Across Platforms,2025,T1(A2) T2(A5),-,-,IV3,ID1,IX2,-,-,-,-,-,-,-,-
+195,S256,LLM-Powered Fuzz Testing of Automotive Diagnostic Protocols,2025,"T2(A3, A5)",-,-,IV4,ID1,IX7,-,-,-,-,CP4,CL6,CR4,LG2
+265,S257,LLM4VV: Evaluating Cutting-Edge LLMs for Generation and Evaluation of Directive-Based Parallel Programming Model Compiler Tests,2025,T2(A3) T3(A7),-,-,-,-,-,-,-,-,-,CP9,CL3,CR4,"LG3, LG10"
+350,S258,LLMFuzzTestGen: From Automation to Robustness via Multi-Agent LLM-Driven Fuzzing and Feedback Loops,2025,"T2(A3, A5) T4(A9, A13)",-,-,IV1,ID2,IX1,-,-,-,-,CP1,CL1,CR3,LG2
+151,S259,LLMorpheus: Mutation Testing Using Large Language Models,2025,T2(A3),-,-,-,-,-,-,-,-,-,CP6,CL3,CR1,LG4
+324,S260,LLMs are All You Need? Improving Fuzz Testing for MOJO with Large Language Models,2025,T2(A5),-,-,IV2,ID1,IX3,-,-,-,-,-,-,-,-
+330,S261,LLMs for Automated Unit Test Generation and Assessment in Java: The AGONETEST Framework,2025,T2(A3) T4(A12),-,-,-,-,-,-,-,-,-,CP1,CL2,CR2,LG1
+268,S262,LLMs in Debate: Does Arguing Make Them Better at Detecting Metamorphic Relations?,2025,T3(A7),-,-,-,-,-,-,-,-,-,-,-,-,-
+266,S263,LLMShot: Reducing snapshot testing maintenance via LLMs,2025,T3(A7),-,-,-,-,-,-,-,-,-,-,-,-,-
+267,S264,LLMTestCraft: An Automated Unit Test Case Generator using Large Language Models,2025,"T2(A3, A5, A6)",-,-,IV1,ID2,IX1,OF1,OC1,OX1,OL2,CP1,CL1,CR3,LG2
+270,S265,Low-Cost and Comprehensive Non-textual Input Fuzzing with LLM-Synthesized Input Generators,2025,T2(A5),-,-,IV2,ID1,IX7,-,-,-,-,-,-,-,-
+168,S266,LSPAI: An IDE Plugin for LLM-Powered Multi-Language Unit Test Generation with Language Server Protocol,2025,T2(A3) T4(A9),-,-,-,-,-,-,-,-,-,CP1,CL1,CR1,"LG1, LG2, LG5"
+185,S267,LWDIFF: an LLM-Assisted Differential Testing Framework for Webassembly Runtimes,2025,T1(A1),-,-,-,-,-,-,-,-,-,-,-,-,-
+352,S268,MAGISTER: LLM-Based Test Generation with Role-Specialized Agents,2025,T2(A3) T4(A9),-,-,-,-,-,-,-,-,-,CP1,CL1,CR1,LG2
+354,S269,Model-MRFaG: A Test Code Generation Framework Based on Fine-tuned LLMs,2025,T2(A3),-,-,-,-,-,-,-,-,-,CP1,CL1,CR2,"LG1, LG2, LG3, LG4, LG5, LG6"
+353,S270,MUATC: Multi-Agent Utilization to Augment Test Coverage,2025,T2(A3) T4(A9),-,-,-,-,-,-,-,-,-,CP1,CL1,CR1,"LG1, LG2"
+355,S271,Multi-Agent Systems in Software Testing: From Planning to Reporting,2025,T2(A3) T4(A13),-,-,-,-,-,-,-,-,-,CP1,CL2,CR3,LG2
+271,S272,Multi-dimensional Assessment of Crowdsourced Testing Reports via LLMs,2025,T1(A1) T3(A12),-,-,-,-,-,-,-,-,-,-,-,-,-
+356,S273,Multi-Stage Generation of Rust Unit Tests with LLMs,2025,T2(A3) T4(A9),-,-,-,-,-,-,-,-,-,CP1,CL1,CR1,LG8
+272,S274,Mutant-Driven Test Generation for Ethereum Smart Contracts via LLMs,2025,T2(A3) T4(A9),-,-,-,-,-,-,-,-,-,CP6,CL1,CR1,LG7
+139,S275,Mutation Testing via Iterative Large Language Model-Driven Scientific Debugging,2025,"T2(A3) T4(A9, A12)",-,-,-,-,-,-,-,-,-,CP6,CL1,CR2,LG2
+122,S276,Mutation-Guided LLM-based Test Generation at Meta,2025,T2(A3) T3(A7),-,-,-,-,-,-,-,-,-,CP6,CL4,CR2,LG0
+320,S277,Mutation-Guided Unit Test Generation with a Large Language Model,2025,T2(A3) T4(A9),-,-,-,-,-,-,-,-,-,CP1,CL1,CR1,LG1
+273,S278,"N{\""u}wa: Enhancing MLIR Fuzzing with LLM-Driven Generation and Adaptive Mutation",2025,"T2(A3, A5)",-,-,IV2,ID1,IX5,-,-,-,-,CP9,CL1,CR4,LG10
+321,S279,Navigating the Labyrinth: Path-Sensitive Unit Test Generation with Large Language Models,2025,T2(A3) T4(A9),-,-,-,-,-,-,-,-,-,CP1,CL1,CR1,LG1
+184,S280,NexuSym: Marrying symbolic path finders with large language models,2025,T2(A5),-,-,IV2,ID1,IX1,-,-,-,-,-,-,-,-
+158,S281,NIODebugger: A Novel Approach to Repair Non-Idempotent-Outcome Tests with LLM-Based Agent,2025,T4(A9),-,-,-,-,-,-,-,-,-,-,-,-,-
+274,S282,One Sentence Can Kill the Bug: Auto-Replay Mobile App Crashes From One-Sentence Overviews,2025,"T1(A2) T2(A3, A4)",IF1,IC1,-,-,-,-,-,-,-,CP3,CL1,CR1,LG0
+275,S283,Open API Testing Using Large Language Models and Prompt Engineering,2025,"T2(A3, A5, A6)",-,-,IV4,ID1,IX5,OF1,OC1,OX2,OL8,CP7,CL6,CR4,LG10
+210,S284,Optimizing Case-Based Reasoning System for Functional Test Script Generation with Large Language Models,2025,T2(A3),-,-,-,-,-,-,-,-,-,CP2,CL6,CR1,LG0
+197,S285,Otter: Generating Tests from Issues to Validate SWE Patches,2025,"T2(A3, A6)",-,-,-,-,-,OF1,OC1,OX2,OL2,CP3,CL3,CR3,LG2
+276,S286,PALM: Synergizing Program Analysis and LLMs to Enhance Rust Unit Test Coverage,2025,T2(A3),-,-,-,-,-,-,-,-,-,CP1,CL1,CR1,LG8
+314,S287,PRIMG: Efficient LLM-driven Test Generation Using Mutant Prioritization,2025,T2(A3),-,-,-,-,-,-,-,-,-,CP6,CL1,CR2,LG7
+177,S288,Program Interoperable Large Language Model Software Testing Scheme: A Case Study on JavaScript Engine Fuzzing,2025,"T2(A3, A5)",-,-,IV2,ID1,IX1,-,-,-,-,CP9,CL1,CR2,LG4
+186,S289,Prompting Large Language Models to Tackle the Full Software Development Lifecycle: A Case Study,2025,T2(A3) T4(A9),-,-,-,-,-,-,-,-,-,CP1,CL1,CR4,LG0
+203,S290,ProphetAgent: Automatically Synthesizing GUI Tests from Test Cases in Natural Language for Mobile Apps,2025,T1(A2) T2(A3),-,-,-,-,-,-,-,-,-,CP2,CL3,CR4,LG0
+214,S291,Quality Assessment of Python Tests Generated by Large Language Models,2025,T2(A3),-,-,-,-,-,-,-,-,-,CP1,CL2,CR2,LG2
+148,S292,RAG-Driven multiple assertions generation with large language models,2025,T2(A6) T4(A10),-,-,-,-,-,OF1,OC1,OX1,OL1,-,-,-,-
+277,S293,RAG4Test: Retrieving GUI States for Multilingual Bug Report and Test Case Generation via LLMs,2025,"T1(A2) T2(A3, A4)",IF2,IC1,-,-,-,-,-,-,-,CP2,CL2,CR1,LG0
+192,S294,Ranking Relevant Tests for Order-Dependent Flaky Tests,2025,T3(A8) T4(A13),-,-,-,-,-,-,-,-,-,-,-,-,-
+149,S295,Redefining crowd sourced test report prioritization: An innovative approach with large language model,2025,T3(A8),-,-,-,-,-,-,-,-,-,-,-,-,-
+279,S296,Reflective Unit Test Generation for Precise Type Error Detection with Large Language Models,2025,"T2(A3, A5) T3(A7)",-,-,IV1,ID2,IX1,-,-,-,-,CP1,CL1,CR3,LG2
+170,S297,Reinforcement Learning from Automatic Feedback for High-Quality Unit Test Generation,2025,T2(A3),-,-,-,-,-,-,-,-,-,CP1,CL2,CR2,LG6
+280,S298,Research on the Vulnerability Identification Efficiency of Enhanced Reverse-Analyzed LLM Model in Binary Program Fuzzy Testing,2025,T2(A5),-,-,IV2,ID1,IX1,-,-,-,-,-,-,-,-
+307,S299,REST API Fuzzing Using API Dependencies and Large Language Models,2025,"T2(A3, A5)",-,-,IV4,ID1,IX5,-,-,-,-,CP7,CL1,CR1,LG0
+281,S300,Reverse-Engineering and Automating BDD for Modern Software Development with LLMs,2025,"T1(A1) T2(A3, A4)",IF3,IC3,-,-,-,-,-,-,-,CP5,CL6,CR1,"LG1, LG2"
+278,S301,RPG: Linux Kernel Fuzzing Guided by Distribution-Specific Runtime Parameter Interfaces,2025,T2(A5),-,-,IV2,ID1,IX7,-,-,-,-,-,-,-,-
+174,S302,RUG: Turbo LLM for Rust Unit Test Generation,2025,"T2(A3, A5, A6)",-,-,IV2,ID1,IX1,OF1,OC1,OX1,OL6,CP1,CL3,CR1,LG8
+283,S303,SAGE: Semantic-Aware Gray-Box Game Regression Testing with Large Language Models,2025,T2(A5) T3(A8),-,-,IV6,ID1,IX7,-,-,-,-,-,-,-,-
+284,S304,SATORI: Static Test Oracle Generation for REST APIs,2025,T2(A6),-,-,-,-,-,OF1,OC1,OX2,OL8,-,-,-,-
+172,S305,Search+LLM-based Testing for ARM Simulator,2025,T2(A3),-,-,-,-,-,-,-,-,-,CP9,CL3,CR4,LG3
+288,S306,SeedAIchemy: LLM-Driven Seed Corpus Generation for Fuzzing,2025,T2(A5),-,-,IV2,ID1,IX7,-,-,-,-,-,-,-,-
+126,S307,Self-Healing UI Test Automation via Multi-Modal Fusion,2025,T4(A9),-,-,-,-,-,-,-,-,-,-,-,-,-
+285,S308,SGTest: A Semantics-Guided Framework for LLM-Driven Unit Test Generation,2025,T2(A3) T4(A9),-,-,-,-,-,-,-,-,-,CP1,CL1,CR1,LG1
+153,S309,SleepReplacer-GPT: AI-Based Thread Sleep Replacement in Selenium WebDriver Tests,2025,T4(A9),-,-,-,-,-,-,-,-,-,-,-,-,-
+286,S310,SMTPRT: Performance Regression Testing and Localization for SMT Solvers Across Multiple Logics,2025,T2(A5),-,-,IV6,ID1,IX3,-,-,-,-,-,-,-,-
+289,S311,Software Reliability Testing Profile Generation for Industrial Robot Based on Large Language Model,2025,"T2(A5, A6)",-,-,IV6,ID1,IX7,OF1,OC1,OX3,OL8,-,-,-,-
+326,S312,Software Testing with Large Language Models: An Interview Study with Practitioners,2025,"T2(A3, A4, A6)",IF1,IC1,-,-,-,OF2,OC5,OX2,OL8,CP2,CL6,CR4,LG0
+357,S313,Software Unit Test Automation with LLM-Based Generative AI: Evaluating Test Quality through Code Coverage and Edge-Case Analysis,2025,"T2(A3, A5)",-,-,IV1,ID1,IX1,-,-,-,-,CP1,CL2,CR2,LG2
+180,S314,Static Analysis and LLM for Comprehensive Java Unit Test Generation,2025,T2(A5),-,-,IV1,ID1,IX1,-,-,-,-,-,-,-,-
+290,S315,Streamlining Acceptance Test Generation for Mobile Applications Through Large Language Models: An Industrial Case Study,2025,"T1(A1, A2) T2(A3, A4)",IF3,IC2,-,-,-,-,-,-,-,CP5,CL3,CR1,LG9
+287,S316,SVPrompt-MR: An LLM-Based Metamorphic Relation Identification Method with Self-Verification Mechanism,2025,T2(A6),-,-,-,-,-,OF4,OC1,OX2,OL8,-,-,-,-
+329,S317,Synthesizing Precise Protocol Specs from Natural Language for Effective Test Generation,2025,T1(A1),-,-,-,-,-,-,-,-,-,-,-,-,-
+358,S318,TaK-Fuzz: Transaction-aware Knowledge Smart Contract Fuzzing with Retrieval-Augmented Generation and Language Models,2025,T2(A5),-,-,IV2,ID1,IX1,-,-,-,-,-,-,-,-
+291,S319,TARGET: Traffic Rule-Based Test Generation for Autonomous Driving via Validated LLM-Guided Knowledge Extraction,2025,"T1(A1) T2(A5, A6)",-,-,IV6,ID1,IX4,OF2,OC1,OX2,OL8,-,-,-,-
+202,S320,TensorJSFuzz: Effective Testing of Web-Based Deep Learning Frameworks via Input-Constraint Extraction,2025,T2(A5),-,-,IV1,ID1,IX1,-,-,-,-,-,-,-,-
+293,S321,Test Amplification for REST APIs via Single and Multi-Agent LLM Systems,2025,"T2(A3, A5) T4(A9)",-,-,IV4,ID2,IX5,-,-,-,-,CP7,CL1,CR3,LG1
+199,S322,Test Case Creation Approach using LLM for Android System,2025,T1(A1) T2(A4),IF2,IC1,-,-,-,-,-,-,-,-,-,-,-
+294,S323,Test Case Generation for Context-Aware Large Language Models Based on Deep Semantic Understanding,2025,T1(A1) T2(A4) T3(A11),IF1,IC2,-,-,-,-,-,-,-,-,-,-,-
+164,S324,Test Case Generation for Requirements in Natural Language - An LLM Comparison Study,2025,T2(A4),IF2,IC3,-,-,-,-,-,-,-,-,-,-,-
+145,S325,"Test Generation from Use Case Specifications for IoT Systems: Custom, LLM-Based, and Hybrid Approaches",2025,T2(A4),IF2,IC1,-,-,-,-,-,-,-,-,-,-,-
+179,S326,Test Intention Guided LLM-Based Unit Test Generation,2025,T2(A3),-,-,-,-,-,-,-,-,-,CP1,CL6,CR1,LG1
+147,S327,"Test Wars: A Comparative Study of SBST, Symbolic Execution, and LLM-Based Approaches to Unit Test Generation",2025,T2(A3),-,-,-,-,-,-,-,-,-,CP1,CL1,CR2,LG1
+292,S328,TESTEVAL: Benchmarking Large Language Models for Test Case Generation,2025,"T2(A3, A5)",-,-,IV1,ID1,IX1,-,-,-,-,CP1,CL2,CR2,LG2
+295,S329,Testing Android Third Party Libraries with LLMs to Detect Incompatible APIs,2025,T2(A3),-,-,-,-,-,-,-,-,-,CP9,CL1,CR1,LG0
+296,S330,Testing Refactoring Engine via Historical Bug Report driven LLM,2025,T1(A1) T2(A3),-,-,-,-,-,-,-,-,-,CP9,CL3,CR3,LG1
+132,S331,TestLoter: A logic-driven framework for automated unit test generation and error repair using large language models,2025,"T2(A3, A6) T4(A9)",-,-,-,-,-,OF1,OC1,OX1,OL1,CP1,CL1,CR1,LG1
+190,S332,Text-image fusion template for large language model assisted crowdsourcing test aggregation,2025,-,-,-,-,-,-,-,-,-,-,-,-,-,-
+359,S333,The Role of Machine Learning and Large Language Models in Software Testing and Validation,2025,T2(A4),IF3,IC1,-,-,-,-,-,-,-,-,-,-,-
+160,S334,TOGLL: Correct and Strong Test Oracle Generation with LLMs,2025,T2(A6),-,-,-,-,-,OF1,OC1,OX1,OL1,-,-,-,-
+207,S335,Towards LLM-Based Automatic Playtest,2025,T2(A5),-,-,IV3,ID1,IX2,-,-,-,-,-,-,-,-
+297,S336,TRACE: Test Repair via Agent-based Context Extraction with LLMs,2025,T4(A9),-,-,-,-,-,-,-,-,-,-,-,-,-
+189,S337,TraceAwareness and dual-strategy fuzz testing: Enhancing path coverage and crash localization with stochastic science and large language models,2025,T2(A5),-,-,IV2,ID1,IX1,-,-,-,-,-,-,-,-
+315,S338,Tracking the Moving Target: A Framework for Continuous Evaluation of LLM Test Generation in Industry,2025,T2(A3) T4(A12),-,-,-,-,-,-,-,-,-,CP1,CL4,CR2,LG1
+120,S339,Transformer-Based Unit Test Generation,2025,T2(A3),-,-,-,-,-,-,-,-,-,CP1,CL2,CR2,LG2
+361,S340,Turning Manual Tasks into Actions: Assessing the Effectiveness of Gemini-generated Selenium Tests,2025,T2(A3),-,-,-,-,-,-,-,-,-,CP2,CL2,CR1,LG2
+316,S341,UAgent: Adversarial Co-evolution for Targeted Bug Revelation in Unit Testing,2025,T2(A3) T4(A9),-,-,-,-,-,-,-,-,-,CP6,CL1,CR2,LG2
+362,S342,Understanding LLM Behavior in Test Case Prioritization: A Comparative Study,2025,T3(A8),-,-,-,-,-,-,-,-,-,-,-,-,-
+327,S343,Understanding the Characteristics of LLM-Generated Property-Based Tests in Exploring Edge Cases,2025,"T2(A3, A5)",-,-,IV1,ID1,IX1,-,-,-,-,CP9,CL2,CR2,LG2
+299,S344,Unit Test Update through LLM-Driven Context Collection and Error-Type-Aware Refinement,2025,"T2(A3) T4(A9, A10)",-,-,-,-,-,-,-,-,-,CP1,CL1,CR1,LG1
+298,S345,UnitTenX: Generating Tests for Legacy Packages with AI Agents Powered by Formal Verification,2025,"T2(A3) T3(A7) T4(A9, A12)",-,-,-,-,-,-,-,-,-,CP1,CL1,CR1,LG3
+300,S346,User Acceptance Test case Generation using LLMs,2025,T1(A1) T2(A4),IF1,IC1,-,-,-,-,-,-,-,-,-,-,-
+211,S347,Using a Large Language Model as a Building Block to Generate Usable Validation and Verification Suite for OpenMP,2025,"T2(A3, A5)",-,-,IV6,ID1,IX4,-,-,-,-,CP9,CL4,CR4,"LG3, LG10"
+156,S348,Using Large Language Models to Generate Concise and Understandable Test Case Summaries,2025,T4(A10),-,-,-,-,-,-,-,-,-,-,-,-,-
+204,S349,Using Large Language Models to Support the Workflow of Differential Testing,2025,"T3(A7, A8) T4(A13)",-,-,-,-,-,-,-,-,-,-,-,-,-
+301,S350,Using LLMs to Bridge the Gaps in QA Test Plans at Firefox,2025,T1(A1) T2(A4),IF2,IC1,-,-,-,-,-,-,-,-,-,-,-
+212,S351,UTFix: Change Aware Unit Test Repairing using LLM,2025,"T4(A9, A10)",-,-,-,-,-,-,-,-,-,-,-,-,-
+161,S352,Vulnerability-Triggering Test Case Generation from Third-Party Libraries,2025,"T2(A3, A6)",-,-,-,-,-,OF1,OC1,OX1,OL1,CP4,CL2,CR1,LG1
+302,S353,What Inputs Drive Effective Large Language Model-Based Unit Test Generation?,2025,"T2(A3, A5, A6)",-,-,IV1,ID1,IX1,OF1,OC1,OX1,OL2,CP1,CL3,CR2,LG2
+163,S354,When AI-Generated Unit Tests Validate Bugs: The Risk of Faulty Assertions,2025,,-,-,-,-,-,-,-,-,-,-,-,-,-
+303,S355,Who's to Blame? Rethinking the Brittleness of Automated Web GUI Testing from a Pragmatic Perspective,2025,T4(A9),-,-,-,-,-,-,-,-,-,-,-,-,-
+304,S356,Your Fix Is My Exploit: Enabling Comprehensive DL Library API Fuzzing with Large Language Models,2025,"T2(A3, A5)",-,-,IV2,ID1,IX1,-,-,-,-,CP9,CL1,CR3,LG2
+386,S357,A Code Ranking Framework with Human-Inspired Agent-Based Tests Generation,2026,"T2(A3, A5, A6) T3(A7)",-,-,IV1,ID2,IX4,OF1,OC1,OX2,OL2,CP9,CL1,CR4,"LG2, LG3"
+400,S358,A Graph-Based Model for Automatic Test Case Generation from Textual Requirements with Hierarchical Coverage,2026,"T1(A1) T2(A3, A6)",-,-,-,-,-,OF3,OC4,OX2,OL8,CP5,CL3,CR1,LG0
+493,S359,A Multi-Stage Approach for LLM-Based Automated Repair of Test Cases,2026,T2(A3) T4(A9),-,-,-,-,-,-,-,-,-,CP1,CL1,CR1,"LG1, LG2, LG4"
+389,S360,A Qualitative and Quantitative Exploration of LLM-Based Test Generation Repair Loops,2026,T4(A9),-,-,-,-,-,-,-,-,-,-,-,-,-
+399,S361,A UIA-Vision Dual-Engine Automated Testing Method with Domain-Aware Prompting for Medical Imaging Desktop Application,2026,"T1(A2) T2(A3, A5, A6)",-,-,IV3,ID1,IX2,OF1,OC1,OX3,OL3,CP2,CL2,CR1,LG10
+444,S362,Advancing Code Coverage: Incorporating Program Analysis with Large Language Models,2026,T2(A3),-,-,-,-,-,-,-,-,-,CP1,CL1,CR1,LG2
+494,S363,Agentic Concolic Execution,2026,T2(A5),-,-,IV2,ID1,IX3,-,-,-,-,-,-,-,-
+388,S364,AI Agent Case Study Generating High-Level Test Cases from Requirements,2026,T1(A1) T2(A4),IF1,IC1,-,-,-,-,-,-,-,-,-,-,-
+396,S365,AI and Machine Learning Powered Impacted Test Case Generation from Multimodal User Stories using Retrieval Augmented Generation,2026,"T1(A1) T2(A3, A4, A5, A6) T4(A9, A10)",IF1,IC1,IV1,ID3,IX4,OF2,OC5,OX2,OL8,CP5,CL6,CR1,LG0
+490,S366,AI-Assisted Semantic Modeling of Languages for Symbolic Execution Driven Unit Test Generation,2026,T2(A5),-,-,IV1,ID1,IX5,-,-,-,-,-,-,-,-
+442,S367,AI-Driven Approaches to System Requirements and Test Case Generation: A New Paradigm in Software Engineering,2026,"T1(A1) T2(A3, A5, A6)",-,-,IV1,ID1,IX4,OF1,OC1,OX2,OL2,CP1,CL2,CR4,LG2
+491,S368,AI-Driven Test Case Generation Using Retrieval-Augmented Enterprise Knowledge,2026,"T2(A4, A6) T3(A8)",IF2,IC1,-,-,-,OF2,OC5,OX2,OL8,-,-,-,-
+397,S369,An LLM-Powered API Testing Framework Based on Structural Similarity Analysis,2026,"T2(A3, A5)",-,-,IV4,ID1,IX5,-,-,-,-,CP7,CL3,CR1,LG0
+398,S370,Approach for Generating and Executing Acceptance Tests Based on Computer Vision and GPT-4,2026,T1(A2) T2(A4) T3(A7),IF3,IC2,-,-,-,-,-,-,-,-,-,-,-
+390,S371,AstraGame: Effective and Efficient VLM Agent Serving for Large-Scale Game Testing in an Industry Setting,2026,T1(A2) T2(A5),-,-,IV3,ID1,IX2,-,-,-,-,-,-,-,-
+365,S372,AugmenTest: A tool for improving test quality through automatic assertion generation,2026,T2(A6),-,-,-,-,-,OF1,OC1,OX2,OL1,-,-,-,-
+401,S373,Automated Black-Box Testing: A Comparative Study of LLM Agent Architectures and Prompt Engineering,2026,"T2(A3, A5, A6)",-,-,IV1,ID1,IX4,OF1,OC1,OX2,OL2,CP1,CL2,CR3,LG2
+379,S374,Automated Bug Frame Retrieval from Gameplay Videos Using Multimodal Large Language Models,2026,"T3(A7, A13)",-,-,-,-,-,-,-,-,-,-,-,-,-
+445,S375,Automated Discovery of Test Oracles for Database Management Systems Using LLMs,2026,"T2(A3, A6)",-,-,-,-,-,OF4,OC1,OX3,OL8,CP9,CL3,CR1,LG10
+446,S376,Automated Knowledge-Aware Test Reuse,2026,T2(A3) T4(A11),-,-,-,-,-,-,-,-,-,CP1,CL1,CR1,LG2
+382,S377,Automated Software Test Generation at Industry Scale Using a Multi-Agent Architecture and Workflow Integration,2026,"T2(A3, A10) T4(A9, A12)",-,-,-,-,-,-,-,-,-,CP1,CL1,CR1,"LG1, LG2, LG4, LG5"
+439,S378,Automated test plan generation using large language models,2026,T1(A1) T2(A4),IF5,IC1,-,-,-,-,-,-,-,-,-,-,-
+447,S379,Automated Test Suite Enhancement Using Large Language Models with Few-shot Prompting,2026,T2(A3),-,-,-,-,-,-,-,-,-,CP1,CL3,CR1,LG2
+448,S380,Automated Unit Test Generation via Chain-of-Thought Prompt and Reinforcement Learning from Coverage Feedback,2026,"T2(A3, A5)",-,-,IV1,ID2,IX1,-,-,-,-,CP1,CL2,CR2,LG1
+363,S381,Automatic assertion generation with LLM for ICS program verification,2026,T2(A6),-,-,-,-,-,OF1,OC1,OX2,OL8,-,-,-,-
+402,S382,Automating fuzz driver generation for deep learning libraries with large language models,2026,T2(A3) T3(A7) T4(A9),-,-,-,-,-,-,-,-,-,CP9,CL1,CR3,LG2
+449,S383,AutoOracle: High-Quality C++ Test Oracle Generation via Data Quality-Driven and Filtering-Enabled LLMs,2026,T2(A6) T3(A7),-,-,-,-,-,OF1,OC1,OX1,OL4,-,-,-,-
+370,S384,bdd2pw: Live-DOM page object scaffolding from Gherkin specifications via the Microsoft Playwright MCP,2026,"T2(A3, A5)",-,-,IV3,ID1,IX4,-,-,-,-,CP5,CL3,CR1,LG4
+450,S385,Benchmarking LLMs for Unit Test Generation from Real-World Functions,2026,T2(A3),-,-,-,-,-,-,-,-,-,CP1,CL1,CR2,LG2
+406,S386,Benchmarking Software Test Cases Produced by Generative AI Against Traditional Methods: A Design Science Approach,2026,T2(A5),-,-,IV1,ID1,IX4,-,-,-,-,-,-,-,-
+451,S387,Beyond Coverage: Automatic Test Suite Augmentation for Enhanced Effectiveness using Large Language Models,2026,T2(A3) T4(A9),-,-,-,-,-,-,-,-,-,CP6,CL1,CR1,LG1
+452,S388,Beyond Input Maturity: Evolving LLM-Based Test Generation,2026,T1(A1) T2(A4),IF1,IC1,-,-,-,-,-,-,-,-,-,-,-
+495,S389,Boosting Test Generation in Industrial Codebases: A Comparative Study of Base and Fine-Tuned LLMs,2026,T2(A3) T4(A9),-,-,-,-,-,-,-,-,-,CP1,CL1,CR2,LG3
+366,S390,Boosting unit test generation via structure-aware fine-tuning of pre-trained model,2026,T2(A3),-,-,-,-,-,-,-,-,-,CP1,CL3,CR1,LG1
+404,S391,Budget-aware Test-Sufficient Context Selection for Java Unit Test Generation,2026,T2(A3),-,-,-,-,-,-,-,-,-,CP1,CL2,CR1,LG1
+392,S392,Can LLMs Make Software Testing Greener? An Empirical Study on JUnit Test Energy Reengineering,2026,T4(A10),-,-,-,-,-,-,-,-,-,-,-,-,-
+438,S393,Can test cases generated by large language models facilitate automated program repair?,2026,T2(A3),-,-,-,-,-,-,-,-,-,CP3,CL3,CR4,LG0
+407,S394,Can We Classify Flaky Tests Using Only Test Code? An LLM-Based Empirical Study,2026,T3(A7),-,-,-,-,-,-,-,-,-,-,-,-,-
+405,S395,CDBench: Benchmarking the mutation testing capabilities of LLMs with code defenders,2026,T2(A3),-,-,-,-,-,-,-,-,-,CP6,CL1,CR2,LG1
+364,S396,CGTest: A hybrid coverage-guided framework for cost-effective unit test generation,2026,T2(A3),-,-,-,-,-,-,-,-,-,CP1,CL1,CR1,LG1
+453,S397,CITYWALK: Enhancing LLM-Based C++ Unit Test Generation via Project-Dependency Awareness and Language-Specific Knowledge,2026,T2(A3) T4(A9),-,-,-,-,-,-,-,-,-,CP1,CL1,CR1,LG3
+408,S398,Cluster-Aware Dual-Level Test Specification Generation for Large-Scale Automotive Software Requirements,2026,T1(A1) T2(A4),IF1,IC1,-,-,-,-,-,-,-,-,-,-,-
+409,S399,Consistency Meets Verification: Enhancing Test Generation Quality in Large Language Models Without Ground-Truth Solutions,2026,T2(A3) T3(A7),-,-,-,-,-,-,-,-,-,CP1,CL3,CR4,LG2
+454,S400,Coverage-Guided Multi-Agent Harness Generation for Java Library Fuzzing,2026,T2(A3) T4(A9),-,-,-,-,-,-,-,-,-,CP9,CL1,CR3,LG1
+417,S401,CoverFuzz: A Coverage-Guided and General-Purpose Fuzzing Framework,2026,"T2(A3, A5) T4(A10)",-,-,IV2,ID1,IX3,-,-,-,-,CP9,CL3,CR3,"LG3, LG5, LG10"
+368,S402,"D3Fuzz: Dynamic, directed and decaying LLM-driven fuzzing for deep learning libraries",2026,"T2(A3, A5)",-,-,IV2,ID1,IX3,-,-,-,-,CP9,CL3,CR1,LG2
+497,S403,Developer vs. DSpot vs. ChatGPT: A Comparative Study of JUnit Test Amplification,2026,T4(A10),-,-,-,-,-,-,-,-,-,-,-,-,-
+496,S404,DRRAR: Domain-Aware Requirement Refinement via Adaptive RAG,2026,T1(A1) T2(A3),-,-,-,-,-,-,-,-,-,CP1,CL1,CR3,LG0
+410,S405,Empirical Evaluation of LLM-Generated Unit Tests,2026,T2(A3),-,-,-,-,-,-,-,-,-,CP1,CL2,CR2,LG2
+455,S406,Enhancing Differential Testing with LLMs for Testing Deep Learning Libraries,2026,"T2(A5, A6)",-,-,IV1,ID1,IX1,OF1,OC1,OX1,OL2,-,-,-,-
+369,S407,"Evaluating AI reasoning and prompt engineering in automated test case generation: A comparative study of GPT-4o, O1 models, and human QA",2026,"T2(A4, A5, A6)",IF2,IC1,IV1,ID3,IX4,OF2,OC5,OX2,OL8,-,-,-,-
+456,S408,Evaluating LLM-Based Regression Test Generation,2026,"T2(A3, A5)",-,-,IV2,ID1,IX1,-,-,-,-,CP3,CL1,CR4,"LG4, LG10"
+384,S409,Evaluating the Complex Reasoning and Performance Capabilities of Large Language Models for Test Case Generation: A Learning-Based Software Testing Suite for Benchmarking Generative AI in Automated Test Case Generation,2026,"T2(A3, A5, A6)",-,-,IV1,ID1,IX1,OF1,OC5,OX1,OL2,CP1,CL2,CR2,LG2
+457,S410,EVATest: Domain-Oriented Android GUI Testing based on Reward-Guided Retrieval-Augmented Generation,2026,T1(A2) T2(A5),-,-,IV3,ID1,IX2,-,-,-,-,-,-,-,-
+411,S411,Exploratory Study on LLMs for Test Amplification in Solidity,2026,T2(A3) T4(A10),-,-,-,-,-,-,-,-,-,CP9,CL2,CR2,LG4
+394,S412,Fixpad++: Automated Bug Fix Verification using LLM Agents,2026,T2(A3) T3(A7),-,-,-,-,-,-,-,-,-,CP3,CL1,CR4,LG0
+458,S413,From Prompts to Pareto Fronts: Using Code LMs as Semantic Genetic Operators for Compiler Bug Discovery,2026,T2(A5) T4(A9),-,-,IV2,ID1,IX3,-,-,-,-,-,-,-,-
+498,S414,From Requirements to Executable Tests: A Scenario-Driven Chain-of-Thought Framework Using Large Language Models,2026,T1(A1) T2(A3) T4(A9),-,-,-,-,-,-,-,-,-,CP2,CL1,CR3,LG2
+459,S415,Fusing LLMs and Genetic Algorithm for High-Quality Unit Test Generation,2026,T2(A3) T4(A9),-,-,-,-,-,-,-,-,-,CP1,CL1,CR1,LG1
+460,S416,Generalizing Test Cases for Comprehensive Test Scenario Coverage,2026,T1(A1) T2(A3),-,-,-,-,-,-,-,-,-,CP1,CL1,CR3,LG1
+413,S417,GPT-Monkey: Enhancing Automated GUI Testing for Android Apps via LLM-Driven Interface Understanding and Function Segmentation,2026,"T1(A2) T2(A5) T4(A10, A13)",-,-,IV3,ID1,IX2,-,-,-,-,-,-,-,-
+461,S418,Hallucination to Consensus: Multi-Agent LLMs for End-to-End JUnit Test Generation,2026,"T2(A3, A6)",-,-,-,-,-,OF1,OC1,OX2,OL1,CP1,CL1,CR3,LG1
+499,S419,HieraTest: Hierarchical Dependency-Driven Framework with Multi-Strategy Repair for LLM-Based Unit Test Generation,2026,T2(A3) T4(A9),-,-,-,-,-,-,-,-,-,CP1,CL1,CR1,LG1
+487,S420,How well LLM-based test generation techniques perform with newer LLM versions?,2026,T2(A3) T4(A9),-,-,-,-,-,-,-,-,-,CP1,CL1,CR2,LG1
+500,S421,Human Cognitive Pattern Simulation for Crowdsourced Test Report Consistency Detection,2026,T4(A13),-,-,-,-,-,-,-,-,-,-,-,-,-
+412,S422,Hybrid-Rule and LLM-Based Feature Test Coverage Detection in Industrial SAFe Environments,2026,T1(A1) T3(A7),-,-,-,-,-,-,-,-,-,-,-,-,-
+415,S423,I Will Try to Fix You: Large Language Models for Mobile GUI Test Repair,2026,T4(A9),-,-,-,-,-,-,-,-,-,-,-,-,-
+436,S424,IGTG\&R: An Intent Analysis-Guided Unit Test Generation and Refinement Framework,2026,"T2(A3, A5, A6) T4(A10)",-,-,IV1,ID1,IX1,OF1,OC1,OX1,OL2,CP1,CL2,CR1,LG2
+501,S425,Impact Assessment of Structured Results for the Reliability of LLM-generated Tests,2026,T2(A3),-,-,-,-,-,-,-,-,-,CP1,CL2,CR2,LG6
+416,S426,Improving Automated Patch Correctness Assessment by Designing LLM-Based Oracles,2026,T2(A6) T3(A7),-,-,-,-,-,OF1,OC1,OX1,OL1,-,-,-,-
+502,S427,Improving Dynamic Specification Inference with LLM-Generated Counterexamples,2026,T2(A3) T3(A7),-,-,-,-,-,-,-,-,-,CP9,CL1,CR2,LG1
+488,S428,Improving LLM-Driven Test Generation by Learning from Mocking Information,2026,T2(A3) T4(A9),-,-,-,-,-,-,-,-,-,CP1,CL1,CR1,LG1
+503,S429,Improving Software Testing with RAG-Based LLMs and Supporting Indian Regional Languages,2026,"T2(A4, A6)",IF2,IC1,-,-,-,OF2,OC5,OX2,OL8,-,-,-,-
+437,S430,Integrating Model-Driven Engineering and Large Language Models for Test Scenario Generation for Smart Contracts,2026,"T2(A3, A5, A6)",-,-,IV6,ID1,IX4,OF2,OC1,OX2,OL8,CP9,CL2,CR1,LG10
+504,S431,Intelligent Terminal Test Report Automation and LLM-based Intelligent Root Cause Analysis Solution,2026,T4(A13),-,-,-,-,-,-,-,-,-,-,-,-,-
+391,S432,Investigating Test Overfitting on SWE-bench,2026,T2(A3) T4(A9),-,-,-,-,-,-,-,-,-,CP3,CL1,CR4,LG2
+462,S433,Just-in-Time Catching Test Generation at Meta,2026,T2(A3) T3(A7),-,-,-,-,-,-,-,-,-,CP6,CL4,CR3,LG0
+463,S434,kS-LLM: k-Step based Automatic LLM Test Case Generator using Caching Mechanism to Achieve Higher Code Coverage,2026,"T2(A3, A5)",-,-,IV1,ID1,IX1,-,-,-,-,CP1,CL1,CR2,LG3
+464,S435,Large Language Model powered Test Driver Generation for High-performance Computing Library,2026,"T2(A3, A5)",-,-,IV2,ID1,IX1,-,-,-,-,CP9,CL1,CR3,LG3
+465,S436,Large Language Models for Automated Web-Form-Test Generation: An Empirical Study,2026,T2(A5),-,-,IV3,ID1,IX2,-,-,-,-,-,-,-,-
+443,S437,Leveraging AI for MC/DC Unit Test Case Generation in Safety-Critical Systems,2026,"T2(A3, A5, A6)",-,-,IV1,ID1,IX1,OF1,OC1,OX3,OL1,CP1,CL3,CR3,LG1
+385,S438,Leveraging Change Types and Contexts to Guide LLMs for Automated Test Code Updating,2026,"T4(A9, A10)",-,-,-,-,-,-,-,-,-,-,-,-,-
+508,S439,Leveraging Large Language Model Agents for Autonomous Software Testing and Intelligent Automation,2026,"T2(A3) T4(A9, A13)",-,-,-,-,-,-,-,-,-,CP2,CL1,CR2,LG1
+421,S440,Leveraging Large Language Models for Automated Test Results Analysis,2026,T4(A13),-,-,-,-,-,-,-,-,-,-,-,-,-
+422,S441,Leveraging Retrieval-augmented LLMs for Automated Test Case Generation from Software Requirements Specification,2026,"T1(A1) T2(A4, A5, A6)",IF2,IC1,IV6,ID3,IX4,OF2,OC5,OX2,OL8,-,-,-,-
+507,S442,LLM Based Software Test Scenario Generation System from Bug Descriptions,2026,T2(A4),IF1,IC1,-,-,-,-,-,-,-,-,-,-,-
+418,S443,LLM-Assisted Cause-Effect Graph Generation for Requirements-Based Test Design,2026,T1(A1),-,-,-,-,-,-,-,-,-,-,-,-,-
+466,S444,LLM-Assisted Input-Requirement-Aware Differential Testing of Array Programming Frameworks,2026,T2(A5),-,-,IV2,ID1,IX4,-,-,-,-,-,-,-,-
+419,S445,LLM-assisted Verification of Protocol Implementations for Logic Flaws Using TLA+,2026,T2(A3) T3(A7),-,-,-,-,-,-,-,-,-,CP3,CL2,CR1,LG3
+374,S446,LLM-based Crowdsourced Test Report Clustering,2026,T4(A13),-,-,-,-,-,-,-,-,-,-,-,-,-
+505,S447,LLM-Based Directed Input Generation for Repositories,2026,T2(A5),-,-,IV1,ID1,IX1,-,-,-,-,-,-,-,-
+467,S448,LLM-based Specification-Driven Test Oracle Enhancement,2026,"T2(A6) T3(A7) T4(A9, A13)",-,-,-,-,-,OF1,OC1,OX2,OL1,-,-,-,-
+506,S449,"LLM-based Unit Test Cases Generation for React, Vue, and Angular Components",2026,T2(A3),-,-,-,-,-,-,-,-,-,CP1,CL2,CR2,LG4
+377,S450,LLM-Powered On-Demand Test Suites in Self-Graded Student Programming Assignments,2026,"T2(A3, A5, A6)",-,-,IV1,ID1,IX4,OF2,OC1,OX2,OL8,CP1,CL2,CR4,LG10
+387,S451,LLM-Powered Silent Bug Fuzzing in Deep Learning Libraries via Versatile and Controlled Bug Transfer,2026,"T2(A3, A5, A6) T3(A7)",-,-,IV2,ID1,IX6,OF1,OC1,OX3,OL2,CP9,CL3,CR3,LG2
+489,S452,LLM2Alloy: Investigating LLM-Generated Formal Specifications for Automated Test Derivation in Production Software,2026,T1(A1) T2(A3),-,-,-,-,-,-,-,-,-,CP9,CL2,CR3,LG2
+420,S453,LLMLOOP: Improving LLM-Generated Code and Tests through Automated Iterative Feedback Loops,2026,T2(A3) T4(A10),-,-,-,-,-,-,-,-,-,CP1,CL1,CR2,LG1
+468,S454,LogiDroid: Individual Functional Test Generation via Business Logic Extraction and Adaptation,2026,"T1(A2) T2(A3, A6)",-,-,-,-,-,OF1,OC1,OX3,OL3,CP2,CL1,CR3,LG0
+367,S455,MACO: Multi-agent collaborative optimization for unit test case generation,2026,"T2(A3, A5) T4(A9)",-,-,IV1,ID1,IX1,-,-,-,-,CP1,CL1,CR3,LG1
+423,S456,MBSE-Driven PLC Code Generation and AI-Augmented Test Scenario Validation,2026,"T1(A1) T2(A5, A6)",-,-,IV6,ID1,IX1,OF2,OC1,OX1,OL8,-,-,-,-
+393,S457,MIMIC-Py: An Extensible Tool for Personality-Driven Automated Game Testing with Large Language Models,2026,"T2(A3, A5)",-,-,IV6,ID1,IX3,-,-,-,-,CP2,CL1,CR3,LG4
+425,S458,Multi-Agent Software Development for Automotive Model-Based Graphical Programming,2026,"T2(A5, A6) T3(A7) T4(A9, A13)",-,-,IV1,ID1,IX4,OF2,OC1,OX2,OL8,-,-,-,-
+469,S459,NGQA: Next-Gen Software Quality Accelerator using AI Agents and LLM Reasoning,2026,"T2(A3, A5)",-,-,IV1,ID1,IX1,-,-,-,-,CP1,CL2,CR3,LG0
+470,S460,OBsmith: LLM-Powered JavaScript Obfuscator Testing,2026,T2(A5),-,-,IV2,ID1,IX7,-,-,-,-,-,-,-,-
+471,S461,On the Diffusion of Test Smells in LLM-Generated Unit Tests,2026,T4(A12),-,-,-,-,-,-,-,-,-,-,-,-,-
+472,S462,On the Flakiness of LLM-Generated Tests for Industrial and Open-Source Database Management Systems,2026,T2(A3),-,-,-,-,-,-,-,-,-,CP9,CL3,CR2,"LG3, LG10"
+473,S463,PALM: Path-aware LLM-based Test Generation with Comprehension,2026,T2(A5),-,-,IV1,ID1,IX1,-,-,-,-,-,-,-,-
+380,S464,PerFrame: Monitoring GUI Loading Performance in Mobile Apps via Semantic Distinguish,2026,T3(A7) T4(A13),-,-,-,-,-,-,-,-,-,-,-,-,-
+426,S465,"PILOT: Command-line Interface Fuzzing via Path-Guided, Iterative Large Language Model Prompting",2026,T2(A5),-,-,IV2,ID1,IX1,-,-,-,-,-,-,-,-
+474,S466,"Preemptive, Buffered, or Guided? Empirical Studies on Human-AI Interaction Strategies for Software Test Case Development",2026,T2(A4),IF1,IC1,-,-,-,-,-,-,-,-,-,-,-
+509,S467,Rapid End-to-End Test Generation and Hallucination Mitigation Using Generative Artificial Intelligence,2026,"T2(A3, A5)",-,-,IV1,ID1,IX1,-,-,-,-,CP2,CL6,CR2,LG4
+475,S468,Reference-Based Retrieval-Augmented Unit Test Generation,2026,T2(A3),-,-,-,-,-,-,-,-,-,CP1,CL1,CR1,LG1
+440,S469,Reliable execution of natural language test cases for GUI applications using LLM agents,2026,T3(A7),-,-,-,-,-,-,-,-,-,-,-,-,-
+372,S470,Req2Road: A GenAI Pipeline for SDV Test Artifact Generation and On-Vehicle Execution,2026,"T1(A1) T2(A3, A4, A5)",IF3,IC2,IV4,ID2,IX4,-,-,-,-,CP5,CL2,CR3,LG2
+373,S471,Req2Test: An Approach for the Automatic Generation of Unit Tests from User Stories Using LLMs,2026,"T2(A3, A5)",-,-,IV1,ID2,IX4,-,-,-,-,CP1,CL2,CR1,LG1
+376,S472,RESTing-LLAMA: Large Language Model based REST API Fuzzing,2026,"T1(A1, A2) T2(A3, A5)",-,-,IV4,ID1,IX5,-,-,-,-,CP4,CL2,CR1,LG0
+476,S473,Retrieval-Augmented Unit Test Suggestion Generation,2026,T2(A4),IF4,IC2,-,-,-,-,-,-,-,-,-,-,-
+427,S474,RM -RF: Reward Model for Run-Free Unit Test Evaluation,2026,T3(A7),-,-,-,-,-,-,-,-,-,-,-,-,-
+428,S475,Round-Trip Mutation Testing: Translating Code to Natural Language Intent and back,2026,T2(A3),-,-,-,-,-,-,-,-,-,CP6,CL2,CR2,LG2
+381,S476,Scaling Mobile Chaos Testing with AI-Driven Test Execution,2026,T2(A5) T3(A7) T4(A13),-,-,IV3,ID1,IX2,-,-,-,-,-,-,-,-
+477,S477,Scenario-Guided LLM-based Mobile App GUI Testing,2026,T1(A2) T2(A3) T3(A7),-,-,-,-,-,-,-,-,-,CP2,CL1,CR3,LG0
+395,S478,SecMutBench: Evaluating LLM-Generated Security Tests via Mutation-Based Vulnerability Detection,2026,T2(A3),-,-,-,-,-,-,-,-,-,CP4,CL2,CR2,LG2
+424,S479,SEMA: Self-Evolving Multi-Agent Auditing for Smart Contracts,2026,"T2(A5, A6) T3(A8) T4(A13)",-,-,IV6,ID1,IX1,OF1,OC1,OX1,OL7,-,-,-,-
+430,S480,Supporting Software Engineering Tasks with Agentic AI: Demonstration on Document Retrieval and Test Scenario Generation,2026,T1(A1) T2(A4),IF2,IC1,-,-,-,-,-,-,-,-,-,-,-
+431,S481,TAM-Eval: Evaluating LLMs for Automated Unit Test Maintenance,2026,"T2(A3) T4(A9, A10)",-,-,-,-,-,-,-,-,-,CP1,CL1,CR2,"LG1, LG2, LG5"
+478,S482,TestAgent: A Multi-Agent LLM Framework for Repository-Level Unit Test Generation,2026,"T2(A3) T4(A9, A12)",-,-,-,-,-,-,-,-,-,CP1,CL1,CR1,LG1
+383,S483,Testing Framework Migration with Large Language Models,2026,T4(A10),-,-,-,-,-,-,-,-,-,-,-,-,-
+479,S484,TestTailor: Generating High-Coverage Tests via Path-Proximal Tests with LLMs,2026,T2(A3),-,-,-,-,-,-,-,-,-,CP1,CL1,CR1,LG2
+371,S485,TGenAI: An LLM-based approach for functional end-to-end test generation for IoT systems,2026,"T1(A1) T2(A4, A5, A6)",IF2,IC3,IV6,ID1,IX4,OF2,OC1,OX2,OL8,-,-,-,-
+429,S486,The Potential of Large Language Models in Automating Software Testing: From Generation to Reporting,2026,"T2(A3, A4)",IF4,IC1,-,-,-,-,-,-,-,CP1,CL2,CR2,"LG1, LG2"
+433,S487,Themis: Automated Constraint-Aware Test Synthesis Framework for Code Reinforcement Learning,2026,"T1(A1) T2(A3, A5, A6)",-,-,IV1,ID1,IX4,OF2,OC1,OX2,OL8,CP8,CL3,CR4,LG0
+480,S488,TOGBench: A Developer-Written Multi-variant Dataset and Benchmark Suite for Test Oracle Generation,2026,T2(A6) T3(A7),-,-,-,-,-,OF1,OC1,OX1,OL1,-,-,-,-
+481,S489,Towards Automated Crowdsourced Testing via Personified-LLM,2026,T1(A2) T2(A3) T3(A7),-,-,-,-,-,-,-,-,-,CP2,CL1,CR1,LG0
+482,S490,Towards Automated Test Adaptation in Fork Ecosystems via Large Language Models,2026,T4(A9),-,-,-,-,-,-,-,-,-,-,-,-,-
+378,S491,Towards LLM-guided Semantic Validation of Autonomous Driving Safety Policies,2026,"T1(A1) T2(A3, A5) T3(A7)",-,-,IV6,ID1,IX3,-,-,-,-,CP9,CL2,CR3,LG0
+432,S492,TRIGFUZZ: Triggering Conditions Guided Directed Fuzzing,2026,T2(A5),-,-,IV2,ID1,IX6,-,-,-,-,-,-,-,-
+483,S493,Type-aware LLM-based Test Generation for Python Programs,2026,"T2(A3, A5) T4(A9)",-,-,IV1,ID1,IX1,-,-,-,-,CP1,CL1,CR1,LG2
+484,S494,Understanding and Mitigating Hallucinations in Industrial LLM-based Unit Test Generation,2026,T2(A3) T4(A9),-,-,-,-,-,-,-,-,-,CP1,CL1,CR1,LG1
+486,S495,Understanding LLM-Driven Test Oracle Generation,2026,T2(A6),-,-,-,-,-,OF1,OC1,OX1,OL1,-,-,-,-
+485,S496,Understanding on the Edge: LLM-generated Boundary Test Explanations,2026,T2(A4),IF4,IC1,-,-,-,-,-,-,-,-,-,-,-
+434,S497,Using large language models to test voice user interfaces,2026,T2(A5) T4(A9),-,-,IV6,ID1,IX7,-,-,-,-,-,-,-,-
+441,S498,ViMSUIT: Vision-Metadata Inferences for Software UI Testing,2026,"T2(A3, A4, A5, A6)",IF2,IC2,IV3,ID2,IX2,OF2,OC6,OX3,OL3,CP2,CL2,CR3,LG1
+435,S499,VLM-Fuzz: Vision language model assisted recursive depth-first search exploration for effective GUI testing of android apps,2026,T1(A2) T2(A5),-,-,IV3,ID1,IX2,-,-,-,-,-,-,-,-
+375,S500,VUI Testing of VPA Apps via Behavior Model-Enhanced LLM Agents,2026,T1(A2) T2(A5) T3(A8),-,-,IV6,ID2,IX3,-,-,-,-,-,-,-,-
+414,S501,VulFinder: A Multi-Agent-Driven Test Generation Framework for Guiding Vulnerability Reachability Analysis,2026,T2(A3) T3(A7),-,-,-,-,-,-,-,-,-,CP4,CL1,CR3,"LG1, LG2"
